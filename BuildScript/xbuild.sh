@@ -47,7 +47,7 @@ cp $UBOOTPATH $OUTPUTDIR/u-boot.elf
 source $XSDKDIR/$VIVADOVER/settings64.sh
 
 
-xsct xilscripts/create_bsp.tcl $HDF zynq7 ${BUILDDIR}/SDKS/$BUILDNAME
+xsct auxscripts/create_bsp.tcl $HDF zynq7 ${BUILDDIR}/SDKS/$BUILDNAME
 cp ${BUILDDIR}/SDKS/${BUILDNAME}/${TOPLEVELNAME}FSBL/Debug/${TOPLEVELNAME}FSBL.elf $OUTPUTDIR
 
 cp ${VIVPRJ}/${VIVPRJNAME}.runs/impl_1/${TOPLEVELNAME}.bit $OUTPUTDIR
@@ -63,7 +63,7 @@ echo '}' >> $OUTPUTDIR/zynq.bif
 
 bootgen -arch zynq -image $OUTPUTDIR/zynq.bif -o $OUTPUTDIR/../BOOT.bin -w -log
 
-xsct xilscripts/gen_dtb.tcl $HDF zynq7 $DTREPO ${BUILDDIR}/SDKS/$BUILDNAME
+xsct auxscripts/gen_dtb.tcl $HDF zynq7 $DTREPO ${BUILDDIR}/SDKS/$BUILDNAME
 
 sed -i s:#include:/include/: ${BUILDDIR}/SDKS/$BUILDNAME/${TOPLEVELNAME}DT/system-top.dts
 
