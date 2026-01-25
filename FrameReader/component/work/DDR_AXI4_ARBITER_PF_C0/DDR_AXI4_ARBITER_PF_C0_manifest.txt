@@ -1,0 +1,36 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
+
+Date      :  Fri Jan 23 20:39:12 2026
+Project   :  C:\prj\FrameReader
+Component :  DDR_AXI4_ARBITER_PF_C0
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/prj/FrameReader/component/Microchip/SolutionCore/DDR_AXI4_ARBITER_PF/2.2.0/RTL/AXI4_M_M_IF.v
+    C:/prj/FrameReader/component/Microchip/SolutionCore/DDR_AXI4_ARBITER_PF/2.2.0/RTL/AXI4_S_IF.v
+    C:/prj/FrameReader/component/Microchip/SolutionCore/DDR_AXI4_ARBITER_PF/2.2.0/RTL/axi_lbus_corefifo_async.v
+    C:/prj/FrameReader/component/Microchip/SolutionCore/DDR_AXI4_ARBITER_PF/2.2.0/RTL/axi_lbus_corefifo_fwft.v
+    C:/prj/FrameReader/component/Microchip/SolutionCore/DDR_AXI4_ARBITER_PF/2.2.0/RTL/axi_lbus_corefifo_grayToBinConv.v
+    C:/prj/FrameReader/component/Microchip/SolutionCore/DDR_AXI4_ARBITER_PF/2.2.0/RTL/axi_lbus_corefifo_NstagesSync.v
+    C:/prj/FrameReader/component/Microchip/SolutionCore/DDR_AXI4_ARBITER_PF/2.2.0/RTL/axi_lbus_corefifo_resetSync.v
+    C:/prj/FrameReader/component/Microchip/SolutionCore/DDR_AXI4_ARBITER_PF/2.2.0/RTL/axi_lbus_corefifo_sync.v
+    C:/prj/FrameReader/component/Microchip/SolutionCore/DDR_AXI4_ARBITER_PF/2.2.0/RTL/axi_lbus_corefifo_sync_scntr.v
+    C:/prj/FrameReader/component/Microchip/SolutionCore/DDR_AXI4_ARBITER_PF/2.2.0/RTL/axi_lbus_LSRAM_top.v
+    C:/prj/FrameReader/component/Microchip/SolutionCore/DDR_AXI4_ARBITER_PF/2.2.0/RTL/axi_lbus_ram_wrapper.v
+    C:/prj/FrameReader/component/Microchip/SolutionCore/DDR_AXI4_ARBITER_PF/2.2.0/RTL/DDR_AXI4_ARBITER_PF.v
+    C:/prj/FrameReader/component/Microchip/SolutionCore/DDR_AXI4_ARBITER_PF/2.2.0/RTL/DDR_AXI4_ARBITER_PF_Native.v
+    C:/prj/FrameReader/component/Microchip/SolutionCore/DDR_AXI4_ARBITER_PF/2.2.0/RTL/ddr_rw_arbiter.v
+    C:/prj/FrameReader/component/Microchip/SolutionCore/DDR_AXI4_ARBITER_PF/2.2.0/RTL/read_demux.vhd
+    C:/prj/FrameReader/component/Microchip/SolutionCore/DDR_AXI4_ARBITER_PF/2.2.0/RTL/read_mux.vhd
+    C:/prj/FrameReader/component/Microchip/SolutionCore/DDR_AXI4_ARBITER_PF/2.2.0/RTL/read_top.v
+    C:/prj/FrameReader/component/Microchip/SolutionCore/DDR_AXI4_ARBITER_PF/2.2.0/RTL/request_scheduler.vhd
+    C:/prj/FrameReader/component/Microchip/SolutionCore/DDR_AXI4_ARBITER_PF/2.2.0/RTL/video_axi_fifo.v
+    C:/prj/FrameReader/component/Microchip/SolutionCore/DDR_AXI4_ARBITER_PF/2.2.0/RTL/write_demux.vhd
+    C:/prj/FrameReader/component/Microchip/SolutionCore/DDR_AXI4_ARBITER_PF/2.2.0/RTL/write_mux.vhd
+    C:/prj/FrameReader/component/Microchip/SolutionCore/DDR_AXI4_ARBITER_PF/2.2.0/RTL/write_top.v
+    C:/prj/FrameReader/component/work/DDR_AXI4_ARBITER_PF_C0/DDR_AXI4_ARBITER_PF_C0.v
+
+Stimulus files for all Simulation tools:
+    C:/prj/FrameReader/component/Microchip/SolutionCore/DDR_AXI4_ARBITER_PF/2.2.0/Stimulus/DDR_AXI4_ARBITER_PF_tb.v
+

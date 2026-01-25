@@ -1,0 +1,13 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
+
+Date      :  Sun Jan 25 10:30:40 2026
+Project   :  C:\prj\FrameReader
+Component :  PULSE_GEN_C0
+Family    :  PolarFire
+
+
+Stimulus files for all Simulation tools:
+    C:/prj/FrameReader/component/work/PULSE_GEN_C0/PULSE_GEN_C0.v
+    C:/prj/FrameReader/component/Actel/Simulation/PULSE_GEN/1.0.1/PULSE_GEN.v
+    C:/prj/FrameReader/component/work/PULSE_GEN_C0/PULSE_GEN_C0.v
+

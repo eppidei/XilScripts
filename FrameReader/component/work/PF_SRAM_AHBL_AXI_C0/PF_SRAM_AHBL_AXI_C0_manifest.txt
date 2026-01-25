@@ -1,0 +1,28 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
+
+Date      :  Sun Jan 25 21:03:42 2026
+Project   :  C:\prj\FrameReader
+Component :  PF_SRAM_AHBL_AXI_C0
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/prj/FrameReader/component/work/PF_SRAM_AHBL_AXI_C0/PF_SRAM_AHBL_AXI_C0.v
+    C:/prj/FrameReader/component/work/PF_SRAM_AHBL_AXI_C0/PF_SRAM_AHBL_AXI_C0.v
+    C:/prj/FrameReader/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM.v
+    C:/prj/FrameReader/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v
+    C:/prj/FrameReader/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL_ECC.v
+    C:/prj/FrameReader/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_SLVIF.v
+    C:/prj/FrameReader/component/work/PF_SRAM_AHBL_AXI_C0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v
+    C:/prj/FrameReader/component/work/PF_SRAM_AHBL_AXI_C0/PF_SRAM_AHBL_AXI_C0.v
+
+Stimulus files for all Simulation tools:
+    C:/prj/FrameReader/component/work/PF_SRAM_AHBL_AXI_C0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R0C0.mem
+    C:/prj/FrameReader/component/work/PF_SRAM_AHBL_AXI_C0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R0C1.mem
+    C:/prj/FrameReader/component/work/PF_SRAM_AHBL_AXI_C0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R1C0.mem
+    C:/prj/FrameReader/component/work/PF_SRAM_AHBL_AXI_C0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R1C1.mem
+    C:/prj/FrameReader/component/work/PF_SRAM_AHBL_AXI_C0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R2C0.mem
+    C:/prj/FrameReader/component/work/PF_SRAM_AHBL_AXI_C0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R2C1.mem
+    C:/prj/FrameReader/component/work/PF_SRAM_AHBL_AXI_C0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R3C0.mem
+    C:/prj/FrameReader/component/work/PF_SRAM_AHBL_AXI_C0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R3C1.mem
+

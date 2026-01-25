@@ -1,0 +1,17 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
+
+Date      :  Fri Jan 23 21:00:50 2026
+Project   :  C:\prj\FrameReader
+Component :  Display_Controller_C0
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/prj/FrameReader/component/Microchip/SolutionCore/Display_Controller/5.0.0/Encrypted/display_controller.v
+    C:/prj/FrameReader/component/work/Display_Controller_C0/Display_Controller_C0.v
+
+Stimulus files for all Simulation tools:
+    C:/prj/FrameReader/component/Microchip/SolutionCore/Display_Controller/5.0.0/Stimulus/Display_Controller_tb.v
+
+Constraint files:
+    C:/prj/FrameReader/component/work/Display_Controller_C0\Display_Controller_C0_0\Display_Controller_C0.sdc

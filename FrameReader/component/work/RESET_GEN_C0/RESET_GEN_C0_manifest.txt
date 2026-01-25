@@ -1,0 +1,12 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
+
+Date      :  Sat Jan 24 08:59:28 2026
+Project   :  C:\prj\FrameReader
+Component :  RESET_GEN_C0
+Family    :  PolarFire
+
+
+Stimulus files for all Simulation tools:
+    C:/prj/FrameReader/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.v
+    C:/prj/FrameReader/component/work/RESET_GEN_C0/RESET_GEN_C0.v
+

@@ -1,0 +1,11 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
+
+Date      :  Mon Jan 26 01:34:47 2026
+Project   :  C:\prj\FrameReader
+Component :  FrameRD
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/prj/FrameReader/component/work/FrameRD/FrameRD.v
+

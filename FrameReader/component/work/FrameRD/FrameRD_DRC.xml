@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>FrameRD</header>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin DDR_AXI4_ARBITER_PF_C0_0:Read_channel_0</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FrameRD/pins/DDR_AXI4_ARBITER_PF_C0_0:Read_channel_0</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin DDR_Read_0:AXIS_M</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FrameRD/pins/DDR_Read_0:AXIS_M</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message> bus interface ID width mismatch</message>
+    <detail> There is an ID width mismatch between PF_SRAM_AHBL_AXI_C0_0:AXI4_Slave:RID[0-7] and DDR_AXI4_ARBITER_PF_C0_0:MIRRORED_SLAVE_AXI4:rid[0-3] which may result in a loss of data.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FrameRD/pins/PF_SRAM_AHBL_AXI_C0_0:AXI4_Slave</crossprobe>
+  </drc>
+</drcreport>

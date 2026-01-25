@@ -1,0 +1,16 @@
+Project Name: FrameReader
+Location: C:\prj\FrameReader
+Description: 			
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : MPF100T-1FCSG325I
+Family         : PolarFire
+Die            : MPF100T
+Package        : FCSG325
+Speed          : -1
+Core Voltage   : 1.0
+Range          : IND
