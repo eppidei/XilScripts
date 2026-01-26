@@ -182,20 +182,21 @@ always@(posedge sys_clk_i, negedge reset_i) begin
 				if(sof_i == 1) begin 
 					s_read_start_addr	<= {frame_start_addr_temp, s_pan_v_dly, s_pan_h_dly};
                     
-				end
+				
 			//	if(s_read_en_re == 1) begin 
            
-             if (burst_len_i     >= MAX_BIT_WIDTH ) begin
+                    if (burst_len_i     >= MAX_BIT_WIDTH ) begin
                         s_count_max	    <= MAX_BIT_WIDTH ;
                         s_hcount	    <= (burst_len_i) - (MAX_BIT_WIDTH) ;
-                        $display("WARNING at %0t: Burst length exceed maximum allowed",$time);
+                      //  $display("WARNING at %0t: Burst length exceed maximum allowed",$time);
 					end else begin
                         s_count_max     <= burst_len_i ;
                         s_hcount  	    <= 0 ;
 					end
                         s_state 	    <= READ_TRIG;
 			//	end
-             rBurstCounter       <=0;
+                rBurstCounter       <=0;
+                end
 			end
 			
 			READ_TRIG :
@@ -206,6 +207,7 @@ always@(posedge sys_clk_i, negedge reset_i) begin
 					s_state 	<= READING;
                      rBurstCounter       <=0;
                     rLineCounter <= rLineCounter+1;
+                    rSOF_FLAG   <=0;
                     if (s_read_start_addr	== {frame_start_addr_temp, s_pan_v_dly, s_pan_h_dly}) rSOF_FLAG<=1;
 				end
 				else if (prefetch_line_i==1) begin 
@@ -243,6 +245,7 @@ always@(posedge sys_clk_i, negedge reset_i) begin
                 if ( rLineCounter==vert_res_i-1) begin
                     rSOF_FLAG   <=0;
                     s_state 	<= IDLE ;
+                    rLineCounter <= 0;
                 end;
                   
 				//if (s_hcount    >= MAX_BIT_WIDTH) begin

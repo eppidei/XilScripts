@@ -555,8 +555,8 @@ SIZE="2294"
 ENDFILE
 VALUE "<project>\hdl\DDR_read_controller.v,hdl"
 STATE="utd"
-TIME="1769378333"
-SIZE="9297"
+TIME="1769459696"
+SIZE="9405"
 ENDFILE
 VALUE "<project>\hdl\DDR_Read_Native.v,hdl"
 STATE="utd"
@@ -577,11 +577,6 @@ VALUE "<project>\hdl\video_fifo_ddr_read.v,hdl"
 STATE="utd"
 TIME="1769184272"
 SIZE="14906"
-ENDFILE
-VALUE "<project>\simulation\FrameRD_TB_presynth_simulation.log,log"
-STATE="utd"
-TIME="1769378362"
-SIZE="350235"
 ENDFILE
 VALUE "<project>\simulation\PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R0C0.mem,sim"
 STATE="utd"
@@ -633,13 +628,13 @@ PARENT="<project>\component\work\PF_SRAM_AHBL_AXI_C0\PF_TPSRAM_AHB_AXI_0\PF_SRAM
 ENDFILE
 VALUE "<project>\simulation\run.do,do"
 STATE="utd"
-TIME="1769286260"
-SIZE="10644"
+TIME="1769378354"
+SIZE="9799"
 ENDFILE
 VALUE "<project>\simulation\wave.do,do"
 STATE="utd"
-TIME="1769332962"
-SIZE="8570"
+TIME="1769377083"
+SIZE="9614"
 ENDFILE
 ENDLIST
 LIST UsedFile
@@ -806,7 +801,7 @@ NAME="Questa ME"
 FUNCTION="Simulation"
 TOOL="QuestaSim ME"
 LOCATION="C:\Microchip\Libero_SoC_2025.1\Libero_SoC\QuestaSim_Pro\win64\questasim.exe"
-PARAM=" -l FrameRD_TB_presynth_simulation.log "
+PARAM=""
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -847,16 +842,16 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
+HDL;hdl\DDR_read_controller.v;0
+HDL;hdl\AXI4S_ddr_read_initiator_IF.v;0
+StartPage;StartPage;0
 HDL;hdl\COREFIFO.v;0
 HDL;hdl\DDR_Read_Native.v;0
-HDL;hdl\DDR_read_controller.v;0
 HDL;hdl\DDR_Read.v;0
 HDL;component\Microchip\SolutionCore\DDR_Read\1.2.0\RTL\data_unpacker.v;0
 SmartDesign;FrameRD;0
 SmartDesign;FrameRD_TB;0
-StartPage;StartPage;0
-HDL;hdl\AXI4S_ddr_read_initiator_IF.v;0
-ACTIVEVIEW;hdl\DDR_read_controller.v
+ACTIVEVIEW;hdl\DDR_Read_Native.v
 ENDLIST
 LIST ModuleSubBlockList
 LIST "AXI4S_ddr_read_initiator_IF::work","hdl\AXI4S_ddr_read_initiator_IF.v","FALSE","FALSE"
@@ -1034,6 +1029,8 @@ ENDLIST
 LIST "CLK_GEN_C0::work","component\work\CLK_GEN_C0\CLK_GEN_C0.v","TRUE","TRUE"
 SUBBLOCK "CLK_GEN::work","component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.v","FALSE","TRUE"
 ENDLIST
+LIST "clock_driver::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\clock_driver.v","FALSE","TRUE"
+ENDLIST
 LIST "DDR_AXI4_ARBITER_PF_tb::work","component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\Stimulus\DDR_AXI4_ARBITER_PF_tb.v","FALSE","TRUE"
 SUBBLOCK "DDR_AXI4_ARBITER_PF_C0::work","component\work\DDR_AXI4_ARBITER_PF_C0\DDR_AXI4_ARBITER_PF_C0.v","TRUE","FALSE"
 SUBBLOCK "axi4_ram::work","component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\Stimulus\DDR_AXI4_ARBITER_PF_tb.v","FALSE","TRUE"
@@ -1046,12 +1043,27 @@ SUBBLOCK "mem_module::work","component\Microchip\SolutionCore\DDR_AXI4_ARBITER_P
 ENDLIST
 LIST "mem_module::work","component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\Stimulus\DDR_AXI4_ARBITER_PF_tb.v","FALSE","TRUE"
 ENDLIST
+LIST "fifo_driver::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\fifo_driver.v","FALSE","TRUE"
+ENDLIST
+LIST "fifo_monitor::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\fifo_monitor.v","FALSE","TRUE"
+ENDLIST
 LIST "FrameRD_TB::work","component\work\FrameRD_TB\FrameRD_TB.v","TRUE","TRUE"
 SUBBLOCK "CLK_GEN_C0::work","component\work\CLK_GEN_C0\CLK_GEN_C0.v","TRUE","TRUE"
 SUBBLOCK "DDR_CLK::work","component\work\DDR_CLK\DDR_CLK.v","TRUE","TRUE"
 SUBBLOCK "FrameRD::work","component\work\FrameRD\FrameRD.v","TRUE","FALSE"
 SUBBLOCK "PULSE_GEN_C0::work","component\work\PULSE_GEN_C0\PULSE_GEN_C0.v","TRUE","TRUE"
 SUBBLOCK "RESET_GEN_C0::work","component\work\RESET_GEN_C0\RESET_GEN_C0.v","TRUE","TRUE"
+ENDLIST
+LIST "g4_dp_ext_mem::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\g4_dp_ext_mem.v","FALSE","TRUE"
+SUBBLOCK "MEM_WeqR::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WeqR.v","FALSE","TRUE"
+SUBBLOCK "MEM_WgtR::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WgtR.v","FALSE","TRUE"
+SUBBLOCK "MEM_WltR::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WltR.v","FALSE","TRUE"
+ENDLIST
+LIST "MEM_WeqR::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WeqR.v","FALSE","TRUE"
+ENDLIST
+LIST "MEM_WgtR::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WgtR.v","FALSE","TRUE"
+ENDLIST
+LIST "MEM_WltR::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WltR.v","FALSE","TRUE"
 ENDLIST
 LIST "PULSE_GEN::work","component\Actel\Simulation\PULSE_GEN\1.0.1\PULSE_GEN.v","FALSE","TRUE"
 ENDLIST
