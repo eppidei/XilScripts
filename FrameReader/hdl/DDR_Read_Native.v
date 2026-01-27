@@ -35,7 +35,7 @@ module DDR_Read_Native #(
         input                               read_done_i,
         input                               ddr_data_valid_i,
         input [g_DDR_AXI_DWIDTH_I-1 : 0]    wdata_i,
-        input                               wdata_ready_i,
+        input                               downstream_ready_i,
         // Outputs
         output [31 : 0]                     read_start_addr_o,
         output                              read_req_o,
@@ -96,6 +96,10 @@ reg  [$clog2(lp_Fifo_Rdepth)-1 : 0] rStreamCnt;
 wire [lp_Fifo_Wwidth-1:0] wddr_data_int;// TO DO PARAMETRIZE (g_DDR_AXI_DWIDTH_I/STREAMWIDTH 8)
 reg                                 rTLASTo;
 wire [15:0]                         wNumBursts ;
+reg                                 rDownReady;
+reg                                 rOrphanValid;
+wire                                wActualValidOut;
+reg     [lp_Fifo_Rwidth-1:0]        rOrphanData;
  
 //=================================================================================================
 // Top level output port assignments
@@ -156,10 +160,9 @@ DDR_read_controller#(
 
    
 assign wFifoWen         =   ddr_data_valid_i; 
-assign wFifoRen         =   wdata_ready_i &~ wFifoEmpty; 
+assign wFifoRen         =   downstream_ready_i &~ wFifoEmpty; 
 assign wFifoDataValid   =   wDataValid ;
-assign data_valid_o     =   (rStreamCnt>=0 && rStreamCnt<horz_resl_i) ? wFifoDataValid : 0; // we discard some dummy pixels (e.g. 1920 to 2048)
-assign data_o           =   wFifoDataOutput;
+
 assign wFifoWArstn      =   reset_i;
 assign wFifoRArstn      =   reset_i;
 
@@ -175,10 +178,12 @@ always@(posedge sys_clk_i)
 begin : StreamCounter
     if (!wFifoRArstn) begin
         rStreamCnt <= 0;
-        rTLASTo <= 0;
+        rTLASTo     <= 0;
+        rDownReady <= 0;
     end
     else begin
-        if (wFifoDataValid) begin
+        rDownReady <= downstream_ready_i;
+        if (wActualValidOut & downstream_ready_i) begin
         rStreamCnt <= rStreamCnt+1;
         rTLASTo <= 0;
             if (rStreamCnt==lp_HresCeiled_Pow2-1) rStreamCnt <= 0;
@@ -250,33 +255,31 @@ DDR_READ_ASYMM_FIFO_0(
         .DB_DETECT  (  ) 
         );
    
-//-------------------------------------------------------   
-//synchronizer_circuit_ddr_read
-//-------------------------------------------------------
-/*
- synchronizer_circuit_ddr_read
-  synchronizer_circuit_ddr_read_0(
-	// inputs 
-	.rstn_i			(reset_i							), 
-	.sys_clk		(sys_clk_i							),
-	.data_in		(AND2_0_Y							),
-	// output
-	.sync_out		(sync_out1							)
-	);
+assign wPushLastValid = (downstream_ready_i==0 && rDownReady==1 && wFifoEmpty==0) ? 1 : 0; 		
+assign wPopLastValid = (downstream_ready_i==1 && rDownReady==0 && rOrphanValid==1) ? 1 : 0; 	
 
-//-------------------------------------------------------   
-//synchronizer_circuit_ddr_read
-//-------------------------------------------------------
+always@(posedge sys_clk_i)
+begin
+    if (!wFifoRArstn) begin
+        rOrphanData <= 0;
+        rOrphanValid <= 0;
+    end else begin
+         if (wPushLastValid) begin
+            rOrphanData <= wFifoDataOutput;
+            rOrphanValid <= wDataValid;
+            if (wDataValid==0) $display("WARNING at %0t: Fifo Data Valid expected to be high",$time);
+         end else if (wPopLastValid) begin
+             rOrphanValid <= 0;
+         end
 
- synchronizer_circuit_ddr_read
-  synchronizer_circuit_ddr_read_1(
-	// inputs 
-	.rstn_i			(reset_i							), 
-	.sys_clk		(ddr_clk_i						),
-	.data_in		(AND2_0_Y							),
-	// output
-	.sync_out		(sync_out2							)
-	);
- */     		
+    end
+end
+
+assign data_o               = rOrphanValid ? rOrphanData : wFifoDataOutput;
+assign wActualValidOut      = wPopLastValid ? rOrphanValid : wFifoDataValid;
+	
+assign data_valid_o     =   (rStreamCnt>=0 && rStreamCnt<horz_resl_i) ? wActualValidOut : 0; // we discard some dummy pixels (e.g. 1920 to 2048)
+
+
 endmodule
 

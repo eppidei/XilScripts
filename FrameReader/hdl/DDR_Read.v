@@ -104,7 +104,7 @@ module DDR_Read#(
                   .read_done_i       (read_done_axi),
                   .ddr_data_valid_i  (ddr_data_valid_axi),
                   .wdata_i           (data_axi),
-                  .wdata_ready_i     (TREADY_I),
+                  .downstream_ready_i     (TREADY_I),
 				  // Output Ports
 				  .read_start_addr_o  (read_start_addr_axi),
                   .read_req_o         (read_req_axi),
@@ -145,10 +145,10 @@ module DDR_Read#(
 	    endgenerate
         
         
-        assign TDATA_O = data_axi4s[g_PIXEL_WIDTH-1:0];
-        assign TUSER_O[0] = data_axi4s[g_PIXEL_WIDTH];
+        assign TDATA_O = data_axi4s[lp_STREAM_WIDTH-1:0];
+        assign TUSER_O[0] = data_axi4s[lp_STREAM_WIDTH];
         assign TVALID_O = data_valid_axi4s;
-        assign TSTRB_O = {g_NO_OF_PIXEL_STREAMED*g_PIXEL_WIDTH/8{1'b1}};
+        assign TSTRB_O = {lp_STREAM_WIDTH/8{1'b1}};
         assign TKEEP_O = 0;
 		
 		//generate if (g_AXI4S_FORMAT == 1)					

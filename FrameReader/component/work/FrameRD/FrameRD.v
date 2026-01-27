@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Mon Jan 26 01:34:46 2026
+// Created by SmartDesign Tue Jan 27 23:23:29 2026
 // Version: 2025.1 2025.1.0.14
 //////////////////////////////////////////////////////////////////////
 
@@ -8,8 +8,8 @@
 // FrameRD
 module FrameRD(
     // Inputs
-    TREADY_I,
     ddr_clk_i,
+    m_ready,
     pixel_clk_i,
     rstn_i
 );
@@ -17,8 +17,8 @@ module FrameRD(
 //--------------------------------------------------------------------
 // Input
 //--------------------------------------------------------------------
-input  TREADY_I;
 input  ddr_clk_i;
+input  m_ready;
 input  pixel_clk_i;
 input  rstn_i;
 //--------------------------------------------------------------------
@@ -64,16 +64,26 @@ wire          ddr_clk_i;
 wire   [31:0] DDR_Read_0_ARADDR_O;
 wire   [7:0]  DDR_Read_0_ARSIZE_O;
 wire          DDR_Read_0_ARVALID_O;
+wire   [0:0]  DDR_Read_0_AXIS_M_TKEEP;
+wire          DDR_Read_0_AXIS_M_TLAST;
+wire          DDR_Read_0_AXIS_M_TREADY;
+wire   [0:0]  DDR_Read_0_AXIS_M_TSTRB;
+wire   [3:0]  DDR_Read_0_AXIS_M_TUSER;
+wire          DDR_Read_0_AXIS_M_TVALID;
 wire          DFN1_0_Q;
 wire   [15:0] Display_Controller_C0_0_H_RES_O;
 wire          Display_Controller_C0_0_V_ACTIVE_O;
 wire   [15:0] Display_Controller_C0_0_V_RES_O;
+wire          m_ready;
 wire          pixel_clk_i;
 wire          rstn_i;
-wire          TREADY_I;
 //--------------------------------------------------------------------
 // TiedOff Nets
 //--------------------------------------------------------------------
+wire   [15:0] iCROP_X1_const_net_0;
+wire   [15:0] iCROP_X2_const_net_0;
+wire   [15:0] iCROP_Y1_const_net_0;
+wire   [15:0] iCROP_Y2_const_net_0;
 wire          VCC_net;
 wire   [15:0] line_gap_i_const_net_0;
 wire   [7:0]  frame_start_addr_i_const_net_0;
@@ -104,9 +114,17 @@ wire   [3:0]  DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_BID_0_3to0;
 wire   [7:0]  DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_RID;
 wire   [3:0]  DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_RID_0;
 wire   [3:0]  DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_RID_0_3to0;
+wire   [7:0]  DDR_Read_0_AXIS_M_TDATA;
+wire   [23:0] DDR_Read_0_AXIS_M_TDATA_0;
+wire   [23:8] DDR_Read_0_AXIS_M_TDATA_0_23to8;
+wire   [7:0]  DDR_Read_0_AXIS_M_TDATA_0_7to0;
 //--------------------------------------------------------------------
 // Constant assignments
 //--------------------------------------------------------------------
+assign iCROP_X1_const_net_0           = 16'h0190;
+assign iCROP_X2_const_net_0           = 16'h0320;
+assign iCROP_Y1_const_net_0           = 16'h0190;
+assign iCROP_Y2_const_net_0           = 16'h0320;
 assign VCC_net                        = 1'b1;
 assign line_gap_i_const_net_0         = 16'h1000;
 assign frame_start_addr_i_const_net_0 = 8'h00;
@@ -137,6 +155,10 @@ assign DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_BID_0_3to0 = DDR_AXI4_ARBITE
 assign DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_RID_0 = { DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_RID_0_3to0 };
 assign DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_RID_0_3to0 = DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_RID[3:0];
 
+assign DDR_Read_0_AXIS_M_TDATA_0 = { DDR_Read_0_AXIS_M_TDATA_0_23to8, DDR_Read_0_AXIS_M_TDATA_0_7to0 };
+assign DDR_Read_0_AXIS_M_TDATA_0_23to8 = 16'h0;
+assign DDR_Read_0_AXIS_M_TDATA_0_7to0 = DDR_Read_0_AXIS_M_TDATA[7:0];
+
 //--------------------------------------------------------------------
 // Component instances
 //--------------------------------------------------------------------
@@ -147,6 +169,30 @@ AND2 AND2_0(
         .B ( B_IN_POST_INV0_0 ),
         // Outputs
         .Y ( AND2_0_Y ) 
+        );
+
+//--------Cropper
+Cropper #( 
+        .pAXI_DATA_WIDTH ( 24 ) )
+Cropper_0(
+        // Inputs
+        .iClk          ( pixel_clk_i ),
+        .iRstn         ( rstn_i ),
+        .iCROP_X1      ( iCROP_X1_const_net_0 ),
+        .iCROP_X2      ( iCROP_X2_const_net_0 ),
+        .iCROP_Y1      ( iCROP_Y1_const_net_0 ),
+        .iCROP_Y2      ( iCROP_Y2_const_net_0 ),
+        .s_tdata       ( DDR_Read_0_AXIS_M_TDATA_0 ),
+        .s_tdata_valid ( DDR_Read_0_AXIS_M_TVALID ),
+        .s_tlast       ( DDR_Read_0_AXIS_M_TLAST ),
+        .s_user        ( DDR_Read_0_AXIS_M_TUSER ),
+        .m_ready       ( m_ready ),
+        // Outputs
+        .s_ready       ( DDR_Read_0_AXIS_M_TREADY ),
+        .m_tdata       (  ),
+        .m_tdata_valid (  ),
+        .m_tlast       (  ),
+        .m_user        (  ) 
         );
 
 //--------DDR_AXI4_ARBITER_PF_C0
@@ -234,7 +280,7 @@ DDR_Read_0(
         .RVALID_I           ( DDR_AXI4_ARBITER_PF_C0_0_RVALID_O_0 ),
         .ARREADY_I          ( DDR_AXI4_ARBITER_PF_C0_0_ARREADY_O_0 ),
         .BUSER_I            ( DDR_AXI4_ARBITER_PF_C0_0_BUSER_O_r0 ),
-        .TREADY_I           ( TREADY_I ),
+        .TREADY_I           ( DDR_Read_0_AXIS_M_TREADY ),
         // Outputs
         .ARADDR_O           ( DDR_Read_0_ARADDR_O ),
         .ARVALID_O          ( DDR_Read_0_ARVALID_O ),
@@ -242,12 +288,12 @@ DDR_Read_0(
         .read_start_addr_o  (  ),
         .read_req_o         (  ),
         .burst_size_o       (  ),
-        .TDATA_O            (  ),
-        .TSTRB_O            (  ),
-        .TKEEP_O            (  ),
-        .TVALID_O           (  ),
-        .TLAST_O            (  ),
-        .TUSER_O            (  ) 
+        .TDATA_O            ( DDR_Read_0_AXIS_M_TDATA ),
+        .TSTRB_O            ( DDR_Read_0_AXIS_M_TSTRB ),
+        .TKEEP_O            ( DDR_Read_0_AXIS_M_TKEEP ),
+        .TVALID_O           ( DDR_Read_0_AXIS_M_TVALID ),
+        .TLAST_O            ( DDR_Read_0_AXIS_M_TLAST ),
+        .TUSER_O            ( DDR_Read_0_AXIS_M_TUSER ) 
         );
 
 //--------DFN1

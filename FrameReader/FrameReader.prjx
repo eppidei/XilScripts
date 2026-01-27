@@ -383,25 +383,25 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\FrameRD\FrameRD.cxf,actgen_cxf"
 STATE="utd"
-TIME="1769376887"
-SIZE="2364"
+TIME="1769541810"
+SIZE="2534"
 ENDFILE
 VALUE "<project>\component\work\FrameRD\FrameRD.v,hdl"
 STATE="utd"
-TIME="1769376886"
-SIZE="17461"
+TIME="1769541809"
+SIZE="19446"
 PARENT="<project>\component\work\FrameRD\FrameRD.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\FrameRD_TB\FrameRD_TB.cxf,actgen_cxf"
 STATE="utd"
-TIME="1769374765"
-SIZE="1615"
+TIME="1769541805"
+SIZE="1619"
 ENDFILE
 VALUE "<project>\component\work\FrameRD_TB\FrameRD_TB.v,tb_hdl"
 STATE="utd"
-TIME="1769374764"
-SIZE="1777"
+TIME="1769541804"
+SIZE="1533"
 PARENT="<project>\component\work\FrameRD_TB\FrameRD_TB.cxf"
 IS_READONLY="TRUE"
 ENDFILE
@@ -488,6 +488,17 @@ SIZE="1919"
 PARENT="<project>\component\work\RESET_GEN_C0\RESET_GEN_C0.cxf"
 IS_READONLY="TRUE"
 ENDFILE
+VALUE "<project>\constraint\FrameRD_derived_constraints.sdc,sdc"
+STATE="utd"
+TIME="1769537228"
+SIZE="332"
+ENDFILE
+VALUE "<project>\constraint\user.sdc,sdc"
+STATE="utd"
+TIME="1769537354"
+SIZE="182"
+IS_TARGET="TRUE"
+ENDFILE
 VALUE "<project>\hdl\Arbiter_Initiator_Rd_IF.v,hdl"
 STATE="utd"
 TIME="1769184272"
@@ -533,6 +544,11 @@ STATE="utd"
 TIME="1769358697"
 SIZE="23555"
 ENDFILE
+VALUE "<project>\hdl\Cropper.v,hdl"
+STATE="utd"
+TIME="1769543399"
+SIZE="2179"
+ENDFILE
 VALUE "<project>\hdl\data_unpacker.v,hdl"
 STATE="utd"
 TIME="1769184272"
@@ -540,8 +556,8 @@ SIZE="9244"
 ENDFILE
 VALUE "<project>\hdl\DDR_Read.v,hdl"
 STATE="utd"
-TIME="1769376820"
-SIZE="7703"
+TIME="1769542118"
+SIZE="7691"
 ENDFILE
 VALUE "<project>\hdl\DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_LSRAM_top.v,hdl"
 STATE="utd"
@@ -560,13 +576,18 @@ SIZE="9405"
 ENDFILE
 VALUE "<project>\hdl\DDR_Read_Native.v,hdl"
 STATE="utd"
-TIME="1769376759"
-SIZE="12347"
+TIME="1769542544"
+SIZE="12665"
 ENDFILE
 VALUE "<project>\hdl\ram2port_ddr_read.v,hdl"
 STATE="utd"
 TIME="1769184272"
 SIZE="2855"
+ENDFILE
+VALUE "<project>\hdl\RDYCTRL.v,hdl"
+STATE="utd"
+TIME="1769536594"
+SIZE="898"
 ENDFILE
 VALUE "<project>\hdl\synchronizer_circuit_ddr_read.v,hdl"
 STATE="utd"
@@ -636,6 +657,26 @@ STATE="utd"
 TIME="1769377083"
 SIZE="9614"
 ENDFILE
+VALUE "<project>\synthesis\FrameRD.so,so"
+STATE="utd"
+TIME="1769537070"
+SIZE="207"
+ENDFILE
+VALUE "<project>\synthesis\FrameRD.vm,syn_vm"
+STATE="ood"
+TIME="1769537070"
+SIZE="6790"
+ENDFILE
+VALUE "<project>\synthesis\FrameRD_syn.prj,prj"
+STATE="utd"
+TIME="1769536988"
+SIZE="5892"
+ENDFILE
+VALUE "<project>\synthesis\FrameRD_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1769537070"
+SIZE="1387"
+ENDFILE
 ENDLIST
 LIST UsedFile
 ENDLIST
@@ -653,16 +694,27 @@ VALUE "<project>\component\Microchip\SolutionCore\Display_Controller\5.0.0\Stimu
 ENDLIST
 ENDLIST
 LIST "FrameRD::work"
-FILE "<project>\component\work\FrameRD\FrameRD.v,hdl"
+FILE "<project>\component\work\FrameRD\FrameRD.cxf,actgen_cxf"
 LIST AssociatedStimulus
 VALUE "<project>\component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.v,tb_hdl"
 VALUE "<project>\component\work\CLK_GEN_C0\CLK_GEN_C0.v,tb_hdl"
 VALUE "<project>\component\work\DDR_CLK\DDR_CLK.v,tb_hdl"
-VALUE "<project>\component\Actel\Simulation\PULSE_GEN\1.0.1\PULSE_GEN.v,tb_hdl"
-VALUE "<project>\component\work\PULSE_GEN_C0\PULSE_GEN_C0.v,tb_hdl"
+VALUE "<project>\hdl\RDYCTRL.v,hdl"
 VALUE "<project>\component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.v,tb_hdl"
 VALUE "<project>\component\work\RESET_GEN_C0\RESET_GEN_C0.v,tb_hdl"
 VALUE "<project>\component\work\FrameRD_TB\FrameRD_TB.v,tb_hdl"
+ENDLIST
+LIST SynthesisConstraints
+VALUE "<project>\constraint\FrameRD_derived_constraints.sdc,sdc"
+VALUE "<project>\constraint\user.sdc,sdc"
+ENDLIST
+LIST TimingConstraints
+VALUE "<project>\constraint\FrameRD_derived_constraints.sdc,sdc"
+VALUE "<project>\constraint\user.sdc,sdc"
+ENDLIST
+LIST PNRConstraints
+VALUE "<project>\constraint\FrameRD_derived_constraints.sdc,sdc"
+VALUE "<project>\constraint\user.sdc,sdc"
 ENDLIST
 LIST ProjectState5.1
 LIST Impl1
@@ -696,8 +748,7 @@ LIST FrameRD
 VALUE "<project>\component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.v,tb_hdl"
 VALUE "<project>\component\work\CLK_GEN_C0\CLK_GEN_C0.v,tb_hdl"
 VALUE "<project>\component\work\DDR_CLK\DDR_CLK.v,tb_hdl"
-VALUE "<project>\component\Actel\Simulation\PULSE_GEN\1.0.1\PULSE_GEN.v,tb_hdl"
-VALUE "<project>\component\work\PULSE_GEN_C0\PULSE_GEN_C0.v,tb_hdl"
+VALUE "<project>\hdl\RDYCTRL.v,hdl"
 VALUE "<project>\component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.v,tb_hdl"
 VALUE "<project>\component\work\RESET_GEN_C0\RESET_GEN_C0.v,tb_hdl"
 VALUE "<project>\component\work\FrameRD_TB\FrameRD_TB.v,tb_hdl"
@@ -788,12 +839,12 @@ BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
-NAME="Synplify Pro ME"
+NAME="SynplyMCHP"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
-LOCATION="synplify_pro.exe"
-PARAM=""
-BATCH=0
+LOCATION="C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\bin\synplify_pro.exe"
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -801,7 +852,7 @@ NAME="Questa ME"
 FUNCTION="Simulation"
 TOOL="QuestaSim ME"
 LOCATION="C:\Microchip\Libero_SoC_2025.1\Libero_SoC\QuestaSim_Pro\win64\questasim.exe"
-PARAM=""
+PARAM=" -l FrameRD_TB_presynth_simulation.log "
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -842,19 +893,27 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-HDL;hdl\DDR_read_controller.v;0
-HDL;hdl\AXI4S_ddr_read_initiator_IF.v;0
-StartPage;StartPage;0
-HDL;hdl\COREFIFO.v;0
-HDL;hdl\DDR_Read_Native.v;0
 HDL;hdl\DDR_Read.v;0
-HDL;component\Microchip\SolutionCore\DDR_Read\1.2.0\RTL\data_unpacker.v;0
-SmartDesign;FrameRD;0
+HDL;hdl\Cropper.v;0
+HDL;hdl\DDR_Read_Native.v;0
+HDL;hdl\DDR_read_controller.v;0
 SmartDesign;FrameRD_TB;0
-ACTIVEVIEW;hdl\DDR_Read_Native.v
+Reports;Reports;0
+ReportsCurrentItem;synthesis:synplify.log
+SmartDesign;FrameRD;0
+HDL;constraint\FrameRD_derived_constraints.sdc;0
+Constraint Manager;Constraint Manager;0
+HDL;hdl\RDYCTRL.v;0
+HDL;hdl\AXI4S_ddr_read_initiator_IF.v;0
+HDL;hdl\COREFIFO.v;0
+HDL;component\Microchip\SolutionCore\DDR_Read\1.2.0\RTL\data_unpacker.v;0
+StartPage;StartPage;0
+ACTIVEVIEW;hdl\Cropper.v
 ENDLIST
 LIST ModuleSubBlockList
 LIST "AXI4S_ddr_read_initiator_IF::work","hdl\AXI4S_ddr_read_initiator_IF.v","FALSE","FALSE"
+ENDLIST
+LIST "Cropper::work","hdl\Cropper.v","FALSE","FALSE"
 ENDLIST
 LIST "data_unpacker::work","hdl\data_unpacker.v","FALSE","FALSE"
 ENDLIST
@@ -992,10 +1051,11 @@ SUBBLOCK "ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_fwft::work","component\
 SUBBLOCK "ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_sync_scntr::work","component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync_scntr.v","FALSE","FALSE"
 SUBBLOCK "ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper::work","component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_ram_wrapper.v","FALSE","FALSE"
 ENDLIST
-LIST "FrameRD::work","component\work\FrameRD\FrameRD.v","TRUE","FALSE"
+LIST "FrameRD::work","component\work\FrameRD\FrameRD.cxf","TRUE","FALSE"
 SUBBLOCK "DDR_AXI4_ARBITER_PF_C0::work","component\work\DDR_AXI4_ARBITER_PF_C0\DDR_AXI4_ARBITER_PF_C0.v","TRUE","FALSE"
 SUBBLOCK "Display_Controller_C0::work","component\work\Display_Controller_C0\Display_Controller_C0.v","TRUE","FALSE"
 SUBBLOCK "PF_SRAM_AHBL_AXI_C0::work","component\work\PF_SRAM_AHBL_AXI_C0\PF_SRAM_AHBL_AXI_C0.v","TRUE","FALSE"
+SUBBLOCK "Cropper::work","hdl\Cropper.v","FALSE","FALSE"
 SUBBLOCK "DDR_Read::work","hdl\DDR_Read.v","FALSE","FALSE"
 ENDLIST
 LIST "PF_SRAM_AHBL_AXI_C0::work","component\work\PF_SRAM_AHBL_AXI_C0\PF_SRAM_AHBL_AXI_C0.v","TRUE","FALSE"
@@ -1005,6 +1065,8 @@ ENDLIST
 LIST "PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_ECC::work","component\work\PF_SRAM_AHBL_AXI_C0\COREAXI4SRAM_0\rtl\vlog\core\CoreAXI4SRAM_MAINCTRL_ECC.v","FALSE","FALSE"
 ENDLIST
 LIST "PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM::work","component\work\PF_SRAM_AHBL_AXI_C0\PF_TPSRAM_AHB_AXI_0\PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v","FALSE","FALSE"
+ENDLIST
+LIST "RDYCTRL::work","hdl\RDYCTRL.v","FALSE","FALSE"
 ENDLIST
 LIST "read_demux::work","component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\read_demux.vhd","FALSE","FALSE"
 ENDLIST
@@ -1029,8 +1091,6 @@ ENDLIST
 LIST "CLK_GEN_C0::work","component\work\CLK_GEN_C0\CLK_GEN_C0.v","TRUE","TRUE"
 SUBBLOCK "CLK_GEN::work","component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.v","FALSE","TRUE"
 ENDLIST
-LIST "clock_driver::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\clock_driver.v","FALSE","TRUE"
-ENDLIST
 LIST "DDR_AXI4_ARBITER_PF_tb::work","component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\Stimulus\DDR_AXI4_ARBITER_PF_tb.v","FALSE","TRUE"
 SUBBLOCK "DDR_AXI4_ARBITER_PF_C0::work","component\work\DDR_AXI4_ARBITER_PF_C0\DDR_AXI4_ARBITER_PF_C0.v","TRUE","FALSE"
 SUBBLOCK "axi4_ram::work","component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\Stimulus\DDR_AXI4_ARBITER_PF_tb.v","FALSE","TRUE"
@@ -1043,27 +1103,12 @@ SUBBLOCK "mem_module::work","component\Microchip\SolutionCore\DDR_AXI4_ARBITER_P
 ENDLIST
 LIST "mem_module::work","component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\Stimulus\DDR_AXI4_ARBITER_PF_tb.v","FALSE","TRUE"
 ENDLIST
-LIST "fifo_driver::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\fifo_driver.v","FALSE","TRUE"
-ENDLIST
-LIST "fifo_monitor::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\fifo_monitor.v","FALSE","TRUE"
-ENDLIST
-LIST "FrameRD_TB::work","component\work\FrameRD_TB\FrameRD_TB.v","TRUE","TRUE"
+LIST "FrameRD_TB::work","component\work\FrameRD_TB\FrameRD_TB.cxf","TRUE","TRUE"
 SUBBLOCK "CLK_GEN_C0::work","component\work\CLK_GEN_C0\CLK_GEN_C0.v","TRUE","TRUE"
 SUBBLOCK "DDR_CLK::work","component\work\DDR_CLK\DDR_CLK.v","TRUE","TRUE"
-SUBBLOCK "FrameRD::work","component\work\FrameRD\FrameRD.v","TRUE","FALSE"
-SUBBLOCK "PULSE_GEN_C0::work","component\work\PULSE_GEN_C0\PULSE_GEN_C0.v","TRUE","TRUE"
+SUBBLOCK "RDYCTRL::work","hdl\RDYCTRL.v","FALSE","FALSE"
 SUBBLOCK "RESET_GEN_C0::work","component\work\RESET_GEN_C0\RESET_GEN_C0.v","TRUE","TRUE"
-ENDLIST
-LIST "g4_dp_ext_mem::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\g4_dp_ext_mem.v","FALSE","TRUE"
-SUBBLOCK "MEM_WeqR::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WeqR.v","FALSE","TRUE"
-SUBBLOCK "MEM_WgtR::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WgtR.v","FALSE","TRUE"
-SUBBLOCK "MEM_WltR::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WltR.v","FALSE","TRUE"
-ENDLIST
-LIST "MEM_WeqR::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WeqR.v","FALSE","TRUE"
-ENDLIST
-LIST "MEM_WgtR::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WgtR.v","FALSE","TRUE"
-ENDLIST
-LIST "MEM_WltR::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WltR.v","FALSE","TRUE"
+SUBBLOCK "FrameRD::work","component\work\FrameRD\FrameRD.cxf","TRUE","FALSE"
 ENDLIST
 LIST "PULSE_GEN::work","component\Actel\Simulation\PULSE_GEN\1.0.1\PULSE_GEN.v","FALSE","TRUE"
 ENDLIST
@@ -1086,6 +1131,8 @@ ENDLIST
 LIST FPTabList
 ENDLIST
 LIST TimingTabList
+VALUE "constraint\FrameRD_derived_constraints.sdc"
+VALUE "constraint\user.sdc"
 ENDLIST
 LIST FDCTabList
 ENDLIST
