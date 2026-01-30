@@ -147,6 +147,9 @@ module DDR_Read#(
         
         assign TDATA_O = data_axi4s[lp_STREAM_WIDTH-1:0];
         assign TUSER_O[0] = data_axi4s[lp_STREAM_WIDTH];
+        assign TUSER_O[1] = 0;
+        assign TUSER_O[2] = 0;
+        assign TUSER_O[3] = 0;
         assign TVALID_O = data_valid_axi4s;
         assign TSTRB_O = {lp_STREAM_WIDTH/8{1'b1}};
         assign TKEEP_O = 0;

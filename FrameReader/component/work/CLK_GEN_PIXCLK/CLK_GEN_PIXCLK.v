@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Thu Jan 29 23:42:28 2026
+// Created by SmartDesign Thu Jan 29 23:43:04 2026
 // Version: 2025.1 2025.1.0.14
 //////////////////////////////////////////////////////////////////////
 
@@ -9,18 +9,18 @@
 // Component Description (Tcl) 
 //////////////////////////////////////////////////////////////////////
 /*
-# Exporting Component Description of DDR_CLK to TCL
+# Exporting Component Description of CLK_GEN_PIXCLK to TCL
 # Family: PolarFire
 # Part Number: MPF100T-1FCSG325I
-# Create and Configure the core component DDR_CLK
-create_and_configure_core -core_vlnv {Actel:Simulation:CLK_GEN:1.0.1} -component_name {DDR_CLK} -params {\
-"CLK_PERIOD:2500"  \
+# Create and Configure the core component CLK_GEN_PIXCLK
+create_and_configure_core -core_vlnv {Actel:Simulation:CLK_GEN:1.0.1} -component_name {CLK_GEN_PIXCLK} -params {\
+"CLK_PERIOD:5000"  \
 "DUTY_CYCLE:50"   }
-# Exporting Component Description of DDR_CLK to TCL done
+# Exporting Component Description of CLK_GEN_PIXCLK to TCL done
 */
 
-// DDR_CLK
-module DDR_CLK(
+// CLK_GEN_PIXCLK
+module CLK_GEN_PIXCLK(
     // Outputs
     CLK
 );
@@ -44,9 +44,9 @@ assign CLK       = CLK_net_1;
 //--------------------------------------------------------------------
 //--------CLK_GEN   -   Actel:Simulation:CLK_GEN:1.0.1
 CLK_GEN #( 
-        .CLK_PERIOD ( 2500 ),
+        .CLK_PERIOD ( 5000 ),
         .DUTY_CYCLE ( 50 ) )
-DDR_CLK_0(
+CLK_GEN_PIXCLK_0(
         // Outputs
         .CLK ( CLK_net_0 ) 
         );

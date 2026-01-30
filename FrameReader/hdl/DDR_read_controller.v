@@ -216,7 +216,7 @@ always@(posedge sys_clk_i, negedge reset_i) begin
                // if (ddr_data_valid_i==1)  rBurstCounter<= rBurstCounter +1;
                 if(sof_i == 1) begin 
                     rOUTOFSYNC <= 1;
-                    $display("WARNING at %0t: Memory starts being read slower than framerate",$time);
+                    $display("WARNING at %0t: Memory starts being read slower than framerate\n SOF asserted at Line %d",$time,rLineCounter);
                 end
 			end
 			
@@ -225,7 +225,7 @@ always@(posedge sys_clk_i, negedge reset_i) begin
                  rOUTOFSYNC          <=0;
                   if(sof_i == 1 ) begin 
                     rOUTOFSYNC <= 1;
-                    $display("WARNING at %0t: Memory starts being read slower than framerate",$time);
+                     $display("WARNING at %0t: Memory starts being read slower than framerate\n SOF asserted at Line %d",$time,rLineCounter);
                 end
 				if(read_done_i == 1) begin
                     s_state 	                <= BRUST_LEN_CHK;
@@ -239,7 +239,7 @@ always@(posedge sys_clk_i, negedge reset_i) begin
                   rOUTOFSYNC          <=0;
                    if(sof_i == 1) begin 
                     rOUTOFSYNC <= 1;
-                    $display("WARNING at %0t: Memory starts being read slower than framerate",$time);
+                     $display("WARNING at %0t: Memory starts being read slower than framerate\n SOF asserted at Line %d",$time,rLineCounter);
                 end
                  s_state 	<= READ_TRIG ;
                 if ( rLineCounter==vert_res_i-1) begin

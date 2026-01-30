@@ -1,13 +1,12 @@
 Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
 
-Date      :  Thu Jan 29 23:42:29 2026
+Date      :  Thu Jan 29 23:43:05 2026
 Project   :  C:\prj\FrameReader
-Component :  DDR_CLK
+Component :  CLK_GEN_PIXCLK
 Family    :  PolarFire
 
 
 Stimulus files for all Simulation tools:
-    C:/prj/FrameReader/component/work/DDR_CLK/DDR_CLK.v
     C:/prj/FrameReader/component/Actel/Simulation/CLK_GEN/1.0.1/CLK_GEN.v
-    C:/prj/FrameReader/component/work/DDR_CLK/DDR_CLK.v
+    C:/prj/FrameReader/component/work/CLK_GEN_PIXCLK/CLK_GEN_PIXCLK.v
 

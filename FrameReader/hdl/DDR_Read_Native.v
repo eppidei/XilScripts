@@ -276,9 +276,9 @@ begin
 end
 
 assign data_o               = rOrphanValid ? rOrphanData : wFifoDataOutput;
-assign wActualValidOut      = wPopLastValid ? rOrphanValid : wFifoDataValid;
+assign wActualValidOut      = rOrphanValid | wFifoDataValid;
 	
-assign data_valid_o     =   (rStreamCnt>=0 && rStreamCnt<horz_resl_i) ? wActualValidOut : 0; // we discard some dummy pixels (e.g. 1920 to 2048)
+assign data_valid_o     =   (rStreamCnt>=0 && rStreamCnt<horz_resl_i) ? 1 : 0; // we discard some dummy pixels (e.g. 1920 to 2048)
 
 
 endmodule

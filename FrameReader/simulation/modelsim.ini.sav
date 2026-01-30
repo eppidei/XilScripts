@@ -1,9 +1,9 @@
 [Library]
 others = $MODEL_TECH/../modelsim.ini
 PolarFire = C:/Microchip/Libero_SoC_2025.1/Libero_SoC/Designer/lib/questasim/precompiled/vlog/polarfire
+presynth = presynth
 syncad_vhdl_lib = C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer/lib/actel/syncad_vhdl_lib
 
-presynth = presynth
 [vcom]
 VHDL93 = 1
 

@@ -20,7 +20,9 @@
       <spirit:signalName>
         <spirit:componentSignalName>TSTRB_O</spirit:componentSignalName><spirit:busSignalName>TSTRB</spirit:busSignalName></spirit:signalName>
       <spirit:signalName>
-        <spirit:componentSignalName>TKEEP_O</spirit:componentSignalName><spirit:busSignalName>TKEEP</spirit:busSignalName></spirit:signalName></spirit:signalMap>
+        <spirit:componentSignalName>TKEEP_O</spirit:componentSignalName><spirit:busSignalName>TKEEP</spirit:busSignalName></spirit:signalName>
+      <spirit:signalName>
+        <spirit:componentSignalName>TREADY_I</spirit:componentSignalName><spirit:busSignalName>TREADY</spirit:busSignalName></spirit:signalName></spirit:signalMap>
     <spirit:vendorExtensions></spirit:vendorExtensions>
   </spirit:busInterface>
   </spirit:busInterfaces>
