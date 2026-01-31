@@ -25,7 +25,7 @@ output oRdy;
 reg [3:0] rCnt;
 
 
-assign oRdy = (rCnt==7) ? 0 : 1;
+assign oRdy = (rCnt==7 || rCnt==6) ? 0 : 1;
 
 always@(posedge iCLK) begin
     if (!iRSTN) begin 

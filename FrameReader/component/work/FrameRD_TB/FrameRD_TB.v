@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Thu Jan 29 23:44:26 2026
+// Created by SmartDesign Sat Jan 31 18:59:00 2026
 // Version: 2025.1 2025.1.0.14
 //////////////////////////////////////////////////////////////////////
 
@@ -15,6 +15,7 @@ module FrameRD_TB(
 wire   CLK_GEN_PIXCLK_0_CLK;
 wire   DDR_CLK_0_CLK;
 wire   PixelClock_CLK;
+wire   RDYCTRL_0_oRdy;
 wire   RESET_GEN_C0_0_RESET;
 //--------------------------------------------------------------------
 // Component instances
@@ -37,16 +38,17 @@ FrameRD FrameRD_0(
         .rstn_i    ( RESET_GEN_C0_0_RESET ),
         .video_clk ( PixelClock_CLK ),
         .ddr_clk_i ( DDR_CLK_0_CLK ),
-        .pixel_clk ( CLK_GEN_PIXCLK_0_CLK ) 
+        .pixel_clk ( CLK_GEN_PIXCLK_0_CLK ),
+        .TREADY_I  ( RDYCTRL_0_oRdy ) 
         );
 
 //--------RDYCTRL
 RDYCTRL RDYCTRL_0(
         // Inputs
-        .iCLK  ( PixelClock_CLK ),
+        .iCLK  ( CLK_GEN_PIXCLK_0_CLK ),
         .iRSTN ( RESET_GEN_C0_0_RESET ),
         // Outputs
-        .oRdy  (  ) 
+        .oRdy  ( RDYCTRL_0_oRdy ) 
         );
 
 //--------RESET_GEN_C0

@@ -11,7 +11,7 @@
 //--
 //=================================================================================================
 module DDR_Read_Native #( 
-        parameter g_MAX_HORIZ_RESOL	            = 1920,
+        parameter g_MAX_HORIZ_RESOL	        = 1920,
         parameter g_DDR_AXI_DWIDTH_I        = 128,
        // parameter g_DDR_AXI_DWIDTH_O      = 40,
         parameter g_FRAME_GAP               = 1,
@@ -46,17 +46,18 @@ module DDR_Read_Native #(
         );
 
         localparam lp_ByteLen      = 8;
+        localparam lp_PixelPerBurst = g_DDR_AXI_DWIDTH_I/g_PIXEL_WIDTH;
         localparam lp_STREAM_WIDTH = g_NO_OF_PIXEL_STREAMED*g_PIXEL_WIDTH;
-        localparam lp_HresNextPow2 = $clog2(g_MAX_HORIZ_RESOL);
-        localparam lp_HresCeiled_Pow2   = 2**$clog2(g_MAX_HORIZ_RESOL);
+        localparam lp_MaxHresNextPow2 = $clog2(g_MAX_HORIZ_RESOL);
+        localparam lp_MaxHresCeiled_Pow2   = 2**$clog2(g_MAX_HORIZ_RESOL);
      //   localparam lp_HresCeiled_Burstsize   = 2**$clog2(g_MAX_HORIZ_RESOL);
         localparam lp_Fifo_Wwidth  = int'(g_DDR_AXI_DWIDTH_I*(1.0+1.0/(g_NO_OF_PIXEL_STREAMED*g_PIXEL_WIDTH))); //adding SOF, TODO 10 Pixel width case
         localparam lp_Fifo_Rwidth  = 2**$clog2(g_NO_OF_PIXEL_STREAMED*g_PIXEL_WIDTH)+1;
-        localparam lp_Fifo_Wdepth  = 2*(lp_HresCeiled_Pow2); // max storage 2 lines
+        localparam lp_Fifo_Wdepth  = 2*(lp_MaxHresCeiled_Pow2); // max storage 2 lines
         localparam lp_Fifo_Rdepth  = lp_Fifo_Wwidth/lp_Fifo_Rwidth*lp_Fifo_Wdepth; // TODO CHECK ratio is integer
         
-        localparam [15:0] lp_MaxNoBurts       = lp_HresCeiled_Pow2*lp_ByteLen/g_DDR_AXI_DWIDTH_I;//assumption resolution rounded to pow2 contains integer number of ddrwidth
-        localparam lp_ByteToDiscard = (lp_HresCeiled_Pow2 - g_MAX_HORIZ_RESOL);
+        localparam [15:0] lp_MaxNoBurts       = lp_MaxHresCeiled_Pow2*lp_ByteLen/g_DDR_AXI_DWIDTH_I;//assumption resolution rounded to pow2 contains integer number of ddrwidth
+     //   localparam lp_ByteToDiscard = (lp_MaxHresCeiled_Pow2 - g_MAX_HORIZ_RESOL);
         
    
         
@@ -83,6 +84,7 @@ wire [$clog2(lp_Fifo_Wdepth) : 0] wWFifoCnt;
 wire [$clog2(lp_Fifo_Rdepth) : 0] wRFifoCnt;
 wire                                wFifoWen;
 wire                                wFifoRen;
+reg                                 rFifoRen;
 wire                                wFifoDataValid;
 wire                                wDataValid;
 wire                                wFifoFull;
@@ -95,11 +97,32 @@ reg                                 rWAlmostEmpty;
 reg  [$clog2(lp_Fifo_Rdepth)-1 : 0] rStreamCnt;
 wire [lp_Fifo_Wwidth-1:0] wddr_data_int;// TO DO PARAMETRIZE (g_DDR_AXI_DWIDTH_I/STREAMWIDTH 8)
 reg                                 rTLASTo;
-wire [15:0]                         wNumBursts ;
+reg [15:0]                          rNumBursts ;
+reg [15:0]                          rNumPixelFetched ;
+reg [15:0]                          rNumPixel2Discard ;
+reg                                 rSOF;
 reg                                 rDownReady;
 reg                                 rOrphanValid;
 wire                                wActualValidOut;
 reg     [lp_Fifo_Rwidth-1:0]        rOrphanData;
+//wire                                wDataValidTemp;
+
+
+function [15:0] calc_num_bursts; //ceil of (horz_resl_i/g_DDR_AXI_DWIDTH_I)
+input [15:0] hor_res; 
+reg [15:0] tmp;
+    begin 
+            $display("hor_res = %b\n",hor_res);
+            tmp=horz_resl_i<<3;
+            $display("tmp = %b\n",tmp);
+            $display("tmp MSB  = %b\n",tmp[$clog2(g_DDR_AXI_DWIDTH_I)-1:0]);
+            if ( |tmp[$clog2(g_DDR_AXI_DWIDTH_I)-1:0])
+                calc_num_bursts= (tmp[15:$clog2(g_DDR_AXI_DWIDTH_I)]+1);
+            else 
+                calc_num_bursts=(tmp[15:$clog2(g_DDR_AXI_DWIDTH_I)]); 
+            $display("calc_num_bursts = %d\n",calc_num_bursts);
+    end 
+endfunction
  
 //=================================================================================================
 // Top level output port assignments
@@ -107,9 +130,33 @@ reg     [lp_Fifo_Rwidth-1:0]        rOrphanData;
  assign read_start_addr_o       = read_start_addr_o_net_0;
  assign read_req_o              = read_req_o_net_0;
  //TODO add calculation instead of table for more flexible block
- assign wNumBursts              = (g_DDR_AXI_DWIDTH_I==64 && horz_resl_i==1920) ? 240 :
-                                  (g_DDR_AXI_DWIDTH_I==128 && horz_resl_i==1920) ? 120 :
-                                  lp_MaxNoBurts;
+ //assign wNumBursts              = (g_DDR_AXI_DWIDTH_I==64 && horz_resl_i==1920) ? 240 :
+                                  //(g_DDR_AXI_DWIDTH_I==128 && horz_resl_i==1920) ? 120 :
+                                  //lp_MaxNoBurts;
+always@(posedge sys_clk_i)
+begin 
+if (!wFifoRArstn) begin
+        rNumBursts          <= 0;
+        rNumPixelFetched    <= 0;
+        rSOF                <= 0;
+        rNumPixel2Discard   <= 0;
+    end
+    else begin
+    rSOF <= sof_i;
+        if (sof_i)  begin 
+            rNumBursts       <= calc_num_bursts(horz_resl_i);  
+            rNumPixelFetched <= calc_num_bursts(horz_resl_i)<<$clog2(lp_PixelPerBurst);
+         
+            rNumPixel2Discard <= (calc_num_bursts(horz_resl_i)<<$clog2(lp_PixelPerBurst))-horz_resl_i;
+          
+        end
+        if (rSOF) begin
+              $display("rNumPixelFetched = %d\n",rNumPixelFetched); 
+                $display("rNumPixel2Discard = %d\n",rNumPixel2Discard);
+        end
+     end
+end 
+
  assign burst_size_o            = brust_hcount_o_net_0[7:0];    
  //assign data_valid_o            = data_valid_o_net_0;
  //assign data_o                  = data_o_net_0;
@@ -138,7 +185,7 @@ DDR_read_controller#(
         .reset_i             ( reset_i              ),
         .sys_clk_i           ( ddr_clk_i            ),
         .c_LINE_GAP          ( line_gap_i           ),
-        .burst_len_i         ( wNumBursts),
+        .burst_len_i         ( rNumBursts),
         .vert_res_i         ( vert_resl_i),
         .ddr_data_i          (wdata_i),
         .ddr_data_valid_i          (ddr_data_valid_i),
@@ -146,7 +193,7 @@ DDR_read_controller#(
         .prefetch_line_i     (  rWAlmostEmpty           ),
         .read_ackn_i         ( read_ackn_i          ),
         .read_done_i         ( read_done_i          ),
-        .sof_i                  ( sof_i          ),
+        .sof_i                  ( rSOF          ),
         .frame_start_addr_i  ( frame_start_addr_i   ),
         .h_pan_i             ( h_pan_i              ),
         .v_pan_i             ( v_pan_i              ),
@@ -161,7 +208,7 @@ DDR_read_controller#(
    
 assign wFifoWen         =   ddr_data_valid_i; 
 assign wFifoRen         =   downstream_ready_i &~ wFifoEmpty; 
-assign wFifoDataValid   =   wDataValid ;
+assign wFifoDataValid   =  wDataValid ;
 
 assign wFifoWArstn      =   reset_i;
 assign wFifoRArstn      =   reset_i;
@@ -180,13 +227,15 @@ begin : StreamCounter
         rStreamCnt <= 0;
         rTLASTo     <= 0;
         rDownReady <= 0;
+        rFifoRen   <=0;
     end
     else begin
+        rFifoRen   <= wFifoRen;
         rDownReady <= downstream_ready_i;
         if (wActualValidOut & downstream_ready_i) begin
         rStreamCnt <= rStreamCnt+1;
         rTLASTo <= 0;
-            if (rStreamCnt==lp_HresCeiled_Pow2-1) rStreamCnt <= 0;
+            if (rStreamCnt==( (rNumBursts<<$clog2(g_PIXEL_WIDTH)) -1)) rStreamCnt <= 0;
             else if (rStreamCnt==horz_resl_i-2) rTLASTo <= 1;
         end
     end
@@ -254,8 +303,8 @@ DDR_READ_ASYMM_FIFO_0(
         .SB_CORRECT (  ),
         .DB_DETECT  (  ) 
         );
-   
-assign wPushLastValid = (downstream_ready_i==0 && rDownReady==1 && wFifoEmpty==0) ? 1 : 0; 		
+   //if ready asserts low, only on falling edge, and i was readinng
+assign wPushLastValid = (downstream_ready_i==0 && rDownReady==1 && rFifoRen) ==1? 1 : 0; 		
 assign wPopLastValid = (downstream_ready_i==1 && rDownReady==0 && rOrphanValid==1) ? 1 : 0; 	
 
 always@(posedge sys_clk_i)
@@ -277,8 +326,8 @@ end
 
 assign data_o               = rOrphanValid ? rOrphanData : wFifoDataOutput;
 assign wActualValidOut      = rOrphanValid | wFifoDataValid;
-	
-assign data_valid_o     =   (rStreamCnt>=0 && rStreamCnt<horz_resl_i) ? 1 : 0; // we discard some dummy pixels (e.g. 1920 to 2048)
+//assign data_valid_o         =  wActualValidOut; 	
+assign data_valid_o     =   (  rStreamCnt>=0 && rStreamCnt<horz_resl_i) ? wActualValidOut : 0; // we discard some dummy pixels (e.g. 1920 to 2048)
 
 
 endmodule

@@ -71,30 +71,39 @@ add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/Da
 add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/SOF
 add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/rTLASTo
 add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/data_valid_o
-add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wdata_ready_i
 add wave -noupdate -divider {New Divider}
 add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/data_o
 add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/brust_hcount_o_net_0
 add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/read_req_o_net_0
 add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/read_start_addr_o_net_0
 add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/AND2_0_Y
-add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wWFifoCnt
-add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wRFifoCnt
-add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wFifoWen
-add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wFifoRen
-add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wFifoDataValid
-add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wDataValid
-add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wFifoFull
-add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wFifoEmpty
-add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wFifoAlmostEmpty
-add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wFifoWArstn
-add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wFifoRArstn
-add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wFifoDataOutput
-add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/rWAlmostEmpty
 add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wddr_data_int
-add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wNumBursts
+add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/downstream_ready_i
+add wave -noupdate -divider FIFO
+add wave -noupdate -color {Medium Orchid} /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wWFifoCnt
+add wave -noupdate -color {Medium Orchid} /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wFifoWen
+add wave -noupdate -color {Medium Orchid} /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wRFifoCnt
+add wave -noupdate -color {Medium Orchid} /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wFifoRen
+add wave -noupdate -color {Medium Orchid} /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wFifoDataValid
+add wave -noupdate -color {Medium Orchid} /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wDataValid
+add wave -noupdate -color {Medium Orchid} /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wFifoFull
+add wave -noupdate -color {Medium Orchid} /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wFifoEmpty
+add wave -noupdate -color {Medium Orchid} /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wFifoAlmostEmpty
+add wave -noupdate -color {Medium Orchid} /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wFifoWArstn
+add wave -noupdate -color {Medium Orchid} /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wFifoRArstn
+add wave -noupdate -color {Medium Orchid} /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wFifoDataOutput
+add wave -noupdate -color {Medium Orchid} /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/rWAlmostEmpty
+add wave -noupdate -divider {New Divider}
+add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wActualValidOut
+add wave -noupdate -radix unsigned /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/rStreamCnt
+add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/rDownReady
+add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/rOrphanValid
+add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wActualValidOut
+add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/rOrphanData
+add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wPushLastValid
+add wave -noupdate /FrameRD_TB/FrameRD_0/DDR_Read_0/genblk1/DDR_Read_Native_6/wPopLastValid
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {2333421 ps} 0}
+WaveRestoreCursors {{Cursor 1} {1187500 ps} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 182
 configure wave -valuecolwidth 102
@@ -110,4 +119,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ps
 update
-WaveRestoreZoom {0 ps} {1617790178 ps}
+WaveRestoreZoom {1025370 ps} {1269814 ps}
