@@ -5,29 +5,22 @@
   <drc>
     <status>C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer/data/drcreport\warn.png</status>
     <StatusMessage>Warning</StatusMessage>
-    <message>Unconnected Bus Interface</message>
-    <detail>Unconnected bus interface pin DDR_AXI4_ARBITER_PF_C0_0:Read_channel_0</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/FrameRD/pins/DDR_AXI4_ARBITER_PF_C0_0:Read_channel_0</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer/data/drcreport\warn.png</status>
-    <StatusMessage>Warning</StatusMessage>
     <message>Floating Driver</message>
-    <detail>Floating output bus pin Display_Controller_C0_0:H_RES_O[15:0]</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/FrameRD/pins/Display_Controller_C0_0:H_RES_O</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer/data/drcreport\warn.png</status>
-    <StatusMessage>Warning</StatusMessage>
-    <message>Floating Driver</message>
-    <detail>Floating output bus pin Display_Controller_C0_0:V_RES_O[15:0]</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/FrameRD/pins/Display_Controller_C0_0:V_RES_O</crossprobe>
+    <detail>Floating output pin FrameRD:TREADY_I</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FrameRD/pins/FrameRD:TREADY_I</crossprobe>
   </drc>
   <drc>
     <status>C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer/data/drcreport\warn.png</status>
     <StatusMessage>Warning</StatusMessage>
     <message> bus interface ID width mismatch</message>
-    <detail> There is an ID width mismatch between PF_SRAM_AHBL_AXI_C0_0:AXI4_Slave:RID[0-7] and DDR_AXI4_ARBITER_PF_C0_0:MIRRORED_SLAVE_AXI4:rid[0-3] which may result in a loss of data.</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/FrameRD/pins/PF_SRAM_AHBL_AXI_C0_0:AXI4_Slave</crossprobe>
+    <detail> There is an ID width mismatch between DDR_AXI4_ARBITER_PF_C0_0:MIRRORED_SLAVE_AXI4:awid[0-3] and axi4_mem_model_0:S_AXI:[0--1] which may result in a loss of data.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FrameRD/pins/DDR_AXI4_ARBITER_PF_C0_0:MIRRORED_SLAVE_AXI4</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin DDR_AXI4_ARBITER_PF_C0_0:Read_channel_0</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FrameRD/pins/DDR_AXI4_ARBITER_PF_C0_0:Read_channel_0</crossprobe>
   </drc>
 </drcreport>

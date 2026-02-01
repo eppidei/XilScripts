@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Sun Jan 25 21:03:41 2026
+// Created by SmartDesign Sun Feb  1 13:35:30 2026
 // Version: 2025.1 2025.1.0.14
 //////////////////////////////////////////////////////////////////////
 
@@ -26,14 +26,14 @@ create_and_configure_core -core_vlnv {Actel:SystemBuilder:PF_SRAM_AHBL_AXI:1.2.1
 "CASCADE:1" \
 "ECC_OPTIONS:0" \
 "FABRIC_INTERFACE_TYPE:1" \
-"IMPORT_FILE:../memorycontent.mem" \
+"IMPORT_FILE:../mem_pow2.mem" \
 "INIT_RAM:T" \
 "LPM_HINT:0" \
 "PIPELINE_OPTIONS:2" \
-"RDEPTH:2048" \
+"RDEPTH:32768" \
 "RWIDTH:80" \
 "USE_NATIVE_INTERFACE:F" \
-"WDEPTH:2048" \
+"WDEPTH:32768" \
 "WWIDTH:80" }
 # Exporting Component Description of PF_SRAM_AHBL_AXI_C0 to TCL done
 */
@@ -164,9 +164,9 @@ wire           WLAST;
 wire           AXI4_Slave_WREADY;
 wire   [7:0]   WSTRB;
 wire           WVALID;
-wire   [10:0]  COREAXI4SRAM_0_MEM_RADDR;
+wire   [14:0]  COREAXI4SRAM_0_MEM_RADDR;
 wire           COREAXI4SRAM_0_MEM_REN;
-wire   [10:0]  COREAXI4SRAM_0_MEM_WADDR;
+wire   [14:0]  COREAXI4SRAM_0_MEM_WADDR;
 wire   [0:0]   COREAXI4SRAM_0_MEM_WBYTE_EN0to0;
 wire   [1:1]   COREAXI4SRAM_0_MEM_WBYTE_EN1to1;
 wire   [2:2]   COREAXI4SRAM_0_MEM_WBYTE_EN2to2;
@@ -543,7 +543,7 @@ PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM #(
         .AXI4_IFTYPE_WR ( 1 ),
         .ECC            ( 0 ),
         .FAMILY         ( 26 ),
-        .MEM_DEPTH      ( 2048 ),
+        .MEM_DEPTH      ( 32768 ),
         .PIPE           ( 2 ),
         .SEL_SRAM_TYPE  ( 1 ),
         .WRAP_SUPPORT   ( 1 ) )

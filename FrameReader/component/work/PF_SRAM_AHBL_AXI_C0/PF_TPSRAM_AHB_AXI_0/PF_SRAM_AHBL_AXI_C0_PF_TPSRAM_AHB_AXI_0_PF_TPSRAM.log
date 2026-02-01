@@ -20,9 +20,9 @@ Read Clock Edge                 : Rising
 Write Clock Edge                : Rising
 A_REN Polarity                  : None
 B_REN Polarity                  : None
-Write Depth                     : 2048
+Write Depth                     : 32768
 Write Width                     : 80
-Read Depth                      : 2048
+Read Depth                      : 32768
 Read Width                      : 80
 Portname DataIn                 : W_DATA
 Portname DataOut                : R_DATA
@@ -74,7 +74,7 @@ ACCESS_BUSY                     : Disabled
 Cascade Configuration: 
      Write Port configuration   : 512x40
      Read Port configuration    : 512x40
-     Number of blocks depth wise: 4
+     Number of blocks depth wise: 64
      Number of blocks width wise: 2
 
 Wrote Verilog netlist to C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\PF_TPSRAM_AHB_AXI_0\\PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v.
