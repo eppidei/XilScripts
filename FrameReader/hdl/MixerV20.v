@@ -27,7 +27,7 @@ module VideoMixerV20 #(
     input           [pColorWidth-1:0]                   iBackBlue,
 
     //Layer 1
-    input           [$clog2(pMonitorHres)-1:0]          iPanX1,
+    input           [$clog2(pMonitorHres)-1:0]          iPanX1, //0based
     input           [$clog2(pMonitorVres)-1:0]          iPanY1,
     input           [$clog2(pMonitorHres)-1:0]          iHRES1,
     input           [$clog2(pMonitorVres)-1:0]          iVRES1,
@@ -60,18 +60,7 @@ module VideoMixerV20 #(
     input                                               iTREADY
 );
 
-    function int check_data_synched (input int actual_index, input Ready2Display [1:pActiveLayers], input FifoDataValid [1:pActiveLayers]);
-        for (int i = 1; i <= pActiveLayers; i++) begin
-            if (i != actual_index && Ready2Display[i] == 1) begin
-                if (!FifoDataValid[i]) begin
-                    return 0;
-                end
-            end
-        end
-        return 1;
-    endfunction
-
-    localparam int lpMAXHRES        = 4096;
+ localparam int lpMAXHRES        = 4096;
     localparam int lpMAXVRES        = 2160;
     localparam int lpURAMDepth      = 64;
     localparam int lpURAMWidth      = 12;
@@ -84,6 +73,19 @@ module VideoMixerV20 #(
     localparam     st_ROW_INC       = 2;
     localparam int lpUSER_BITFIELD  = 0; //in FIFO DATA PACKING
     localparam int lpLAST_BITFIELD  = 1;
+
+    function int check_data_synched (input int actual_index, input Ready2Display [1:pActiveLayers], input FifoDataValid [1:pActiveLayers]);
+        for (int i = 1; i <= pActiveLayers; i++) begin
+            if (i != actual_index && (Ready2Display[i] == 1) ) begin
+                if (!FifoDataValid[i]) begin
+                    return 0;
+                end
+            end
+        end
+        return 1;
+    endfunction
+
+   
 
     //PARAMETERS
     reg     [(pPPC)*(3)*pColorWidth-1:0]    rTDATA;
@@ -166,7 +168,7 @@ module VideoMixerV20 #(
     assign              wVALID[1]           = iTVALID1;
     assign              wLAST[1]            = iTLAST1;
     assign              wUSER[1]            = iTUSER1;
-    assign              oTREADY1            = iTREADY & wREADY[1];
+    assign              oTREADY1            = wREADY[1];
 
     generate
         for (s=1; s<=pNChannels; s=s+1) begin : Gen_assign_channels_layer2
@@ -177,7 +179,7 @@ module VideoMixerV20 #(
     assign              wVALID[2]           = iTVALID2;
     assign              wLAST[2]            = iTLAST2;
     assign              wUSER[2]            = iTUSER2;
-    assign              oTREADY2            = iTREADY & wREADY[2];
+    assign              oTREADY2            = wREADY[2];
 
     //Latching dynamic parameter at the EOF
     always @(posedge iPixClk)
@@ -206,19 +208,19 @@ module VideoMixerV20 #(
 			rBackBlue    <= iBackBlue;
 			
             // Layer 1
-            rPANX[1]         <= iPanX1;
-            rPANX2[1]        <= iPanX1 + iHRES1;
+            rPANX[1]         <= iPanX1 ; 
+            rPANX2[1]        <= iPanX1 + iHRES1 - 1;
             rPANY[1]         <= iPanY1;
-            rPANY2[1]        <= iPanY1 + iVRES1;
+            rPANY2[1]        <= iPanY1 + iVRES1 - 1;
             rHRES[1]         <= iHRES1;
             rVRES[1]         <= iVRES1;
             rLayerEnabled[1] <= iLayer1En;
 
             // Layer 2
-            rPANX[2]         <= iPanX2;
-            rPANX2[2]        <= iPanX2 + iHRES2;
+            rPANX[2]         <= iPanX2 ;
+            rPANX2[2]        <= iPanX2 + iHRES2 - 1;
             rPANY[2]         <= iPanY2;
-            rPANY2[2]        <= iPanY2 + iVRES2;
+            rPANY2[2]        <= iPanY2 + iVRES2 - 1;
             rHRES[2]         <= iHRES2;
             rVRES[2]         <= iVRES2;
             rLayerEnabled[2] <= iLayer2En;
@@ -248,11 +250,11 @@ module VideoMixerV20 #(
             assign wLayerDataValid[k]           = wFIFOVALID[k][1];
             assign wLayerSOF[k]                 = wFIFODATA[k][1][0]; 
             // Updated logic using rPANX2/rPANY2
-            assign wLayerReadyToDisplay[k]      = (rLayerEnabled[k]==1 && (rHCountGlobal >= rPANX[k] && rHCountGlobal < rPANX2[k]) && (rVCountGlobal >= rPANY[k] && rVCountGlobal < rPANY2[k]) ) ? 1 : 0;
+            assign wLayerReadyToDisplay[k]      = (rLayerEnabled[k]==1 && (rHCountGlobal >= rPANX[k] && rHCountGlobal <= rPANX2[k]) && (rVCountGlobal >= rPANY[k] && rVCountGlobal <= rPANY2[k]) ) ? 1 : 0;
 
             for (i=1; i<=pNChannels; i=i+1) begin : Gen_iChannel_kLayer
                 
-                assign wFIFOREN[k][i] = rFIFOREN[k][i] & wFIFOVALID[k][i];
+                assign wFIFOREN[k][i] = rFIFOREN[k][i]  & iTREADY;// 
 
                 URAM_MIXER iChannelFIFOStreamK (
                     // Inputs
@@ -339,19 +341,22 @@ module VideoMixerV20 #(
                                         if (wLayerDataValid[l]) begin
                                             // IF I AM VALID AND ALL OTHERS READYTODISPLAY ARE VALID
                                             rIncGlobal[l] = check_data_synched(l, wLayerReadyToDisplay, wLayerDataValid);
-                                            
+                                          
                                             if (rIncGlobal[l]) begin
 												
                                                  if (~wFIFODATA[l][1][lpLAST_BITFIELD]) begin 
                                                      rFIFOREN[l] <= '{default:1}; // Read all channels
                                                      rHCountLayer[l] <= rHCountLayer[l] + 1;
-													 
-                                                 end else begin 
+													// $display("rIncGlobal[%d] = %d\n",l, rIncGlobal[l]);
+                                                 end
+												 /* when we have last ready to display is low
+												 else begin //IF LAST
                                                      rHCountLayer[l] <= 0;
-													 
+													 $display("LAST rIncGlobal[%d] = %d\n",l, rIncGlobal[l]);
                                                      rVCountLayer[l] <= rVCountLayer[l] + 1;
                                                      if (rVCountLayer[l] == rVRES[l]-1) rVCountLayer[l] <= 0;
                                                  end
+												 */
                                             end
                                         end
                                     end
