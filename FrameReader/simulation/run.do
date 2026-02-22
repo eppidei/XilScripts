@@ -35,6 +35,7 @@ vlog -sv -work presynth "${PROJECT_DIR}/component/Microchip/SolutionCore/DDR_AXI
 vlog -sv -work presynth "${PROJECT_DIR}/component/work/DDR_AXI4_ARBITER_PF_C0/DDR_AXI4_ARBITER_PF_C0.v"
 vlog -sv -work presynth "${PROJECT_DIR}/component/Microchip/SolutionCore/Display_Controller/5.0.0/Encrypted/display_controller.v"
 vlog -sv -work presynth "${PROJECT_DIR}/component/work/Display_Controller_C0/Display_Controller_C0.v"
+vlog -sv -work presynth "${PROJECT_DIR}/hdl/VideoCropper.v"
 vlog -sv -work presynth "${PROJECT_DIR}/hdl/Arbiter_Initiator_Rd_IF.v"
 vlog -sv -work presynth "${PROJECT_DIR}/hdl/corefifo_fwft.v"
 vlog -sv -work presynth "${PROJECT_DIR}/hdl/corefifo_sync_scntr.v"
@@ -48,9 +49,21 @@ vlog -sv -work presynth "${PROJECT_DIR}/hdl/COREFIFO.v"
 vlog -sv -work presynth "${PROJECT_DIR}/hdl/DDR_read_controller.v"
 vlog -sv -work presynth "${PROJECT_DIR}/hdl/DDR_Read_Native.v"
 vlog -sv -work presynth "${PROJECT_DIR}/hdl/DDR_Read.v"
+vlog -sv -work presynth "${PROJECT_DIR}/component/work/URAM_MIXER/URAM_MIXER_0/rtl/vlog/core/corefifo_sync_scntr.v"
+vlog -sv -work presynth "${PROJECT_DIR}/component/work/URAM_MIXER/URAM_MIXER_0/rtl/vlog/core/corefifo_sync.v"
+vlog -sv -work presynth "${PROJECT_DIR}/component/work/URAM_MIXER/URAM_MIXER_0/rtl/vlog/core/corefifo_graytobinconv.v"
+vlog -sv -work presynth "${PROJECT_DIR}/component/work/URAM_MIXER/URAM_MIXER_0/rtl/vlog/core/corefifo_nstagessync.v"
+vlog -sv -work presynth "${PROJECT_DIR}/component/work/URAM_MIXER/URAM_MIXER_0/rtl/vlog/core/corefifo_async.v"
+vlog -sv -work presynth "${PROJECT_DIR}/component/work/URAM_MIXER/URAM_MIXER_0/rtl/vlog/core/corefifo_fwft.v"
+vlog -sv -work presynth "${PROJECT_DIR}/component/work/URAM_MIXER/URAM_MIXER_0/rtl/vlog/core/URAM_MIXER_URAM_MIXER_0_USRAM_top.v"
+vlog -sv -work presynth "${PROJECT_DIR}/component/work/URAM_MIXER/URAM_MIXER_0/rtl/vlog/core/URAM_MIXER_URAM_MIXER_0_ram_wrapper.v"
+vlog -sv -work presynth "${PROJECT_DIR}/component/work/URAM_MIXER/URAM_MIXER_0/rtl/vlog/core/COREFIFO.v"
+vlog -sv -work presynth "${PROJECT_DIR}/component/work/URAM_MIXER/URAM_MIXER.v"
+vlog -sv -work presynth "${PROJECT_DIR}/hdl/MixerV20.v"
 vlog -sv -work presynth "${PROJECT_DIR}/hdl/MemoryModel.v"
 vlog -sv -work presynth "${PROJECT_DIR}/hdl/DebayerGemini2.v"
 vlog -sv -work presynth "${PROJECT_DIR}/hdl/demosaic_gemini3.v"
+vlog -sv -work presynth "${PROJECT_DIR}/hdl/streamscaler_axi.v"
 vlog -sv -work presynth "${PROJECT_DIR}/hdl/scaler.v"
 vlog -sv -work presynth "${PROJECT_DIR}/component/work/FrameRD/FrameRD.v"
 vlog "+incdir+${PROJECT_DIR}/component/Actel/Simulation/CLK_GEN/1.0.1" "+incdir+${PROJECT_DIR}/component/work/CLK_GEN_C0" "+incdir+${PROJECT_DIR}/component/work/CLK_GEN_PIXCLK" "+incdir+${PROJECT_DIR}/component/work/DDR_CLK" "+incdir+${PROJECT_DIR}/hdl" "+incdir+${PROJECT_DIR}/component/Actel/Simulation/RESET_GEN/1.0.1" "+incdir+${PROJECT_DIR}/component/work/RESET_GEN_C0" "+incdir+${PROJECT_DIR}/component/work/FrameRD_TB" -sv -work presynth "${PROJECT_DIR}/component/Actel/Simulation/CLK_GEN/1.0.1/CLK_GEN.v"
@@ -66,4 +79,5 @@ vlog "+incdir+${PROJECT_DIR}/component/Actel/Simulation/CLK_GEN/1.0.1" "+incdir+
 
 vsim -voptargs=+acc -L PolarFire -L presynth  -t 1ps -displaymsgmode both presynth.FrameRD_TB
 add log -r /*
+do ./Mixerv20.do
 run 20 ms

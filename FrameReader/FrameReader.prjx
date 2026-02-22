@@ -58,46 +58,66 @@ TIME="1769938522"
 SIZE="369"
 PARENT="<project>\component\work\PF_SRAM_AHBL_AXI_C0\PF_SRAM_AHBL_AXI_C0.cxf"
 ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREFIFO\3.1.101\COREFIFO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1771006224"
+SIZE="1298"
+PARENT="<project>\component\work\URAM_MIXER\URAM_MIXER.cxf"
+ENDFILE
 VALUE "<project>\component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\clock_driver.v,tb_hdl"
 STATE="utd"
-TIME="1769234693"
+TIME="1771006224"
 SIZE="697"
+PARENT="<project>\component\Actel\DirectCore\COREFIFO\3.1.101\COREFIFO.cxf"
+PARENT="<project>\component\work\URAM_MIXER\URAM_MIXER_0\URAM_MIXER_URAM_MIXER_0_COREFIFO.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\fifo_driver.v,tb_hdl"
 STATE="utd"
-TIME="1769234693"
+TIME="1771006224"
 SIZE="13955"
+PARENT="<project>\component\Actel\DirectCore\COREFIFO\3.1.101\COREFIFO.cxf"
+PARENT="<project>\component\work\URAM_MIXER\URAM_MIXER_0\URAM_MIXER_URAM_MIXER_0_COREFIFO.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\fifo_monitor.v,tb_hdl"
 STATE="utd"
-TIME="1769234693"
+TIME="1771006224"
 SIZE="22096"
+PARENT="<project>\component\Actel\DirectCore\COREFIFO\3.1.101\COREFIFO.cxf"
+PARENT="<project>\component\work\URAM_MIXER\URAM_MIXER_0\URAM_MIXER_URAM_MIXER_0_COREFIFO.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\g4_dp_ext_mem.v,tb_hdl"
 STATE="utd"
-TIME="1769234693"
+TIME="1771006224"
 SIZE="3801"
+PARENT="<project>\component\Actel\DirectCore\COREFIFO\3.1.101\COREFIFO.cxf"
+PARENT="<project>\component\work\URAM_MIXER\URAM_MIXER_0\URAM_MIXER_URAM_MIXER_0_COREFIFO.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WeqR.v,tb_hdl"
 STATE="utd"
-TIME="1769234693"
+TIME="1771006224"
 SIZE="2194"
+PARENT="<project>\component\Actel\DirectCore\COREFIFO\3.1.101\COREFIFO.cxf"
+PARENT="<project>\component\work\URAM_MIXER\URAM_MIXER_0\URAM_MIXER_URAM_MIXER_0_COREFIFO.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WgtR.v,tb_hdl"
 STATE="utd"
-TIME="1769234693"
+TIME="1771006224"
 SIZE="2287"
+PARENT="<project>\component\Actel\DirectCore\COREFIFO\3.1.101\COREFIFO.cxf"
+PARENT="<project>\component\work\URAM_MIXER\URAM_MIXER_0\URAM_MIXER_URAM_MIXER_0_COREFIFO.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WltR.v,tb_hdl"
 STATE="utd"
-TIME="1769234693"
+TIME="1771006224"
 SIZE="1981"
+PARENT="<project>\component\Actel\DirectCore\COREFIFO\3.1.101\COREFIFO.cxf"
+PARENT="<project>\component\work\URAM_MIXER\URAM_MIXER_0\URAM_MIXER_URAM_MIXER_0_COREFIFO.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\SgCore\PF_TPSRAM\1.1.108\PF_TPSRAM.cxf,actgen_cxf"
@@ -149,167 +169,167 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\DDR_AXI4_ARBITER_PF.cxf,actgen_cxf"
 STATE="utd"
-TIME="1769186352"
+TIME="1771796206"
 SIZE="2705"
 PARENT="<project>\component\work\DDR_AXI4_ARBITER_PF_C0\DDR_AXI4_ARBITER_PF_C0.cxf"
 ENDFILE
 VALUE "<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\AXI4_M_M_IF.v,hdl"
 STATE="utd"
-TIME="1769186352"
+TIME="1771796206"
 SIZE="1130"
 PARENT="<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\DDR_AXI4_ARBITER_PF.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\AXI4_S_IF.v,hdl"
 STATE="utd"
-TIME="1769186352"
+TIME="1771796206"
 SIZE="2172"
 PARENT="<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\DDR_AXI4_ARBITER_PF.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_async.v,hdl"
 STATE="utd"
-TIME="1769186352"
+TIME="1771796206"
 SIZE="51681"
 PARENT="<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\DDR_AXI4_ARBITER_PF.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_fwft.v,hdl"
 STATE="utd"
-TIME="1769186352"
+TIME="1771796206"
 SIZE="8815"
 PARENT="<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\DDR_AXI4_ARBITER_PF.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_grayToBinConv.v,hdl"
 STATE="utd"
-TIME="1769186352"
+TIME="1771796206"
 SIZE="2783"
 PARENT="<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\DDR_AXI4_ARBITER_PF.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_NstagesSync.v,hdl"
 STATE="utd"
-TIME="1769186352"
+TIME="1771796206"
 SIZE="2514"
 PARENT="<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\DDR_AXI4_ARBITER_PF.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_resetSync.v,hdl"
 STATE="utd"
-TIME="1769186352"
+TIME="1771796206"
 SIZE="2266"
 PARENT="<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\DDR_AXI4_ARBITER_PF.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync.v,hdl"
 STATE="utd"
-TIME="1769186352"
+TIME="1771796206"
 SIZE="31209"
 PARENT="<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\DDR_AXI4_ARBITER_PF.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync_scntr.v,hdl"
 STATE="utd"
-TIME="1769186352"
+TIME="1771796206"
 SIZE="17093"
 PARENT="<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\DDR_AXI4_ARBITER_PF.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_LSRAM_top.v,hdl"
 STATE="utd"
-TIME="1769186352"
+TIME="1771796206"
 SIZE="2323"
 PARENT="<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\DDR_AXI4_ARBITER_PF.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_ram_wrapper.v,hdl"
 STATE="utd"
-TIME="1769186352"
+TIME="1771796206"
 SIZE="2974"
 PARENT="<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\DDR_AXI4_ARBITER_PF.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v,hdl"
 STATE="utd"
-TIME="1769186352"
+TIME="1771796206"
 SIZE="38746"
 PARENT="<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\DDR_AXI4_ARBITER_PF.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF_Native.v,hdl"
 STATE="utd"
-TIME="1769186352"
+TIME="1771796206"
 SIZE="31747"
 PARENT="<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\DDR_AXI4_ARBITER_PF.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v,hdl"
 STATE="utd"
-TIME="1769186352"
+TIME="1771796206"
 SIZE="18555"
 PARENT="<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\DDR_AXI4_ARBITER_PF.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\read_demux.vhd,hdl"
 STATE="utd"
-TIME="1769186352"
+TIME="1771796206"
 SIZE="12108"
 PARENT="<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\DDR_AXI4_ARBITER_PF.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\read_mux.vhd,hdl"
 STATE="utd"
-TIME="1769186352"
+TIME="1771796206"
 SIZE="6290"
 PARENT="<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\DDR_AXI4_ARBITER_PF.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\read_top.v,hdl"
 STATE="utd"
-TIME="1769186352"
+TIME="1771796206"
 SIZE="12667"
 PARENT="<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\DDR_AXI4_ARBITER_PF.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\request_scheduler.vhd,hdl"
 STATE="utd"
-TIME="1769186352"
+TIME="1771796206"
 SIZE="13629"
 PARENT="<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\DDR_AXI4_ARBITER_PF.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v,hdl"
 STATE="utd"
-TIME="1769186352"
+TIME="1771796206"
 SIZE="57168"
 PARENT="<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\DDR_AXI4_ARBITER_PF.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\write_demux.vhd,hdl"
 STATE="utd"
-TIME="1769186352"
+TIME="1771796206"
 SIZE="8799"
 PARENT="<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\DDR_AXI4_ARBITER_PF.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\write_mux.vhd,hdl"
 STATE="utd"
-TIME="1769186352"
+TIME="1771796206"
 SIZE="9697"
 PARENT="<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\DDR_AXI4_ARBITER_PF.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\write_top.v,hdl"
 STATE="utd"
-TIME="1769186352"
+TIME="1771796206"
 SIZE="13146"
 PARENT="<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\DDR_AXI4_ARBITER_PF.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\Stimulus\DDR_AXI4_ARBITER_PF_tb.v,tb_hdl"
 STATE="utd"
-TIME="1769186352"
+TIME="1771796206"
 SIZE="17728"
 PARENT="<project>\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\DDR_AXI4_ARBITER_PF.cxf"
 IS_READONLY="TRUE"
@@ -360,13 +380,13 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\DDR_AXI4_ARBITER_PF_C0\DDR_AXI4_ARBITER_PF_C0.cxf,actgen_cxf"
 STATE="utd"
-TIME="1769186352"
-SIZE="17062"
+TIME="1771796209"
+SIZE="19480"
 ENDFILE
 VALUE "<project>\component\work\DDR_AXI4_ARBITER_PF_C0\DDR_AXI4_ARBITER_PF_C0.v,hdl"
 STATE="utd"
-TIME="1769186352"
-SIZE="35784"
+TIME="1771796206"
+SIZE="37121"
 PARENT="<project>\component\work\DDR_AXI4_ARBITER_PF_C0\DDR_AXI4_ARBITER_PF_C0.cxf"
 IS_READONLY="TRUE"
 ENDFILE
@@ -396,25 +416,18 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\FrameRD\FrameRD.cxf,actgen_cxf"
 STATE="utd"
-TIME="1769971858"
-SIZE="4746"
-ENDFILE
-VALUE "<project>\component\work\FrameRD\FrameRD.v,hdl"
-STATE="utd"
-TIME="1769971857"
-SIZE="20041"
-PARENT="<project>\component\work\FrameRD\FrameRD.cxf"
-IS_READONLY="TRUE"
+TIME="1771798365"
+SIZE="4954"
 ENDFILE
 VALUE "<project>\component\work\FrameRD_TB\FrameRD_TB.cxf,actgen_cxf"
 STATE="utd"
-TIME="1769971604"
-SIZE="1920"
+TIME="1771758187"
+SIZE="2094"
 ENDFILE
 VALUE "<project>\component\work\FrameRD_TB\FrameRD_TB.v,tb_hdl"
 STATE="utd"
-TIME="1769971604"
-SIZE="3925"
+TIME="1771758187"
+SIZE="4560"
 PARENT="<project>\component\work\FrameRD_TB\FrameRD_TB.cxf"
 IS_READONLY="TRUE"
 ENDFILE
@@ -500,6 +513,126 @@ TIME="1769230768"
 SIZE="1919"
 PARENT="<project>\component\work\RESET_GEN_C0\RESET_GEN_C0.cxf"
 IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\URAM_MIXER\URAM_MIXER.cxf,actgen_cxf"
+STATE="utd"
+TIME="1771006225"
+SIZE="4896"
+ENDFILE
+VALUE "<project>\component\work\URAM_MIXER\URAM_MIXER.v,hdl"
+STATE="utd"
+TIME="1771006224"
+SIZE="5682"
+PARENT="<project>\component\work\URAM_MIXER\URAM_MIXER.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\URAM_MIXER\URAM_MIXER_0\coreparameters.v,tb_hdl"
+STATE="utd"
+TIME="1771006224"
+SIZE="990"
+PARENT="<project>\component\work\URAM_MIXER\URAM_MIXER_0\URAM_MIXER_URAM_MIXER_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+IS_INCLUDED="TRUE"
+ENDFILE
+VALUE "<project>\component\work\URAM_MIXER\URAM_MIXER_0\mti\scripts\runall.do,do"
+STATE="utd"
+TIME="1771006224"
+SIZE="23"
+PARENT="<project>\component\work\URAM_MIXER\URAM_MIXER_0\URAM_MIXER_URAM_MIXER_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\URAM_MIXER\URAM_MIXER_0\mti\scripts\wave.do,do"
+STATE="utd"
+TIME="1771006224"
+SIZE="3286"
+PARENT="<project>\component\work\URAM_MIXER\URAM_MIXER_0\URAM_MIXER_URAM_MIXER_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\COREFIFO.v,hdl"
+STATE="utd"
+TIME="1771006224"
+SIZE="71420"
+PARENT="<project>\component\work\URAM_MIXER\URAM_MIXER_0\URAM_MIXER_URAM_MIXER_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\corefifo_async.v,hdl"
+STATE="utd"
+TIME="1771006224"
+SIZE="55018"
+PARENT="<project>\component\work\URAM_MIXER\URAM_MIXER_0\URAM_MIXER_URAM_MIXER_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\corefifo_fwft.v,hdl"
+STATE="utd"
+TIME="1771006224"
+SIZE="13311"
+PARENT="<project>\component\work\URAM_MIXER\URAM_MIXER_0\URAM_MIXER_URAM_MIXER_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\corefifo_graytobinconv.v,hdl"
+STATE="utd"
+TIME="1771006224"
+SIZE="2547"
+PARENT="<project>\component\work\URAM_MIXER\URAM_MIXER_0\URAM_MIXER_URAM_MIXER_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\corefifo_nstagessync.v,hdl"
+STATE="utd"
+TIME="1771006224"
+SIZE="2330"
+PARENT="<project>\component\work\URAM_MIXER\URAM_MIXER_0\URAM_MIXER_URAM_MIXER_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\corefifo_sync.v,hdl"
+STATE="utd"
+TIME="1771006224"
+SIZE="33346"
+PARENT="<project>\component\work\URAM_MIXER\URAM_MIXER_0\URAM_MIXER_URAM_MIXER_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\corefifo_sync_scntr.v,hdl"
+STATE="utd"
+TIME="1771006224"
+SIZE="23537"
+PARENT="<project>\component\work\URAM_MIXER\URAM_MIXER_0\URAM_MIXER_URAM_MIXER_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\URAM_MIXER_URAM_MIXER_0_ram_wrapper.v,hdl"
+STATE="utd"
+TIME="1771006224"
+SIZE="2388"
+PARENT="<project>\component\work\URAM_MIXER\URAM_MIXER_0\URAM_MIXER_URAM_MIXER_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\URAM_MIXER_URAM_MIXER_0_USRAM_top.v,hdl"
+STATE="utd"
+TIME="1771006224"
+SIZE="1848"
+PARENT="<project>\component\work\URAM_MIXER\URAM_MIXER_0\URAM_MIXER_URAM_MIXER_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\test\user\testbench.v,tb_hdl"
+STATE="utd"
+TIME="1771006224"
+SIZE="19024"
+PARENT="<project>\component\work\URAM_MIXER\URAM_MIXER_0\URAM_MIXER_URAM_MIXER_0_COREFIFO.cxf"
+MODULE_UNDER_TEST="testbench"
+SIMULATION_TIME=" -all"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\test\user\top_define.v,tb_hdl"
+STATE="utd"
+TIME="1771006224"
+SIZE="401"
+PARENT="<project>\component\work\URAM_MIXER\URAM_MIXER_0\URAM_MIXER_URAM_MIXER_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+IS_INCLUDED="TRUE"
+ENDFILE
+VALUE "<project>\component\work\URAM_MIXER\URAM_MIXER_0\URAM_MIXER_URAM_MIXER_0_COREFIFO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1771006224"
+SIZE="3855"
+PARENT="<project>\component\work\URAM_MIXER\URAM_MIXER.cxf"
 ENDFILE
 VALUE "<project>\constraint\FrameRD_derived_constraints.sdc,sdc"
 STATE="utd"
@@ -622,6 +755,11 @@ STATE="utd"
 TIME="1769962387"
 SIZE="7928"
 ENDFILE
+VALUE "<project>\hdl\MixerV20.v,hdl"
+STATE="utd"
+TIME="1771798263"
+SIZE="19771"
+ENDFILE
 VALUE "<project>\hdl\ram2port_ddr_read.v,hdl"
 STATE="utd"
 TIME="1769184272"
@@ -637,10 +775,20 @@ STATE="utd"
 TIME="1769626387"
 SIZE="26640"
 ENDFILE
+VALUE "<project>\hdl\streamscaler_axi.v,hdl"
+STATE="utd"
+TIME="1769978846"
+SIZE="30106"
+ENDFILE
 VALUE "<project>\hdl\synchronizer_circuit_ddr_read.v,hdl"
 STATE="utd"
 TIME="1769184272"
 SIZE="1186"
+ENDFILE
+VALUE "<project>\hdl\VideoCropper.v,hdl"
+STATE="utd"
+TIME="1771622595"
+SIZE="4051"
 ENDFILE
 VALUE "<project>\hdl\video_dumper.v,hdl"
 STATE="utd"
@@ -662,10 +810,10 @@ STATE="utd"
 TIME="1769625586"
 SIZE="1978"
 ENDFILE
-VALUE "<project>\simulation\FrameRD_TB_presynth_simulation.log,log"
+VALUE "<project>\simulation\Mixerv20.do,do"
 STATE="utd"
-TIME="1769975371"
-SIZE="287147"
+TIME="1771627408"
+SIZE="3530"
 ENDFILE
 VALUE "<project>\simulation\PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R0C0.mem,sim"
 STATE="utd"
@@ -1437,8 +1585,8 @@ PARENT="<project>\component\work\PF_SRAM_AHBL_AXI_C0\PF_TPSRAM_AHB_AXI_0\PF_SRAM
 ENDFILE
 VALUE "<project>\simulation\run.do,do"
 STATE="utd"
-TIME="1769716837"
-SIZE="9144"
+TIME="1769971641"
+SIZE="8642"
 ENDFILE
 VALUE "<project>\simulation\run_ddr.do,do"
 STATE="utd"
@@ -1447,18 +1595,18 @@ SIZE="9201"
 ENDFILE
 VALUE "<project>\simulation\tb_axis_bayer_presynth_simulation.log,log"
 STATE="utd"
-TIME="1769893599"
-SIZE="5267"
+TIME="1769895564"
+SIZE="9610"
 ENDFILE
 VALUE "<project>\simulation\tb_copilot_bayer_presynth_simulation.log,log"
 STATE="utd"
-TIME="1769891734"
-SIZE="1166"
+TIME="1769892336"
+SIZE="7461"
 ENDFILE
 VALUE "<project>\simulation\wave.do,do"
 STATE="utd"
-TIME="1769377083"
-SIZE="9614"
+TIME="1769862430"
+SIZE="10664"
 ENDFILE
 VALUE "<project>\stimulus\bayertest.v,tb_hdl"
 STATE="utd"
@@ -1498,6 +1646,7 @@ ENDFILE
 ENDLIST
 LIST UsedFile
 VALUE "<project>\hdl\DebayerGemini2.v,generic_line_buffer"
+VALUE "<project>\hdl\streamscaler_axi.v,ramDualPort"
 ENDLIST
 LIST NewModulesInfo
 LIST "axis_bayer_demosaic::work"
@@ -1569,7 +1718,7 @@ VALUE "<project>\component\Microchip\SolutionCore\Display_Controller\5.0.0\Stimu
 ENDLIST
 ENDLIST
 LIST "FrameRD::work"
-FILE "<project>\component\work\FrameRD\FrameRD.v,hdl"
+FILE "<project>\component\work\FrameRD\FrameRD.cxf,actgen_cxf"
 LIST AssociatedStimulus
 VALUE "<project>\component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.v,tb_hdl"
 VALUE "<project>\component\work\CLK_GEN_C0\CLK_GEN_C0.v,tb_hdl"
@@ -1580,7 +1729,6 @@ VALUE "<project>\component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.v,tb_hdl"
 VALUE "<project>\component\work\RESET_GEN_C0\RESET_GEN_C0.v,tb_hdl"
 VALUE "<project>\hdl\video_dumper.v,hdl"
 VALUE "<project>\hdl\video_dumper_rgb.v,hdl"
-VALUE "<project>\component\work\FrameRD_TB\FrameRD_TB.v,tb_hdl"
 ENDLIST
 LIST SynthesisConstraints
 VALUE "<project>\constraint\FrameRD_derived_constraints.sdc,sdc"
@@ -1740,6 +1888,23 @@ VALUE "<project>\simulation\PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R6
 VALUE "<project>\simulation\PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R63C1.mem,sim"
 ENDLIST
 ENDLIST
+LIST "URAM_MIXER_URAM_MIXER_0_COREFIFO::work"
+FILE "<project>\component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\COREFIFO.v,hdl"
+LIST Other_Association
+VALUE "<project>\component\work\URAM_MIXER\URAM_MIXER_0\coreparameters.v,tb_hdl"
+VALUE "<project>\component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\test\user\top_define.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\clock_driver.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\fifo_driver.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\fifo_monitor.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\g4_dp_ext_mem.v,tb_hdl"
+VALUE "<project>\component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\test\user\testbench.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WeqR.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WgtR.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WltR.v,tb_hdl"
+VALUE "<project>\component\work\URAM_MIXER\URAM_MIXER_0\mti\scripts\wave.do,do"
+VALUE "<project>\component\work\URAM_MIXER\URAM_MIXER_0\mti\scripts\runall.do,do"
+ENDLIST
+ENDLIST
 ENDLIST
 LIST AssociatedStimulus
 LIST FrameRD
@@ -1752,7 +1917,6 @@ VALUE "<project>\component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.v,tb_hdl"
 VALUE "<project>\component\work\RESET_GEN_C0\RESET_GEN_C0.v,tb_hdl"
 VALUE "<project>\hdl\video_dumper.v,hdl"
 VALUE "<project>\hdl\video_dumper_rgb.v,hdl"
-VALUE "<project>\component\work\FrameRD_TB\FrameRD_TB.v,tb_hdl"
 ENDLIST
 LIST bayer_demosaic_axis
 VALUE "<project>\stimulus\tb_copilot.v,tb_hdl"
@@ -1903,6 +2067,20 @@ ENDLIST
 LIST Display_Controller
 VALUE "<project>\component\Microchip\SolutionCore\Display_Controller\5.0.0\Stimulus\Display_Controller_tb.v,tb_hdl"
 ENDLIST
+LIST URAM_MIXER_URAM_MIXER_0_COREFIFO
+VALUE "<project>\component\work\URAM_MIXER\URAM_MIXER_0\coreparameters.v,tb_hdl"
+VALUE "<project>\component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\test\user\top_define.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\clock_driver.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\fifo_driver.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\fifo_monitor.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\g4_dp_ext_mem.v,tb_hdl"
+VALUE "<project>\component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\test\user\testbench.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WeqR.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WgtR.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WltR.v,tb_hdl"
+VALUE "<project>\component\work\URAM_MIXER\URAM_MIXER_0\mti\scripts\wave.do,do"
+VALUE "<project>\component\work\URAM_MIXER\URAM_MIXER_0\mti\scripts\runall.do,do"
+ENDLIST
 ENDLIST
 LIST SimulationOptions
 UseAutomaticDoFile=true
@@ -1992,7 +2170,7 @@ EndProfile
 NAME="Identify Debugger"
 FUNCTION="IdentifyDebugger"
 TOOL="Identify Debugger"
-LOCATION="identify_debugger.exe"
+LOCATION="C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Identify\bin\identify_debugger.exe"
 PARAM=""
 BATCH=0
 LICENSE=""
@@ -2061,27 +2239,12 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-HDL;hdl\demosaic_gemini3.v;0
 SmartDesign;FrameRD;0
-HDL;hdl\video_dumper_rgb.v;0
-HDL;hdl\MemoryModel.v;0
-HDL;hdl\DDR_Read.v;0
 SmartDesign;FrameRD_TB;0
-HDL;hdl\video_dumper.v;0
-HDL;hdl\scaler.v;0
-HDL;stimulus\tb_axis_bayergemini2.v;0
-HDL;hdl\DDR_Read_Native.v;0
-HDL;hdl\RDYCTRL.v;0
-HDL;hdl\DDR_read_controller.v;0
-HDL;hdl\Cropper.v;0
-HDL;hdl\AXI4S_ddr_read_initiator_IF.v;0
+HDL;hdl\MemoryModel.v;0
+HDL;hdl\video_dumper_rgb.v;0
+HDL;hdl\VideoCropper.v;0
 StartPage;StartPage;0
-HDL;component\Microchip\SolutionCore\DDR_Read\1.2.0\RTL\data_unpacker.v;0
-Reports;Reports;0
-ReportsCurrentItem;synthesis:synplify.log
-HDL;constraint\FrameRD_derived_constraints.sdc;0
-Constraint Manager;Constraint Manager;0
-HDL;hdl\COREFIFO.v;0
 ACTIVEVIEW;FrameRD
 ENDLIST
 LIST ModuleSubBlockList
@@ -2222,13 +2385,29 @@ LIST "PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF::work","component\wo
 ENDLIST
 LIST "ram2port_ddr_read::work","hdl\ram2port_ddr_read.v","FALSE","FALSE"
 ENDLIST
-LIST "ramDualPort::work","hdl\scaler.v","FALSE","FALSE"
+LIST "ramDualPort::work","hdl\streamscaler_axi.v","FALSE","FALSE"
 ENDLIST
-LIST "ramFifo::work","hdl\scaler.v","FALSE","FALSE"
-SUBBLOCK "ramDualPort::work","hdl\scaler.v","FALSE","FALSE"
+LIST "ramFifo::work","hdl\streamscaler_axi.v","FALSE","FALSE"
+SUBBLOCK "ramDualPort::work","hdl\streamscaler_axi.v","FALSE","FALSE"
 ENDLIST
 LIST "streamScaler::work","hdl\scaler.v","FALSE","FALSE"
-SUBBLOCK "ramFifo::work","hdl\scaler.v","FALSE","FALSE"
+SUBBLOCK "ramFifo::work","hdl\streamscaler_axi.v","FALSE","FALSE"
+ENDLIST
+LIST "URAM_MIXER_URAM_MIXER_0_corefifo_async::work","component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\corefifo_async.v","FALSE","FALSE"
+SUBBLOCK "URAM_MIXER_URAM_MIXER_0_corefifo_graytobinconv::work","component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\corefifo_graytobinconv.v","FALSE","FALSE"
+SUBBLOCK "URAM_MIXER_URAM_MIXER_0_corefifo_nstagessync::work","component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\corefifo_nstagessync.v","FALSE","FALSE"
+ENDLIST
+LIST "URAM_MIXER_URAM_MIXER_0_corefifo_fwft::work","component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\corefifo_fwft.v","FALSE","FALSE"
+ENDLIST
+LIST "URAM_MIXER_URAM_MIXER_0_corefifo_graytobinconv::work","component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\corefifo_graytobinconv.v","FALSE","FALSE"
+ENDLIST
+LIST "URAM_MIXER_URAM_MIXER_0_corefifo_nstagessync::work","component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\corefifo_nstagessync.v","FALSE","FALSE"
+ENDLIST
+LIST "URAM_MIXER_URAM_MIXER_0_ram_wrapper::work","component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\URAM_MIXER_URAM_MIXER_0_ram_wrapper.v","FALSE","FALSE"
+SUBBLOCK "URAM_MIXER_URAM_MIXER_0_USRAM_top::work","component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\URAM_MIXER_URAM_MIXER_0_USRAM_top.v","FALSE","FALSE"
+ENDLIST
+LIST "VideoMixerV20::work","hdl\MixerV20.v","FALSE","FALSE"
+SUBBLOCK "URAM_MIXER::work","component\work\URAM_MIXER\URAM_MIXER.v","TRUE","FALSE"
 ENDLIST
 LIST "write_mux::work","component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\write_mux.vhd","FALSE","FALSE"
 ENDLIST
@@ -2258,13 +2437,22 @@ SUBBLOCK "ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_fwft::work","component\
 SUBBLOCK "ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_sync_scntr::work","component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync_scntr.v","FALSE","FALSE"
 SUBBLOCK "ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper::work","component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_ram_wrapper.v","FALSE","FALSE"
 ENDLIST
-LIST "FrameRD::work","component\work\FrameRD\FrameRD.v","TRUE","FALSE"
+LIST "ramDualPort::work","hdl\streamscaler_axi.v","FALSE","FALSE"
+ENDLIST
+LIST "ramFifo::work","hdl\streamscaler_axi.v","FALSE","FALSE"
+SUBBLOCK "ramDualPort::work","hdl\streamscaler_axi.v","FALSE","FALSE"
+ENDLIST
+LIST "FrameRD::work","component\work\FrameRD\FrameRD.cxf","TRUE","FALSE"
 SUBBLOCK "DDR_AXI4_ARBITER_PF_C0::work","component\work\DDR_AXI4_ARBITER_PF_C0\DDR_AXI4_ARBITER_PF_C0.v","TRUE","FALSE"
 SUBBLOCK "Display_Controller_C0::work","component\work\Display_Controller_C0\Display_Controller_C0.v","TRUE","FALSE"
-SUBBLOCK "DDR_Read::work","hdl\DDR_Read.v","FALSE","FALSE"
 SUBBLOCK "axi4_mem_model::work","hdl\MemoryModel.v","FALSE","FALSE"
 SUBBLOCK "axis_bayer_demosaic_final::work","hdl\demosaic_gemini3.v","FALSE","FALSE"
+SUBBLOCK "axis_bayer_demosaic_final::work","hdl\demosaic_gemini3.v","FALSE","FALSE"
+SUBBLOCK "DDR_Read::work","hdl\DDR_Read.v","FALSE","FALSE"
+SUBBLOCK "DDR_Read::work","hdl\DDR_Read.v","FALSE","FALSE"
 SUBBLOCK "streamScaler::work","hdl\scaler.v","FALSE","FALSE"
+SUBBLOCK "VideoCropper::work","hdl\VideoCropper.v","FALSE","FALSE"
+SUBBLOCK "VideoMixerV20::work","hdl\MixerV20.v","FALSE","FALSE"
 ENDLIST
 LIST "generic_line_buffer::work","hdl\DebayerGemini2.v","FALSE","FALSE"
 ENDLIST
@@ -2292,10 +2480,32 @@ SUBBLOCK "request_scheduler::work","component\Microchip\SolutionCore\DDR_AXI4_AR
 ENDLIST
 LIST "request_scheduler::work","component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\request_scheduler.vhd","FALSE","FALSE"
 ENDLIST
+LIST "streamScaler_axi::work","hdl\streamscaler_axi.v","FALSE","FALSE"
+SUBBLOCK "ramFifo::work","hdl\streamscaler_axi.v","FALSE","FALSE"
+ENDLIST
 LIST "synchronizer_circuit_ddr_read::work","hdl\synchronizer_circuit_ddr_read.v","FALSE","FALSE"
+ENDLIST
+LIST "URAM_MIXER::work","component\work\URAM_MIXER\URAM_MIXER.v","TRUE","FALSE"
+SUBBLOCK "URAM_MIXER_URAM_MIXER_0_COREFIFO::work","component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\COREFIFO.v","FALSE","FALSE"
+ENDLIST
+LIST "URAM_MIXER_URAM_MIXER_0_COREFIFO::work","component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\COREFIFO.v","FALSE","FALSE"
+SUBBLOCK "URAM_MIXER_URAM_MIXER_0_corefifo_sync_scntr::work","component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\corefifo_sync_scntr.v","FALSE","FALSE"
+SUBBLOCK "URAM_MIXER_URAM_MIXER_0_corefifo_sync::work","component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\corefifo_sync.v","FALSE","FALSE"
+SUBBLOCK "URAM_MIXER_URAM_MIXER_0_corefifo_async::work","component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\corefifo_async.v","FALSE","FALSE"
+SUBBLOCK "URAM_MIXER_URAM_MIXER_0_corefifo_fwft::work","component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\corefifo_fwft.v","FALSE","FALSE"
+SUBBLOCK "URAM_MIXER_URAM_MIXER_0_ram_wrapper::work","component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\URAM_MIXER_URAM_MIXER_0_ram_wrapper.v","FALSE","FALSE"
+SUBBLOCK "URAM_MIXER_URAM_MIXER_0_corefifo_fwft::work","component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\corefifo_fwft.v","FALSE","FALSE"
+ENDLIST
+LIST "URAM_MIXER_URAM_MIXER_0_corefifo_sync::work","component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\corefifo_sync.v","FALSE","FALSE"
+ENDLIST
+LIST "URAM_MIXER_URAM_MIXER_0_corefifo_sync_scntr::work","component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\corefifo_sync_scntr.v","FALSE","FALSE"
+ENDLIST
+LIST "URAM_MIXER_URAM_MIXER_0_USRAM_top::work","component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\URAM_MIXER_URAM_MIXER_0_USRAM_top.v","FALSE","FALSE"
 ENDLIST
 LIST "video_fifo_ddr_read::work","hdl\video_fifo_ddr_read.v","FALSE","FALSE"
 SUBBLOCK "ram2port_ddr_read::work","hdl\ram2port_ddr_read.v","FALSE","FALSE"
+ENDLIST
+LIST "VideoCropper::work","hdl\VideoCropper.v","FALSE","FALSE"
 ENDLIST
 LIST "write_demux::work","component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\write_demux.vhd","FALSE","FALSE"
 ENDLIST
@@ -2306,6 +2516,8 @@ SUBBLOCK "CLK_GEN::work","component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.v","F
 ENDLIST
 LIST "CLK_GEN_PIXCLK::work","component\work\CLK_GEN_PIXCLK\CLK_GEN_PIXCLK.v","TRUE","TRUE"
 SUBBLOCK "CLK_GEN::work","component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.v","FALSE","TRUE"
+ENDLIST
+LIST "clock_driver::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\clock_driver.v","FALSE","TRUE"
 ENDLIST
 LIST "DDR_AXI4_ARBITER_PF_tb::work","component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\Stimulus\DDR_AXI4_ARBITER_PF_tb.v","FALSE","TRUE"
 SUBBLOCK "DDR_AXI4_ARBITER_PF_C0::work","component\work\DDR_AXI4_ARBITER_PF_C0\DDR_AXI4_ARBITER_PF_C0.v","TRUE","FALSE"
@@ -2323,15 +2535,28 @@ ENDLIST
 LIST "axis_bayer_demosaic2::work","hdl\DebayerGemini2.v","FALSE","FALSE"
 SUBBLOCK "generic_line_buffer::work","hdl\DebayerGemini2.v","FALSE","FALSE"
 ENDLIST
+LIST "axis_save_ppm::work","hdl\video_dumper_rgb.v","FALSE","FALSE"
+ENDLIST
 LIST "bayer_demosaic_axis::work","hdl\Demosaic.v","FALSE","FALSE"
 SUBBLOCK "line_buffer::work","hdl\Demosaic.v","FALSE","FALSE"
 ENDLIST
 LIST "dp_ram::work","hdl\Demosaic.v","FALSE","FALSE"
 ENDLIST
+LIST "fifo_driver::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\fifo_driver.v","FALSE","TRUE"
+ENDLIST
+LIST "fifo_monitor::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\fifo_monitor.v","FALSE","TRUE"
+ENDLIST
+LIST "g4_dp_ext_mem::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\g4_dp_ext_mem.v","FALSE","TRUE"
+SUBBLOCK "MEM_WgtR::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WgtR.v","FALSE","TRUE"
+SUBBLOCK "MEM_WltR::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WltR.v","FALSE","TRUE"
+SUBBLOCK "MEM_WeqR::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WeqR.v","FALSE","TRUE"
+ENDLIST
 LIST "line_buffer::work","hdl\Demosaic.v","FALSE","FALSE"
 SUBBLOCK "dp_ram::work","hdl\Demosaic.v","FALSE","FALSE"
 ENDLIST
 LIST "mem_module::work","component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\Stimulus\DDR_AXI4_ARBITER_PF_tb.v","FALSE","TRUE"
+ENDLIST
+LIST "MEM_WeqR::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WeqR.v","FALSE","TRUE"
 ENDLIST
 LIST "generic_line_buffer::work","hdl\DebayerGemini2.v","FALSE","FALSE"
 ENDLIST
@@ -2339,11 +2564,15 @@ LIST "FrameRD_TB::work","component\work\FrameRD_TB\FrameRD_TB.v","TRUE","TRUE"
 SUBBLOCK "CLK_GEN_C0::work","component\work\CLK_GEN_C0\CLK_GEN_C0.v","TRUE","TRUE"
 SUBBLOCK "CLK_GEN_PIXCLK::work","component\work\CLK_GEN_PIXCLK\CLK_GEN_PIXCLK.v","TRUE","TRUE"
 SUBBLOCK "DDR_CLK::work","component\work\DDR_CLK\DDR_CLK.v","TRUE","TRUE"
-SUBBLOCK "FrameRD::work","component\work\FrameRD\FrameRD.v","TRUE","FALSE"
 SUBBLOCK "RDYCTRL::work","hdl\RDYCTRL.v","FALSE","FALSE"
 SUBBLOCK "RESET_GEN_C0::work","component\work\RESET_GEN_C0\RESET_GEN_C0.v","TRUE","TRUE"
 SUBBLOCK "axis_save_pgm2::work","hdl\video_dumper.v","FALSE","FALSE"
 SUBBLOCK "axis_save_ppm::work","hdl\video_dumper_rgb.v","FALSE","FALSE"
+SUBBLOCK "FrameRD::work","component\work\FrameRD\FrameRD.cxf","TRUE","FALSE"
+ENDLIST
+LIST "MEM_WgtR::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WgtR.v","FALSE","TRUE"
+ENDLIST
+LIST "MEM_WltR::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WltR.v","FALSE","TRUE"
 ENDLIST
 LIST "PULSE_GEN::work","component\Actel\Simulation\PULSE_GEN\1.0.1\PULSE_GEN.v","FALSE","TRUE"
 ENDLIST
@@ -2363,6 +2592,15 @@ SUBBLOCK "axis_bayer_demosaic2::work","hdl\DebayerGemini2.v","FALSE","FALSE"
 ENDLIST
 LIST "tb_copilot_bayer::work","stimulus\tb_copilot.v","FALSE","TRUE"
 SUBBLOCK "bayer_demosaic_axis::work","hdl\Demosaic.v","FALSE","FALSE"
+ENDLIST
+LIST "testbench::work","component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\test\user\testbench.v","FALSE","TRUE"
+SUBBLOCK "URAM_MIXER_URAM_MIXER_0_COREFIFO::work","component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\COREFIFO.v","FALSE","FALSE"
+SUBBLOCK "clock_driver::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\clock_driver.v","FALSE","TRUE"
+SUBBLOCK "fifo_driver::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\fifo_driver.v","FALSE","TRUE"
+SUBBLOCK "fifo_monitor::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\fifo_monitor.v","FALSE","TRUE"
+SUBBLOCK "g4_dp_ext_mem::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\g4_dp_ext_mem.v","FALSE","TRUE"
+ENDLIST
+LIST "URAM_MIXER_URAM_MIXER_0_corefifo_fwft::work","component\work\URAM_MIXER\URAM_MIXER_0\rtl\vlog\core\corefifo_fwft.v","FALSE","FALSE"
 ENDLIST
 ENDLIST
 LIST ActiveTestBenchList

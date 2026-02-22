@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Sun Feb  1 22:50:57 2026
+// Created by SmartDesign Mon Feb 23 02:12:46 2026
 // Version: 2025.1 2025.1.0.14
 //////////////////////////////////////////////////////////////////////
 
@@ -8,24 +8,22 @@
 // FrameRD
 module FrameRD(
     // Inputs
-    M_AXIS_0_m_axis_tready,
-    TREADY_I,
+    M_AXIS_iTREADY,
     ddr_clk_i,
     pixel_clk,
     rstn_i,
     video_clk,
     // Outputs
-    M_AXIS_0_m_axis_tdata,
-    M_AXIS_0_m_axis_tlast,
-    M_AXIS_0_m_axis_tuser,
-    M_AXIS_0_m_axis_tvalid
+    M_AXIS_oTDATA,
+    M_AXIS_oTLAST,
+    M_AXIS_oTUSER,
+    M_AXIS_oTVALID
 );
 
 //--------------------------------------------------------------------
 // Input
 //--------------------------------------------------------------------
-input         M_AXIS_0_m_axis_tready;
-input         TREADY_I;
+input         M_AXIS_iTREADY;
 input         ddr_clk_i;
 input         pixel_clk;
 input         rstn_i;
@@ -33,16 +31,26 @@ input         video_clk;
 //--------------------------------------------------------------------
 // Output
 //--------------------------------------------------------------------
-output [23:0] M_AXIS_0_m_axis_tdata;
-output        M_AXIS_0_m_axis_tlast;
-output [3:0]  M_AXIS_0_m_axis_tuser;
-output        M_AXIS_0_m_axis_tvalid;
+output [23:0] M_AXIS_oTDATA;
+output        M_AXIS_oTLAST;
+output        M_AXIS_oTUSER;
+output        M_AXIS_oTVALID;
 //--------------------------------------------------------------------
 // Nets
 //--------------------------------------------------------------------
 wire          AND2_0_Y_0;
+wire   [23:0] axis_bayer_demosaic_final_0_0_M_AXIS_TDATA;
+wire          axis_bayer_demosaic_final_0_0_M_AXIS_TLAST;
+wire          axis_bayer_demosaic_final_0_0_M_AXIS_TREADY;
+wire          axis_bayer_demosaic_final_0_0_M_AXIS_TVALID;
+wire   [23:0] axis_bayer_demosaic_final_0_M_AXIS_TDATA;
+wire          axis_bayer_demosaic_final_0_M_AXIS_TLAST;
+wire          axis_bayer_demosaic_final_0_M_AXIS_TREADY;
+wire          axis_bayer_demosaic_final_0_M_AXIS_TVALID;
 wire          DDR_AXI4_ARBITER_PF_C0_0_ARREADY_O_0;
+wire          DDR_AXI4_ARBITER_PF_C0_0_ARREADY_O_1;
 wire          DDR_AXI4_ARBITER_PF_C0_0_BUSER_O_r0;
+wire          DDR_AXI4_ARBITER_PF_C0_0_BUSER_O_r1;
 wire   [31:0] DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_ARADDR;
 wire   [1:0]  DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_ARBURST;
 wire   [3:0]  DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_ARCACHE;
@@ -77,8 +85,20 @@ wire          DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_WREADY;
 wire   [7:0]  DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_WSTRB;
 wire          DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_WVALID;
 wire   [63:0] DDR_AXI4_ARBITER_PF_C0_0_RDATA_O_0;
+wire   [63:0] DDR_AXI4_ARBITER_PF_C0_0_RDATA_O_1;
 wire          DDR_AXI4_ARBITER_PF_C0_0_RVALID_O_0;
+wire          DDR_AXI4_ARBITER_PF_C0_0_RVALID_O_1;
 wire          ddr_clk_i;
+wire   [31:0] DDR_Read_0_0_ARADDR_O;
+wire   [7:0]  DDR_Read_0_0_ARSIZE_O;
+wire          DDR_Read_0_0_ARVALID_O;
+wire   [7:0]  DDR_Read_0_0_AXIS_M_TDATA;
+wire   [0:0]  DDR_Read_0_0_AXIS_M_TKEEP;
+wire          DDR_Read_0_0_AXIS_M_TLAST;
+wire          DDR_Read_0_0_AXIS_M_TREADY;
+wire   [0:0]  DDR_Read_0_0_AXIS_M_TSTRB;
+wire   [3:0]  DDR_Read_0_0_AXIS_M_TUSER;
+wire          DDR_Read_0_0_AXIS_M_TVALID;
 wire   [31:0] DDR_Read_0_ARADDR_O;
 wire   [7:0]  DDR_Read_0_ARSIZE_O;
 wire          DDR_Read_0_ARVALID_O;
@@ -92,23 +112,28 @@ wire          DDR_Read_0_AXIS_M_TVALID;
 wire          DFN1_0_0_Q;
 wire          DFN1_0_Q;
 wire          Display_Controller_C0_0_V_ACTIVE_O;
-wire   [23:0] M_AXIS_0_TDATA;
-wire          M_AXIS_0_TLAST;
-wire          M_AXIS_0_m_axis_tready;
-wire   [3:0]  M_AXIS_0_TUSER;
-wire          M_AXIS_0_TVALID;
+wire   [23:0] M_AXIS_TDATA;
+wire          M_AXIS_TLAST;
+wire          M_AXIS_iTREADY;
+wire          M_AXIS_TUSER;
+wire          M_AXIS_TVALID;
 wire          pixel_clk;
 wire          rstn_i;
-wire          TREADY_I;
 wire          video_clk;
-wire          M_AXIS_0_TVALID_net_0;
-wire   [23:0] M_AXIS_0_TDATA_net_0;
-wire          M_AXIS_0_TLAST_net_0;
-wire   [3:0]  M_AXIS_0_TUSER_net_0;
+wire   [23:0] VideoCropper_0_M_AXIS_TDATA;
+wire          VideoCropper_0_M_AXIS_TLAST;
+wire          VideoCropper_0_M_AXIS_TREADY;
+wire          VideoCropper_0_M_AXIS_TUSER;
+wire          VideoCropper_0_M_AXIS_TVALID;
+wire          M_AXIS_TVALID_net_0;
+wire   [23:0] M_AXIS_TDATA_net_0;
+wire          M_AXIS_TLAST_net_0;
+wire          M_AXIS_TUSER_net_0;
 //--------------------------------------------------------------------
 // TiedOff Nets
 //--------------------------------------------------------------------
 wire   [11:0] cfg_img_width_const_net_0;
+wire   [11:0] cfg_img_width_const_net_1;
 wire          VCC_net;
 wire   [15:0] line_gap_i_const_net_0;
 wire   [15:0] horz_resl_i_const_net_0;
@@ -116,6 +141,12 @@ wire   [15:0] vert_resl_i_const_net_0;
 wire   [7:0]  frame_start_addr_i_const_net_0;
 wire   [11:0] h_offset_i_const_net_0;
 wire   [11:0] v_offset_i_const_net_0;
+wire   [15:0] line_gap_i_const_net_1;
+wire   [15:0] horz_resl_i_const_net_1;
+wire   [15:0] vert_resl_i_const_net_1;
+wire   [7:0]  frame_start_addr_i_const_net_1;
+wire   [11:0] h_offset_i_const_net_1;
+wire   [11:0] v_offset_i_const_net_1;
 wire          GND_net;
 wire   [23:0] dIn_const_net_0;
 wire   [7:0]  inputDiscardCnt_const_net_0;
@@ -127,6 +158,24 @@ wire   [17:0] xScale_const_net_0;
 wire   [17:0] yScale_const_net_0;
 wire   [29:0] leftOffset_const_net_0;
 wire   [13:0] topFracOffset_const_net_0;
+wire   [10:0] iX1a_const_net_0;
+wire   [10:0] iY1a_const_net_0;
+wire   [10:0] iX1b_const_net_0;
+wire   [10:0] iY1b_const_net_0;
+wire   [10:0] iHRESBack_const_net_0;
+wire   [10:0] iVRESBack_const_net_0;
+wire   [1:0]  iDisplayLayer_const_net_0;
+wire   [7:0]  iBackRed_const_net_0;
+wire   [7:0]  iBackGreen_const_net_0;
+wire   [7:0]  iBackBlue_const_net_0;
+wire   [10:0] iPanX1_const_net_0;
+wire   [10:0] iPanY1_const_net_0;
+wire   [10:0] iHRES1_const_net_0;
+wire   [10:0] iVRES1_const_net_0;
+wire   [10:0] iPanX2_const_net_0;
+wire   [10:0] iPanY2_const_net_0;
+wire   [10:0] iHRES2_const_net_0;
+wire   [10:0] iVRES2_const_net_0;
 wire   [3:0]  bid_const_net_0;
 wire   [3:0]  rid_const_net_0;
 wire   [31:0] AWADDR_I_0_const_net_0;
@@ -137,27 +186,61 @@ wire   [63:0] WDATA_I_0_const_net_0;
 //--------------------------------------------------------------------
 wire          B_IN_POST_INV0_0;
 //--------------------------------------------------------------------
+// Bus Interface Nets Declarations - Unequal Pin Widths
+//--------------------------------------------------------------------
+wire   [3:0]  axis_bayer_demosaic_final_0_0_M_AXIS_TUSER;
+wire          axis_bayer_demosaic_final_0_0_M_AXIS_TUSER_0;
+wire   [0:0]  axis_bayer_demosaic_final_0_0_M_AXIS_TUSER_0_0to0;
+wire   [3:0]  axis_bayer_demosaic_final_0_M_AXIS_TUSER;
+wire          axis_bayer_demosaic_final_0_M_AXIS_TUSER_0;
+wire   [0:0]  axis_bayer_demosaic_final_0_M_AXIS_TUSER_0_0to0;
+//--------------------------------------------------------------------
 // Constant assignments
 //--------------------------------------------------------------------
-assign cfg_img_width_const_net_0      = 12'h190;
+assign cfg_img_width_const_net_0      = 12'h300;
+assign cfg_img_width_const_net_1      = 12'h150;
 assign VCC_net                        = 1'b1;
 assign line_gap_i_const_net_0         = 16'h1000;
-assign horz_resl_i_const_net_0        = 16'h0190;
-assign vert_resl_i_const_net_0        = 16'h012C;
+assign horz_resl_i_const_net_0        = 16'h0300;
+assign vert_resl_i_const_net_0        = 16'h0200;
 assign frame_start_addr_i_const_net_0 = 8'h00;
-assign h_offset_i_const_net_0         = 12'h0C0;
-assign v_offset_i_const_net_0         = 12'h0C8;
+assign h_offset_i_const_net_0         = 12'h000;
+assign v_offset_i_const_net_0         = 12'h000;
+assign line_gap_i_const_net_1         = 16'h1000;
+assign horz_resl_i_const_net_1        = 16'h0150;
+assign vert_resl_i_const_net_1        = 16'h0100;
+assign frame_start_addr_i_const_net_1 = 8'h00;
+assign h_offset_i_const_net_1         = 12'h050;
+assign v_offset_i_const_net_1         = 12'h050;
 assign GND_net                        = 1'b0;
 assign dIn_const_net_0                = 24'h000000;
 assign inputDiscardCnt_const_net_0    = 8'h00;
-assign inputXRes_const_net_0          = 16'h01E0;
-assign inputYRes_const_net_0          = 16'h010E;
+assign inputXRes_const_net_0          = 16'h0190;
+assign inputYRes_const_net_0          = 16'h012C;
 assign outputXRes_const_net_0         = 16'h0780;
 assign outputYRes_const_net_0         = 16'h0438;
-assign xScale_const_net_0             = 18'h01000;
-assign yScale_const_net_0             = 18'h01000;
+assign xScale_const_net_0             = 18'h00D4D;
+assign yScale_const_net_0             = 18'h011BB;
 assign leftOffset_const_net_0         = 30'h00000000;
 assign topFracOffset_const_net_0      = 14'h0000;
+assign iX1a_const_net_0               = 11'h096;
+assign iY1a_const_net_0               = 11'h055;
+assign iX1b_const_net_0               = 11'h257;
+assign iY1b_const_net_0               = 11'h1F4;
+assign iHRESBack_const_net_0          = 11'h780;
+assign iVRESBack_const_net_0          = 11'h438;
+assign iDisplayLayer_const_net_0      = 2'h3;
+assign iBackRed_const_net_0           = 8'h00;
+assign iBackGreen_const_net_0         = 8'h00;
+assign iBackBlue_const_net_0          = 8'h00;
+assign iPanX1_const_net_0             = 11'h000;
+assign iPanY1_const_net_0             = 11'h000;
+assign iHRES1_const_net_0             = 11'h1C2;
+assign iVRES1_const_net_0             = 11'h1A0;
+assign iPanX2_const_net_0             = 11'h000;
+assign iPanY2_const_net_0             = 11'h000;
+assign iHRES2_const_net_0             = 11'h150;
+assign iVRES2_const_net_0             = 11'h100;
 assign bid_const_net_0                = 4'h0;
 assign rid_const_net_0                = 4'h0;
 assign AWADDR_I_0_const_net_0         = 32'h00000000;
@@ -170,14 +253,23 @@ assign B_IN_POST_INV0_0 = ~ DFN1_0_0_Q;
 //--------------------------------------------------------------------
 // Top level output port assignments
 //--------------------------------------------------------------------
-assign M_AXIS_0_TVALID_net_0       = M_AXIS_0_TVALID;
-assign M_AXIS_0_m_axis_tvalid      = M_AXIS_0_TVALID_net_0;
-assign M_AXIS_0_TDATA_net_0        = M_AXIS_0_TDATA;
-assign M_AXIS_0_m_axis_tdata[23:0] = M_AXIS_0_TDATA_net_0;
-assign M_AXIS_0_TLAST_net_0        = M_AXIS_0_TLAST;
-assign M_AXIS_0_m_axis_tlast       = M_AXIS_0_TLAST_net_0;
-assign M_AXIS_0_TUSER_net_0        = M_AXIS_0_TUSER;
-assign M_AXIS_0_m_axis_tuser[3:0]  = M_AXIS_0_TUSER_net_0;
+assign M_AXIS_TVALID_net_0 = M_AXIS_TVALID;
+assign M_AXIS_oTVALID      = M_AXIS_TVALID_net_0;
+assign M_AXIS_TDATA_net_0  = M_AXIS_TDATA;
+assign M_AXIS_oTDATA[23:0] = M_AXIS_TDATA_net_0;
+assign M_AXIS_TLAST_net_0  = M_AXIS_TLAST;
+assign M_AXIS_oTLAST       = M_AXIS_TLAST_net_0;
+assign M_AXIS_TUSER_net_0  = M_AXIS_TUSER;
+assign M_AXIS_oTUSER       = M_AXIS_TUSER_net_0;
+//--------------------------------------------------------------------
+// Bus Interface Nets Assignments - Unequal Pin Widths
+//--------------------------------------------------------------------
+assign axis_bayer_demosaic_final_0_0_M_AXIS_TUSER_0 = { axis_bayer_demosaic_final_0_0_M_AXIS_TUSER_0_0to0 };
+assign axis_bayer_demosaic_final_0_0_M_AXIS_TUSER_0_0to0 = axis_bayer_demosaic_final_0_0_M_AXIS_TUSER[0:0];
+
+assign axis_bayer_demosaic_final_0_M_AXIS_TUSER_0 = { axis_bayer_demosaic_final_0_M_AXIS_TUSER_0_0to0 };
+assign axis_bayer_demosaic_final_0_M_AXIS_TUSER_0_0to0 = axis_bayer_demosaic_final_0_M_AXIS_TUSER[0:0];
+
 //--------------------------------------------------------------------
 // Component instances
 //--------------------------------------------------------------------
@@ -199,32 +291,32 @@ axi4_mem_model_0(
         // Inputs
         .aclk          ( ddr_clk_i ),
         .aresetn       ( rstn_i ),
+        .s_axi_awvalid ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_AWVALID ),
+        .s_axi_wlast   ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_WLAST ),
+        .s_axi_wvalid  ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_WVALID ),
+        .s_axi_bready  ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_BREADY ),
+        .s_axi_arvalid ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_ARVALID ),
+        .s_axi_rready  ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_RREADY ),
         .s_axi_awaddr  ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_AWADDR ),
         .s_axi_awlen   ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_AWLEN ),
         .s_axi_awsize  ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_AWSIZE ),
         .s_axi_awburst ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_AWBURST ),
-        .s_axi_awvalid ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_AWVALID ),
         .s_axi_wdata   ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_WDATA ),
         .s_axi_wstrb   ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_WSTRB ),
-        .s_axi_wlast   ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_WLAST ),
-        .s_axi_wvalid  ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_WVALID ),
-        .s_axi_bready  ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_BREADY ),
         .s_axi_araddr  ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_ARADDR ),
         .s_axi_arlen   ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_ARLEN ),
         .s_axi_arsize  ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_ARSIZE ),
         .s_axi_arburst ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_ARBURST ),
-        .s_axi_arvalid ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_ARVALID ),
-        .s_axi_rready  ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_RREADY ),
         // Outputs
         .s_axi_awready ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_AWREADY ),
         .s_axi_wready  ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_WREADY ),
-        .s_axi_bresp   ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_BRESP ),
         .s_axi_bvalid  ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_BVALID ),
         .s_axi_arready ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_ARREADY ),
-        .s_axi_rdata   ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_RDATA ),
-        .s_axi_rresp   ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_RRESP ),
         .s_axi_rlast   ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_RLAST ),
-        .s_axi_rvalid  ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_RVALID ) 
+        .s_axi_rvalid  ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_RVALID ),
+        .s_axi_bresp   ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_BRESP ),
+        .s_axi_rdata   ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_RDATA ),
+        .s_axi_rresp   ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_RRESP ) 
         );
 
 //--------axis_bayer_demosaic_final
@@ -236,18 +328,41 @@ axis_bayer_demosaic_final_0(
         // Inputs
         .clk           ( pixel_clk ),
         .resetn        ( rstn_i ),
-        .cfg_img_width ( cfg_img_width_const_net_0 ),
-        .s_axis_tdata  ( DDR_Read_0_AXIS_M_TDATA ),
         .s_axis_tvalid ( DDR_Read_0_AXIS_M_TVALID ),
         .s_axis_tlast  ( DDR_Read_0_AXIS_M_TLAST ),
+        .m_axis_tready ( axis_bayer_demosaic_final_0_M_AXIS_TREADY ),
+        .cfg_img_width ( cfg_img_width_const_net_0 ),
+        .s_axis_tdata  ( DDR_Read_0_AXIS_M_TDATA ),
         .s_axis_tuser  ( DDR_Read_0_AXIS_M_TUSER ),
-        .m_axis_tready ( M_AXIS_0_m_axis_tready ),
         // Outputs
         .s_axis_tready ( DDR_Read_0_AXIS_M_TREADY ),
-        .m_axis_tdata  ( M_AXIS_0_TDATA ),
-        .m_axis_tvalid ( M_AXIS_0_TVALID ),
-        .m_axis_tlast  ( M_AXIS_0_TLAST ),
-        .m_axis_tuser  ( M_AXIS_0_TUSER ) 
+        .m_axis_tvalid ( axis_bayer_demosaic_final_0_M_AXIS_TVALID ),
+        .m_axis_tlast  ( axis_bayer_demosaic_final_0_M_AXIS_TLAST ),
+        .m_axis_tdata  ( axis_bayer_demosaic_final_0_M_AXIS_TDATA ),
+        .m_axis_tuser  ( axis_bayer_demosaic_final_0_M_AXIS_TUSER ) 
+        );
+
+//--------axis_bayer_demosaic_final
+axis_bayer_demosaic_final #( 
+        .BAYER_PATTERN ( 1 ),
+        .DATA_WIDTH    ( 8 ),
+        .MAX_IMG_WIDTH ( 2048 ) )
+axis_bayer_demosaic_final_0_0(
+        // Inputs
+        .clk           ( pixel_clk ),
+        .resetn        ( rstn_i ),
+        .cfg_img_width ( cfg_img_width_const_net_1 ),
+        .s_axis_tdata  ( DDR_Read_0_0_AXIS_M_TDATA ),
+        .s_axis_tvalid ( DDR_Read_0_0_AXIS_M_TVALID ),
+        .s_axis_tlast  ( DDR_Read_0_0_AXIS_M_TLAST ),
+        .s_axis_tuser  ( DDR_Read_0_0_AXIS_M_TUSER ),
+        .m_axis_tready ( axis_bayer_demosaic_final_0_0_M_AXIS_TREADY ),
+        // Outputs
+        .s_axis_tready ( DDR_Read_0_0_AXIS_M_TREADY ),
+        .m_axis_tdata  ( axis_bayer_demosaic_final_0_0_M_AXIS_TDATA ),
+        .m_axis_tvalid ( axis_bayer_demosaic_final_0_0_M_AXIS_TVALID ),
+        .m_axis_tlast  ( axis_bayer_demosaic_final_0_0_M_AXIS_TLAST ),
+        .m_axis_tuser  ( axis_bayer_demosaic_final_0_0_M_AXIS_TUSER ) 
         );
 
 //--------DDR_AXI4_ARBITER_PF_C0
@@ -258,36 +373,27 @@ DDR_AXI4_ARBITER_PF_C0 DDR_AXI4_ARBITER_PF_C0_0(
         .ddr_ctrl_ready_i ( VCC_net ),
         .awready          ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_AWREADY ),
         .wready           ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_WREADY ),
-        .bvalid           ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_BVALID ),
-        .arready          ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_ARREADY ),
-        .rlast            ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_RLAST ),
-        .rvalid           ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_RVALID ),
-        .AWVALID_I_0      ( GND_net ), // tied to 1'b0 from definition
-        .WVALID_I_0       ( GND_net ), // tied to 1'b0 from definition
-        .ARVALID_I_0      ( DDR_Read_0_ARVALID_O ),
         .bid              ( bid_const_net_0 ), // tied to 4'h0 from definition
         .bresp            ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_BRESP ),
+        .bvalid           ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_BVALID ),
+        .arready          ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_ARREADY ),
         .rid              ( rid_const_net_0 ), // tied to 4'h0 from definition
         .rdata            ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_RDATA ),
         .rresp            ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_RRESP ),
+        .rlast            ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_RLAST ),
+        .rvalid           ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_RVALID ),
         .AWADDR_I_0       ( AWADDR_I_0_const_net_0 ), // tied to 32'h00000000 from definition
         .AWSIZE_I_0       ( AWSIZE_I_0_const_net_0 ), // tied to 8'h00 from definition
+        .AWVALID_I_0      ( GND_net ), // tied to 1'b0 from definition
         .WDATA_I_0        ( WDATA_I_0_const_net_0 ), // tied to 64'h0000000000000000 from definition
+        .WVALID_I_0       ( GND_net ), // tied to 1'b0 from definition
         .ARADDR_I_0       ( DDR_Read_0_ARADDR_O ),
         .ARSIZE_I_0       ( DDR_Read_0_ARSIZE_O ),
+        .ARVALID_I_0      ( DDR_Read_0_ARVALID_O ),
+        .ARADDR_I_1       ( DDR_Read_0_0_ARADDR_O ),
+        .ARSIZE_I_1       ( DDR_Read_0_0_ARSIZE_O ),
+        .ARVALID_I_1      ( DDR_Read_0_0_ARVALID_O ),
         // Outputs
-        .awvalid          ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_AWVALID ),
-        .wlast            ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_WLAST ),
-        .wvalid           ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_WVALID ),
-        .bready           ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_BREADY ),
-        .arvalid          ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_ARVALID ),
-        .rready           ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_RREADY ),
-        .AWREADY_O_0      (  ),
-        .BUSER_O_0        (  ),
-        .ARREADY_O_0      ( DDR_AXI4_ARBITER_PF_C0_0_ARREADY_O_0 ),
-        .RLAST_O_0        (  ),
-        .RVALID_O_0       ( DDR_AXI4_ARBITER_PF_C0_0_RVALID_O_0 ),
-        .BUSER_O_r0       ( DDR_AXI4_ARBITER_PF_C0_0_BUSER_O_r0 ),
         .awid             ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_AWID ),
         .awaddr           ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_AWADDR ),
         .awlen            ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_AWLEN ),
@@ -296,8 +402,12 @@ DDR_AXI4_ARBITER_PF_C0 DDR_AXI4_ARBITER_PF_C0_0(
         .awlock           ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_AWLOCK ),
         .awcache          ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_AWCACHE ),
         .awprot           ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_AWPROT ),
+        .awvalid          ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_AWVALID ),
         .wdata            ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_WDATA ),
         .wstrb            ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_WSTRB ),
+        .wlast            ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_WLAST ),
+        .wvalid           ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_WVALID ),
+        .bready           ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_BREADY ),
         .arid             ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_ARID ),
         .araddr           ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_ARADDR ),
         .arlen            ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_ARLEN ),
@@ -306,7 +416,20 @@ DDR_AXI4_ARBITER_PF_C0 DDR_AXI4_ARBITER_PF_C0_0(
         .arlock           ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_ARLOCK ),
         .arcache          ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_ARCACHE ),
         .arprot           ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_ARPROT ),
-        .RDATA_O_0        ( DDR_AXI4_ARBITER_PF_C0_0_RDATA_O_0 ) 
+        .arvalid          ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_ARVALID ),
+        .rready           ( DDR_AXI4_ARBITER_PF_C0_0_MIRRORED_SLAVE_AXI4_RREADY ),
+        .AWREADY_O_0      (  ),
+        .BUSER_O_0        (  ),
+        .ARREADY_O_0      ( DDR_AXI4_ARBITER_PF_C0_0_ARREADY_O_0 ),
+        .RDATA_O_0        ( DDR_AXI4_ARBITER_PF_C0_0_RDATA_O_0 ),
+        .RLAST_O_0        (  ),
+        .RVALID_O_0       ( DDR_AXI4_ARBITER_PF_C0_0_RVALID_O_0 ),
+        .BUSER_O_r0       ( DDR_AXI4_ARBITER_PF_C0_0_BUSER_O_r0 ),
+        .ARREADY_O_1      ( DDR_AXI4_ARBITER_PF_C0_0_ARREADY_O_1 ),
+        .RDATA_O_1        ( DDR_AXI4_ARBITER_PF_C0_0_RDATA_O_1 ),
+        .RLAST_O_1        (  ),
+        .RVALID_O_1       ( DDR_AXI4_ARBITER_PF_C0_0_RVALID_O_1 ),
+        .BUSER_O_r1       ( DDR_AXI4_ARBITER_PF_C0_0_BUSER_O_r1 ) 
         );
 
 //--------DDR_Read
@@ -349,6 +472,48 @@ DDR_Read_0(
         .TSTRB_O            ( DDR_Read_0_AXIS_M_TSTRB ),
         .TKEEP_O            ( DDR_Read_0_AXIS_M_TKEEP ),
         .TUSER_O            ( DDR_Read_0_AXIS_M_TUSER ) 
+        );
+
+//--------DDR_Read
+DDR_Read #( 
+        .g_AXI4S_FORMAT         ( 1 ),
+        .g_DDR_AXI_AWIDTH       ( 32 ),
+        .g_DDR_AXI_DWIDTH_I     ( 64 ),
+        .g_FORMAT               ( 1 ),
+        .g_FRAME_GAP            ( 0 ),
+        .g_MAX_HORIZ_RESOL      ( 1920 ),
+        .g_NO_OF_PIXEL_STREAMED ( 1 ),
+        .g_PIXEL_WIDTH          ( 8 ) )
+DDR_Read_0_0(
+        // Inputs
+        .reset_i            ( rstn_i ),
+        .pixel_clk_i        ( pixel_clk ),
+        .ddr_clk_i          ( ddr_clk_i ),
+        .line_gap_i         ( line_gap_i_const_net_1 ),
+        .horz_resl_i        ( horz_resl_i_const_net_1 ),
+        .vert_resl_i        ( vert_resl_i_const_net_1 ),
+        .frame_start_i      ( AND2_0_Y_0 ),
+        .frame_start_addr_i ( frame_start_addr_i_const_net_1 ),
+        .h_offset_i         ( h_offset_i_const_net_1 ),
+        .v_offset_i         ( v_offset_i_const_net_1 ),
+        .RDATA_I            ( DDR_AXI4_ARBITER_PF_C0_0_RDATA_O_1 ),
+        .RVALID_I           ( DDR_AXI4_ARBITER_PF_C0_0_RVALID_O_1 ),
+        .ARREADY_I          ( DDR_AXI4_ARBITER_PF_C0_0_ARREADY_O_1 ),
+        .BUSER_I            ( DDR_AXI4_ARBITER_PF_C0_0_BUSER_O_r1 ),
+        .TREADY_I           ( DDR_Read_0_0_AXIS_M_TREADY ),
+        // Outputs
+        .ARADDR_O           ( DDR_Read_0_0_ARADDR_O ),
+        .ARVALID_O          ( DDR_Read_0_0_ARVALID_O ),
+        .ARSIZE_O           ( DDR_Read_0_0_ARSIZE_O ),
+        .read_start_addr_o  (  ),
+        .read_req_o         (  ),
+        .burst_size_o       (  ),
+        .TDATA_O            ( DDR_Read_0_0_AXIS_M_TDATA ),
+        .TSTRB_O            ( DDR_Read_0_0_AXIS_M_TSTRB ),
+        .TKEEP_O            ( DDR_Read_0_0_AXIS_M_TKEEP ),
+        .TVALID_O           ( DDR_Read_0_0_AXIS_M_TVALID ),
+        .TLAST_O            ( DDR_Read_0_0_AXIS_M_TLAST ),
+        .TUSER_O            ( DDR_Read_0_0_AXIS_M_TUSER ) 
         );
 
 //--------DFN1
@@ -401,10 +566,10 @@ streamScaler #(
 streamScaler_0(
         // Inputs
         .clk             ( GND_net ),
-        .rst             ( GND_net ),
+        .rst             ( VCC_net ),
         .dInValid        ( GND_net ),
         .start           ( GND_net ),
-        .nextDout        ( VCC_net ),
+        .nextDout        ( GND_net ),
         .nearestNeighbor ( GND_net ),
         .dIn             ( dIn_const_net_0 ),
         .inputDiscardCnt ( inputDiscardCnt_const_net_0 ),
@@ -420,6 +585,85 @@ streamScaler_0(
         .nextDin         (  ),
         .dOutValid       (  ),
         .dOut            (  ) 
+        );
+
+//--------VideoCropper
+VideoCropper #( 
+        .pColorWidth ( 8 ),
+        .pMaxHRes    ( 1920 ),
+        .pMaxVRes    ( 1080 ),
+        .pNChannels  ( 3 ),
+        .pPPC        ( 1 ) )
+VideoCropper_0(
+        // Inputs
+        .iPixClk  ( pixel_clk ),
+        .iPixRstn ( rstn_i ),
+        .iX1a     ( iX1a_const_net_0 ),
+        .iY1a     ( iY1a_const_net_0 ),
+        .iX1b     ( iX1b_const_net_0 ),
+        .iY1b     ( iY1b_const_net_0 ),
+        .iTDATA   ( axis_bayer_demosaic_final_0_M_AXIS_TDATA ),
+        .iTVALID  ( axis_bayer_demosaic_final_0_M_AXIS_TVALID ),
+        .iTLAST   ( axis_bayer_demosaic_final_0_M_AXIS_TLAST ),
+        .iTUSER   ( axis_bayer_demosaic_final_0_M_AXIS_TUSER_0 ),
+        .iTREADY  ( VideoCropper_0_M_AXIS_TREADY ),
+        // Outputs
+        .oTREADY  ( axis_bayer_demosaic_final_0_M_AXIS_TREADY ),
+        .oTDATA   ( VideoCropper_0_M_AXIS_TDATA ),
+        .oTVALID  ( VideoCropper_0_M_AXIS_TVALID ),
+        .oTLAST   ( VideoCropper_0_M_AXIS_TLAST ),
+        .oTUSER   ( VideoCropper_0_M_AXIS_TUSER ) 
+        );
+
+//--------VideoMixerV20
+VideoMixerV20 #( 
+        .pActiveLayers ( 2 ),
+        .pColorWidth   ( 8 ),
+        .pMaxLayers    ( 2 ),
+        .pMonitorHres  ( 1920 ),
+        .pMonitorVres  ( 1080 ),
+        .pNChannels    ( 3 ),
+        .pPPC          ( 1 ) )
+VideoMixerV20_0(
+        // Inputs
+        .iPixClk       ( pixel_clk ),
+        .iPixRstn      ( rstn_i ),
+        .iHRESBack     ( iHRESBack_const_net_0 ),
+        .iVRESBack     ( iVRESBack_const_net_0 ),
+        .iSWResetN     ( VCC_net ),
+        .iStart        ( VCC_net ),
+        .iStop         ( GND_net ),
+        .iDisplayLayer ( iDisplayLayer_const_net_0 ),
+        .iBackRed      ( iBackRed_const_net_0 ),
+        .iBackGreen    ( iBackGreen_const_net_0 ),
+        .iBackBlue     ( iBackBlue_const_net_0 ),
+        .iPanX1        ( iPanX1_const_net_0 ),
+        .iPanY1        ( iPanY1_const_net_0 ),
+        .iHRES1        ( iHRES1_const_net_0 ),
+        .iVRES1        ( iVRES1_const_net_0 ),
+        .iLayer1En     ( VCC_net ),
+        .iTDATA1       ( VideoCropper_0_M_AXIS_TDATA ),
+        .iTVALID1      ( VideoCropper_0_M_AXIS_TVALID ),
+        .iTLAST1       ( VideoCropper_0_M_AXIS_TLAST ),
+        .iTUSER1       ( VideoCropper_0_M_AXIS_TUSER ),
+        .iPanX2        ( iPanX2_const_net_0 ),
+        .iPanY2        ( iPanY2_const_net_0 ),
+        .iHRES2        ( iHRES2_const_net_0 ),
+        .iVRES2        ( iVRES2_const_net_0 ),
+        .iLayer2En     ( VCC_net ),
+        .iTDATA2       ( axis_bayer_demosaic_final_0_0_M_AXIS_TDATA ),
+        .iTVALID2      ( axis_bayer_demosaic_final_0_0_M_AXIS_TVALID ),
+        .iTLAST2       ( axis_bayer_demosaic_final_0_0_M_AXIS_TLAST ),
+        .iTUSER2       ( axis_bayer_demosaic_final_0_0_M_AXIS_TUSER_0 ),
+        .iTREADY       ( M_AXIS_iTREADY ),
+        // Outputs
+        .oInt          (  ),
+        .oTREADY1      ( VideoCropper_0_M_AXIS_TREADY ),
+        .oTREADY2      ( axis_bayer_demosaic_final_0_0_M_AXIS_TREADY ),
+        .oTDATA        ( M_AXIS_TDATA ),
+        .oTVALID       ( M_AXIS_TVALID ),
+        .oTLAST        ( M_AXIS_TLAST ),
+        .oTUSER        ( M_AXIS_TUSER ) 
         );
 
 

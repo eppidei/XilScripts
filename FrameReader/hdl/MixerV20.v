@@ -20,6 +20,7 @@ module VideoMixerV20 #(
     input                                               iStart,
     input                                               iStop,
     output                                              oInt,
+	input 				[1:0]							iDisplayLayer,
 
     //Background Layer
     input           [pColorWidth-1:0]                   iBackRed,
@@ -96,6 +97,7 @@ module VideoMixerV20 #(
     reg             [pColorWidth-1:0]       rBackRed;
     reg             [pColorWidth-1:0]       rBackGreen;
     reg             [pColorWidth-1:0]       rBackBlue;
+    reg                  [1:0]					rDisplayLayer;
     
     // Position and Size Registers
     reg     [$clog2(lpMAXHRES)-1:0]         rPANX [1:pMaxLayers];
@@ -133,6 +135,7 @@ module VideoMixerV20 #(
     wire                                    wUSER [1:pMaxLayers];
     
     reg     [lpFifoWidth+2-1:0]             wFIFODATA [1:pActiveLayers][1:pNChannels];
+    reg     [(pPPC)*(3)*pColorWidth-1:0]            wDISPLAYDATA ;
     wire                                    wFIFOVALID [1:pActiveLayers][1:pNChannels];
     reg                                     rFIFOREN [1:pActiveLayers][1:pNChannels]; 
     wire                                    wFIFOREN [1:pActiveLayers][1:pNChannels];
@@ -200,7 +203,9 @@ module VideoMixerV20 #(
             rPANX2[2] 	<= 0;
             rPANY[2] 	<= 0;
             rPANY2[2] 	<= 0;
-            rHRES[2] 	<= 0; 
+            rHRES[2] 	<= 0;
+			
+			rDisplayLayer <=0;
         end 
         else if (rSTATE == stIDLE) begin
 			rBackRed   	 <= iBackRed;
@@ -224,6 +229,8 @@ module VideoMixerV20 #(
             rHRES[2]         <= iHRES2;
             rVRES[2]         <= iVRES2;
             rLayerEnabled[2] <= iLayer2En;
+			
+			rDisplayLayer    <= iDisplayLayer;
         end
     end
 
@@ -337,32 +344,35 @@ module VideoMixerV20 #(
 
                                 for (l=1; l<=pActiveLayers; l=l+1) begin
                                     rIncGlobal[l] = 0; // Initialize
+									rFIFOREN[l] <= '{default:0};
                                     if (rLayerEnabled[l]) begin 
-                                        if (wLayerDataValid[l]) begin
-                                            // IF I AM VALID AND ALL OTHERS READYTODISPLAY ARE VALID
-                                            rIncGlobal[l] = check_data_synched(l, wLayerReadyToDisplay, wLayerDataValid);
-                                          
-                                            if (rIncGlobal[l]) begin
-												
-                                                 if (~wFIFODATA[l][1][lpLAST_BITFIELD]) begin 
-                                                     rFIFOREN[l] <= '{default:1}; // Read all channels
-                                                     rHCountLayer[l] <= rHCountLayer[l] + 1;
-													// $display("rIncGlobal[%d] = %d\n",l, rIncGlobal[l]);
-                                                 end
-												 /* when we have last ready to display is low
-												 else begin //IF LAST
-                                                     rHCountLayer[l] <= 0;
-													 $display("LAST rIncGlobal[%d] = %d\n",l, rIncGlobal[l]);
-                                                     rVCountLayer[l] <= rVCountLayer[l] + 1;
-                                                     if (rVCountLayer[l] == rVRES[l]-1) rVCountLayer[l] <= 0;
-                                                 end
-												 */
-                                            end
+                                        if (wLayerDataValid[l]) begin // IF I AM VALID
+											if (wLayerReadyToDisplay[l]) begin // IF I AM READY TO DISPLAY
+													
+												rIncGlobal[l] = check_data_synched(l, wLayerReadyToDisplay, wLayerDataValid);
+											  
+												if (rIncGlobal[l]) begin // IF ALL OTHERS READYTODISPLAY ARE VALID
+													
+													 rFIFOREN[l] <= '{default:1}; // Read all channels
+													rHCountLayer[l] <= rHCountLayer[l] + 1;
+													 if (wFIFODATA[l][1][lpLAST_BITFIELD]) begin 
+													  $display("LAST & READY2DISPLAY  SHOULD NOT HAPPEN rIncGlobal[%d] = %d\n",l, rIncGlobal[l]);
+													 end
+													 /* when we have last ready to display is low
+													 else begin //IF LAST
+														 rHCountLayer[l] <= 0;
+														 $display("LAST rIncGlobal[%d] = %d\n",l, rIncGlobal[l]);
+														 rVCountLayer[l] <= rVCountLayer[l] + 1;
+														 if (rVCountLayer[l] == rVRES[l]-1) rVCountLayer[l] <= 0;
+													 end
+													 */
+												end								
+											end
                                         end
                                     end
                                 end
                                 
-                                // Global Increment kepps running is layers are displaying
+                                // Global Increment kepps running if at least one layer is displaying
                                 if (|rIncGlobal) begin
                                      rHCountGlobal <= rHCountGlobal + 1;
 									 rVALID 				<= 1;
@@ -402,10 +412,26 @@ module VideoMixerV20 #(
             end
         end
     end
+	
+	
+	
+	always@(*)
+	begin
+	if (rDisplayLayer==0) 
+	wDISPLAYDATA <={wFIFODATA[1][3][pColorWidth+2-1:2], wFIFODATA[1][2][pColorWidth+2-1:2], wFIFODATA[1][1][pColorWidth+2-1:2]} ;
+	else if (rDisplayLayer==1) 
+	wDISPLAYDATA <={wFIFODATA[2][3][pColorWidth+2-1:2], wFIFODATA[2][2][pColorWidth+2-1:2], wFIFODATA[2][1][pColorWidth+2-1:2]} ;
+	else
+	wDISPLAYDATA <={(wFIFODATA[1][3][pColorWidth+2-1:2]+wFIFODATA[2][3][pColorWidth+2-1:2])>>1,
+					(wFIFODATA[1][2][pColorWidth+2-1:2]+wFIFODATA[2][2][pColorWidth+2-1:2])>>1, 
+					(wFIFODATA[1][1][pColorWidth+2-1:2]+wFIFODATA[2][1][pColorWidth+2-1:2])>>1} ;
+	end 
+	
     
     // OUTPUT ASSIGNMENTS
-    assign oTDATA   = (rSHOWBACKGROUND ) ? {iBackRed,iBackGreen,iBackBlue} :
-					  {wFIFODATA[1][3][pColorWidth+2-1:2], wFIFODATA[1][2][pColorWidth+2-1:2], wFIFODATA[1][1][pColorWidth+2-1:2]};
+    assign oTDATA   = (rSHOWBACKGROUND ) ? {iBackRed,iBackGreen,iBackBlue} : rDisplayLayer ?
+					  {wFIFODATA[2][3][pColorWidth+2-1:2], wFIFODATA[2][2][pColorWidth+2-1:2], wFIFODATA[2][1][pColorWidth+2-1:2]} :
+					  {wFIFODATA[1][3][pColorWidth+2-1:2], wFIFODATA[1][2][pColorWidth+2-1:2], wFIFODATA[1][1][pColorWidth+2-1:2]} ;
     assign oTVALID  = rVALID;
     assign oTLAST   = rLAST;
     assign oTUSER   = (rVALID==1 && rHCountGlobal==1 && rVCountGlobal==0)? 1 : 0;
