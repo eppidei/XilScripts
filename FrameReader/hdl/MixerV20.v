@@ -135,7 +135,10 @@ module VideoMixerV20 #(
     wire                                    wUSER [1:pMaxLayers];
     
     reg     [lpFifoWidth+2-1:0]             wFIFODATA [1:pActiveLayers][1:pNChannels];
-    reg     [(pPPC)*(3)*pColorWidth-1:0]            wDISPLAYDATA ;
+    wire     [(pPPC)*(3)*pColorWidth-1:0]            wDISPLAYDATA ;
+    wire     [(pPPC)*(3)*pColorWidth-1:0]            wDISPLAYDATA1 ;
+    wire     [(pPPC)*(3)*pColorWidth-1:0]            wDISPLAYDATA2 ;
+    wire     [(pPPC)*(3)*pColorWidth-1:0]            wDISPLAYDATA3 ;
     wire                                    wFIFOVALID [1:pActiveLayers][1:pNChannels];
     reg                                     rFIFOREN [1:pActiveLayers][1:pNChannels]; 
     wire                                    wFIFOREN [1:pActiveLayers][1:pNChannels];
@@ -318,7 +321,7 @@ module VideoMixerV20 #(
                         end
                         
                         stCOL_COUNT : begin
-                            rFIFOREN <= '{default:0};
+                            rFIFOREN <= '{default:'{default:1'b0}};
                             rLAST 				<= 0;
 							rVALID 				<= 0;
 							rSHOWBACKGROUND     <= 0;
@@ -345,7 +348,11 @@ module VideoMixerV20 #(
                                 for (l=1; l<=pActiveLayers; l=l+1) begin
                                     rIncGlobal[l] = 0; // Initialize
 									rFIFOREN[l] <= '{default:0};
-                                    if (rLayerEnabled[l]) begin 
+                                    if (rLayerEnabled[l]) begin
+										if (wFIFODATA[l][1][lpLAST_BITFIELD])begin 
+											rHCountLayer[l] <= 0;
+											rVCountLayer[l] <= rVCountLayer[l] + 1;
+										end
                                         if (wLayerDataValid[l]) begin // IF I AM VALID
 											if (wLayerReadyToDisplay[l]) begin // IF I AM READY TO DISPLAY
 													
@@ -413,25 +420,21 @@ module VideoMixerV20 #(
         end
     end
 	
+	assign wDISPLAYDATA1 = {wFIFODATA[1][3][pColorWidth+2-1:2], wFIFODATA[1][2][pColorWidth+2-1:2], wFIFODATA[1][1][pColorWidth+2-1:2]   } & 
+						   {	 {pColorWidth{rFIFOREN[1][3]}},	     {pColorWidth{rFIFOREN[1][2]}},        {pColorWidth{rFIFOREN[1][1]}} };
+					  
+	assign wDISPLAYDATA2 = {wFIFODATA[2][3][pColorWidth+2-1:2], wFIFODATA[2][2][pColorWidth+2-1:2], wFIFODATA[2][1][pColorWidth+2-1:2]   } & 
+						   {     {pColorWidth{rFIFOREN[2][3]}},		 {pColorWidth{rFIFOREN[2][2]}},		   {pColorWidth{rFIFOREN[2][1]}} };
+						 
+	assign wDISPLAYDATA3 = {(wDISPLAYDATA1[3*pColorWidth-1:2*pColorWidth] >>1 ) + (wDISPLAYDATA2[3*pColorWidth-1:2*pColorWidth] >>1) ,
+							(wDISPLAYDATA1[2*pColorWidth-1:1*pColorWidth] >>1 ) + (wDISPLAYDATA2[2*pColorWidth-1:1*pColorWidth] >>1) ,
+							(wDISPLAYDATA1[1*pColorWidth-1:0*pColorWidth] >>1 ) + (wDISPLAYDATA2[1*pColorWidth-1:0*pColorWidth] >>1) };
 	
+	assign wDISPLAYDATA  = (rDisplayLayer==0) ? wDISPLAYDATA1 : (rDisplayLayer==1) ? wDISPLAYDATA2 : wDISPLAYDATA3;
 	
-	always@(*)
-	begin
-	if (rDisplayLayer==0) 
-	wDISPLAYDATA <={wFIFODATA[1][3][pColorWidth+2-1:2], wFIFODATA[1][2][pColorWidth+2-1:2], wFIFODATA[1][1][pColorWidth+2-1:2]} ;
-	else if (rDisplayLayer==1) 
-	wDISPLAYDATA <={wFIFODATA[2][3][pColorWidth+2-1:2], wFIFODATA[2][2][pColorWidth+2-1:2], wFIFODATA[2][1][pColorWidth+2-1:2]} ;
-	else
-	wDISPLAYDATA <={(wFIFODATA[1][3][pColorWidth+2-1:2]+wFIFODATA[2][3][pColorWidth+2-1:2])>>1,
-					(wFIFODATA[1][2][pColorWidth+2-1:2]+wFIFODATA[2][2][pColorWidth+2-1:2])>>1, 
-					(wFIFODATA[1][1][pColorWidth+2-1:2]+wFIFODATA[2][1][pColorWidth+2-1:2])>>1} ;
-	end 
-	
-    
+
     // OUTPUT ASSIGNMENTS
-    assign oTDATA   = (rSHOWBACKGROUND ) ? {iBackRed,iBackGreen,iBackBlue} : rDisplayLayer ?
-					  {wFIFODATA[2][3][pColorWidth+2-1:2], wFIFODATA[2][2][pColorWidth+2-1:2], wFIFODATA[2][1][pColorWidth+2-1:2]} :
-					  {wFIFODATA[1][3][pColorWidth+2-1:2], wFIFODATA[1][2][pColorWidth+2-1:2], wFIFODATA[1][1][pColorWidth+2-1:2]} ;
+    assign oTDATA   = (rSHOWBACKGROUND ) ? {iBackRed,iBackGreen,iBackBlue} : wDISPLAYDATA ;
     assign oTVALID  = rVALID;
     assign oTLAST   = rLAST;
     assign oTUSER   = (rVALID==1 && rHCountGlobal==1 && rVCountGlobal==0)? 1 : 0;
