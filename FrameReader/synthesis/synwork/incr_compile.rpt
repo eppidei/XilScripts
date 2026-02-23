@@ -1,0 +1,343 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-5
+Install: C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: DESKTOP-8FMOK3J
+
+Implementation : synthesis
+Synopsys HDL compiler and linker, Version comp202309synp1, Build 540R, Built Apr 29 2025 09:15:16, @
+
+Modified Files: 2
+FID:  path (prevtimestamp, timestamp)
+37       C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27)
+40       C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 127
+MID:  lib.cell.view
+0        work.APBM.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+1        work.APBS.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+2        work.AXI4_M_M_IF.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+3        work.AXI4_S_IF.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+4        work.Arbiter_Initiator_Rd_IF.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+5        work.BANKCTRLM.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+6        work.BANKCTRL_GPIO.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+7        work.BANKCTRL_HSIO.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+8        work.BANKEN.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+9        work.CLKBUF_DIFF.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+10       work.CLKBUF_DIFF_ODT.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+11       work.CORELNKTMR_V.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+12       work.CRN_COMMON.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+13       work.CRN_INT.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+14       work.CRYPTO.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+15       work.CRYPTO_SOC.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+16       work.DDR_AXI4_ARBITER_PF.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+17       work.DDR_AXI4_ARBITER_PF_C0.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+18       work.DDR_AXI4_ARBITER_PF_Native.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+19       work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_COREFIFO.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+20       work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_LSRAM_top.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+21       work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+22       work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_fwft.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+23       work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_graytobinconv.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+24       work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_nstagessync.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+25       work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_sync.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+26       work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_sync_scntr.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+27       work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_ram_wrapper.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+28       work.DDR_Read.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+29       work.DDR_Read_Native.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+30       work.DDR_read_controller.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+31       work.DEBUG.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+32       work.DLL.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+33       work.DRI.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+34       work.Display_Controller.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+35       work.Display_Controller_C0.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+36       work.ENFORCE.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+37       work.FrameRD.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (module definition)
+38       work.GLITCHDETECT.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+39       work.GPSS_COMMON.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+40       work.HS_IO_CLK.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+41       work.ICB_BANKCLK.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+42       work.ICB_CLKDIV.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+43       work.ICB_CLKDIVDELAY.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+44       work.ICB_CLKINT.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+45       work.ICB_CLKSTOP.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+46       work.ICB_CLKSTOP_EN.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+47       work.ICB_INT.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+48       work.ICB_MUXING.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+49       work.ICB_NGMUX.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+50       work.INIT.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+51       work.IOD.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+52       work.LANECTRL.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+53       work.LANERST.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+54       work.MCHP_BLIC.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+55       work.OSC_RC160MHZ.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+56       work.OSC_RC200MHZ.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+57       work.OSC_RC2MHZ.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+58       work.PCIE.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+59       work.PCIE_COMMON.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+60       work.PFSOC_SCSM.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+61       work.PF_SPI.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+62       work.PF_SRAM_AHBL_AXI_C0.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+63       work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+64       work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+65       work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_ECC.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+66       work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+67       work.PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+68       work.PLL.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+69       work.QUADRST.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+70       work.QUADRST_PCIE.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+71       work.SCB.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+72       work.SYSCTRL_RESET_STATUS.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+73       work.SYSRESET.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+74       work.SYS_SERVICES.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+75       work.TAMPER.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+76       work.TVS.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+77       work.TX_PLL.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+78       work.UPROM.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+79       work.USPI.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+80       work.VOLTAGEDETECT.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+81       work.VREFBANKDYN.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+82       work.VREFCTRL.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+83       work.XCVR.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+84       work.XCVR_64B6XB.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+85       work.XCVR_8B10B.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+86       work.XCVR_APB_LINK.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+87       work.XCVR_APB_LINK_V.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+88       work.XCVR_APB_LINK_V2.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+89       work.XCVR_DUAL_PCS.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+90       work.XCVR_PIPE.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+91       work.XCVR_PIPE_AXI0.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+92       work.XCVR_PIPE_AXI1.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+93       work.XCVR_PMA.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+94       work.XCVR_REF_CLK.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+95       work.XCVR_REF_CLK_N.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+96       work.XCVR_REF_CLK_P.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+97       work.XCVR_TEST.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+98       work.XCVR_VV.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\syn_comps.v (2026-01-27 22:04:03, 2026-01-27 22:09:27) <-- (module definition)
+99       work.axi4lite_adapter_display_controller.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+100      work.axi4lite_top_display_controller.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+101      work.axi4stream_initiator_display_controller.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+102      work.axi4stream_target_display_controller.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+103      work.ddr_rw_arbiter.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+104      work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_LSRAM_top.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+105      work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_NstagesSync.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+106      work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_async.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+107      work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_fwft.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+108      work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_grayToBinConv.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+109      work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_resetSync.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+110      work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_sync.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+111      work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_sync_scntr.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+112      work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+113      work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_video_axi_fifo.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+114      work.display_controller_native.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+115      work.display_fifo.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+116      work.ram2port_display_fifo.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+117      work.read_demux.read_demux may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+119      work.read_mux.read_mux may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+121      work.read_register_display_controller.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+122      work.read_top.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+123      work.request_scheduler.request_scheduler may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+125      work.synchronizer_2stage_display_controller.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+127      work.write_demux.write_demux may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+129      work.write_mux.write_mux may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+130      work.write_register_display_controller.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+131      work.write_top.verilog may have changed because the following files changed:
+                        C:\prj\FrameReader\component\work\FrameRD\FrameRD.v (2026-01-26 01:34:46, 2026-01-27 22:06:46) <-- (may instantiate this module)
+
+*******************************************************************
+Unmodified files: 58
+FID:  path (timestamp)
+0        C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\generic\acg5.v (2025-04-29 17:12:56)
+1        C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd2008\arith.vhd (2025-04-29 19:53:28)
+2        C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd2008\location.map (2025-04-29 19:53:30)
+3        C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd2008\numeric.vhd (2025-04-29 20:26:22)
+4        C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd2008\std.vhd (2025-04-29 19:53:30)
+5        C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd2008\std1164.vhd (2025-04-29 19:53:30)
+6        C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd2008\std_textio.vhd (2025-04-29 19:53:30)
+7        C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd2008\unsigned.vhd (2025-04-29 19:53:30)
+8        C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd\hyperents.vhd (2025-04-29 19:53:28)
+9        C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd\snps_haps_pkg.vhd (2025-04-29 19:53:28)
+10       C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd\umr_capim.vhd (2025-04-29 19:53:28)
+11       C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vlog\hypermods.v (2025-04-29 19:53:26)
+12       C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vlog\scemi_objects.v (2025-04-29 19:53:26)
+13       C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vlog\scemi_pipes.svh (2025-04-29 19:53:26)
+14       C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\AXI4_M_M_IF.v (2026-01-23 20:39:12)
+15       C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\AXI4_S_IF.v (2026-01-23 20:39:12)
+16       C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v (2026-01-23 20:39:12)
+17       C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF_Native.v (2026-01-23 20:39:12)
+18       C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_LSRAM_top.v (2026-01-23 20:39:12)
+19       C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_NstagesSync.v (2026-01-23 20:39:12)
+20       C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_async.v (2026-01-23 20:39:12)
+21       C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_fwft.v (2026-01-23 20:39:12)
+22       C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_grayToBinConv.v (2026-01-23 20:39:12)
+23       C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_resetSync.v (2026-01-23 20:39:12)
+24       C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync.v (2026-01-23 20:39:12)
+25       C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync_scntr.v (2026-01-23 20:39:12)
+26       C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_ram_wrapper.v (2026-01-23 20:39:12)
+27       C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v (2026-01-23 20:39:12)
+28       C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\read_demux.vhd (2026-01-23 20:39:12)
+29       C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\read_mux.vhd (2026-01-23 20:39:12)
+30       C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\read_top.v (2026-01-23 20:39:12)
+31       C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\request_scheduler.vhd (2026-01-23 20:39:12)
+32       C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v (2026-01-23 20:39:12)
+33       C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\write_demux.vhd (2026-01-23 20:39:12)
+34       C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\write_mux.vhd (2026-01-23 20:39:12)
+35       C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\write_top.v (2026-01-23 20:39:12)
+36       C:\prj\FrameReader\component\Microchip\SolutionCore\Display_Controller\5.0.0\Encrypted\display_controller.v (2026-01-18 05:59:29)
+38       C:\prj\FrameReader\component\work\DDR_AXI4_ARBITER_PF_C0\DDR_AXI4_ARBITER_PF_C0.v (2026-01-23 20:39:12)
+39       C:\prj\FrameReader\component\work\Display_Controller_C0\Display_Controller_C0.v (2026-01-23 21:00:50)
+41       C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\COREAXI4SRAM_0\rtl\vlog\core\CoreAXI4SRAM.v (2026-01-25 21:03:37)
+42       C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\COREAXI4SRAM_0\rtl\vlog\core\CoreAXI4SRAM_MAINCTRL.v (2026-01-25 21:03:37)
+43       C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\COREAXI4SRAM_0\rtl\vlog\core\CoreAXI4SRAM_MAINCTRL_ECC.v (2026-01-25 21:03:37)
+44       C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\COREAXI4SRAM_0\rtl\vlog\core\CoreAXI4SRAM_SLVIF.v (2026-01-25 21:03:37)
+45       C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\PF_SRAM_AHBL_AXI_C0.v (2026-01-25 21:03:41)
+46       C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\PF_TPSRAM_AHB_AXI_0\PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v (2026-01-25 21:03:41)
+47       C:\prj\FrameReader\hdl\Arbiter_Initiator_Rd_IF.v (2026-01-23 20:04:32)
+48       C:\prj\FrameReader\hdl\COREFIFO.v (2026-01-25 20:31:37)
+49       C:\prj\FrameReader\hdl\DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_LSRAM_top.v (2026-01-25 20:31:37)
+50       C:\prj\FrameReader\hdl\DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_ram_wrapper.v (2026-01-25 20:31:37)
+51       C:\prj\FrameReader\hdl\DDR_Read.v (2026-01-27 21:48:26)
+52       C:\prj\FrameReader\hdl\DDR_Read_Native.v (2026-01-27 21:46:59)
+53       C:\prj\FrameReader\hdl\DDR_read_controller.v (2026-01-27 00:34:56)
+54       C:\prj\FrameReader\hdl\corefifo_async.v (2026-01-25 20:31:37)
+55       C:\prj\FrameReader\hdl\corefifo_fwft.v (2026-01-25 20:31:37)
+56       C:\prj\FrameReader\hdl\corefifo_graytobinconv.v (2026-01-25 20:31:37)
+57       C:\prj\FrameReader\hdl\corefifo_nstagessync.v (2026-01-25 20:31:37)
+58       C:\prj\FrameReader\hdl\corefifo_sync.v (2026-01-25 20:31:37)
+59       C:\prj\FrameReader\hdl\corefifo_sync_scntr.v (2026-01-25 20:31:37)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

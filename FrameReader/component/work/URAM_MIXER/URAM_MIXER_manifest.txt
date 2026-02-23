@@ -1,0 +1,37 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
+
+Date      :  Fri Feb 13 22:10:25 2026
+Project   :  C:\prj\FrameReader
+Component :  URAM_MIXER
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/prj/FrameReader/component/work/URAM_MIXER/URAM_MIXER_0/rtl/vlog/core/URAM_MIXER_URAM_MIXER_0_ram_wrapper.v
+    C:/prj/FrameReader/component/work/URAM_MIXER/URAM_MIXER_0/rtl/vlog/core/URAM_MIXER_URAM_MIXER_0_USRAM_top.v
+    C:/prj/FrameReader/component/work/URAM_MIXER/URAM_MIXER_0/rtl/vlog/core/COREFIFO.v
+    C:/prj/FrameReader/component/work/URAM_MIXER/URAM_MIXER_0/rtl/vlog/core/corefifo_sync.v
+    C:/prj/FrameReader/component/work/URAM_MIXER/URAM_MIXER_0/rtl/vlog/core/corefifo_sync_scntr.v
+    C:/prj/FrameReader/component/work/URAM_MIXER/URAM_MIXER_0/rtl/vlog/core/corefifo_async.v
+    C:/prj/FrameReader/component/work/URAM_MIXER/URAM_MIXER_0/rtl/vlog/core/corefifo_nstagessync.v
+    C:/prj/FrameReader/component/work/URAM_MIXER/URAM_MIXER_0/rtl/vlog/core/corefifo_graytobinconv.v
+    C:/prj/FrameReader/component/work/URAM_MIXER/URAM_MIXER_0/rtl/vlog/core/corefifo_fwft.v
+    C:/prj/FrameReader/component/work/URAM_MIXER/URAM_MIXER.v
+
+Stimulus files for all Simulation tools:
+    C:/prj/FrameReader/component/work/URAM_MIXER/URAM_MIXER_0/mti/scripts/wave.do
+    C:/prj/FrameReader/component/work/URAM_MIXER/URAM_MIXER_0/mti/scripts/runall.do
+
+    C:/prj/FrameReader/component/work/URAM_MIXER/URAM_MIXER_0/coreparameters.v
+    C:/prj/FrameReader/component/work/URAM_MIXER/URAM_MIXER_0/rtl/vlog/test/user/top_define.v
+    C:/prj/FrameReader/component/Actel/DirectCore/COREFIFO/3.1.101/rtl/vlog/test/user/clock_driver.v
+    C:/prj/FrameReader/component/Actel/DirectCore/COREFIFO/3.1.101/rtl/vlog/test/user/fifo_driver.v
+    C:/prj/FrameReader/component/Actel/DirectCore/COREFIFO/3.1.101/rtl/vlog/test/user/fifo_monitor.v
+    C:/prj/FrameReader/component/Actel/DirectCore/COREFIFO/3.1.101/rtl/vlog/test/user/g4_dp_ext_mem.v
+    C:/prj/FrameReader/component/work/URAM_MIXER/URAM_MIXER_0/rtl/vlog/test/user/testbench.v
+    C:/prj/FrameReader/component/Actel/DirectCore/COREFIFO/3.1.101/rtl/vlog/test/user/MEM_WeqR.v
+    C:/prj/FrameReader/component/Actel/DirectCore/COREFIFO/3.1.101/rtl/vlog/test/user/MEM_WgtR.v
+    C:/prj/FrameReader/component/Actel/DirectCore/COREFIFO/3.1.101/rtl/vlog/test/user/MEM_WltR.v
+
+Constraint files:
+    C:/prj/FrameReader/component/work/URAM_MIXER\URAM_MIXER_0\URAM_MIXER_URAM_MIXER_0_COREFIFO.sdc

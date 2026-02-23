@@ -134,7 +134,7 @@ module VideoMixerV20 #(
     wire                                    wLAST [1:pMaxLayers];
     wire                                    wUSER [1:pMaxLayers];
     
-    reg     [lpFifoWidth+2-1:0]             wFIFODATA [1:pActiveLayers][1:pNChannels];
+    reg     [lpFifoWidth-1:0]             wFIFODATA [1:pActiveLayers][1:pNChannels];
     wire     [(pPPC)*(3)*pColorWidth-1:0]            wDISPLAYDATA ;
     wire     [(pPPC)*(3)*pColorWidth-1:0]            wDISPLAYDATA1 ;
     wire     [(pPPC)*(3)*pColorWidth-1:0]            wDISPLAYDATA2 ;

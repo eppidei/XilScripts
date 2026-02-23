@@ -1,0 +1,180 @@
+# Tue Jan 27 22:09:46 2026
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-5
+Install: C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: DESKTOP-8FMOK3J
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202309act, Build 395R, Built Apr 29 2025 06:36:49, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 185MB peak: 185MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 201MB peak: 201MB)
+
+Reading constraint file: C:\prj\FrameReader\designer\FrameRD\synthesis.fdc
+@L: C:\prj\FrameReader\synthesis\FrameRD_scck.rpt 
+See clock summary report "C:\prj\FrameReader\synthesis\FrameRD_scck.rpt"
+@N: MF472 |Synthesis running in Automatic Compile Point mode
+@N: MF474 |No compile point is identified in Automatic Compile Point mode
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 221MB peak: 221MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 221MB peak: 221MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 222MB peak: 222MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 223MB peak: 224MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+NConnInternalConnection caching is on
+@N: FX1171 :"c:\prj\framereader\hdl\ddr_read_native.v":177:0:177:5|Found instance DDR_Read_0.genblk1.DDR_Read_Native_6.rTLASTo with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\prj\framereader\hdl\ddr_read_native.v":261:0:261:5|Found instance DDR_Read_0.genblk1.DDR_Read_Native_6.rOrphanValid with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\prj\framereader\hdl\ddr_read_native.v":261:0:261:5|Found instance DDR_Read_0.genblk1.DDR_Read_Native_6.rOrphanData[8:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@W: BN132 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":285:6:285:11|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1.waddrchset_mc because it is equivalent to instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1.awready_mc. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":1141:5:1141:10|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk2.raddrchset_mc because it is equivalent to instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk2.arready_mc. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 278MB peak: 278MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 278MB peak: 278MB)
+
+@N: MO111 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_ram_wrapper.v":59:26:59:36|Tristate driver A_DB_DETECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_64s_64s_9_9_1s_1s_2s(verilog)) on net A_DB_DETECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_64s_64s_9_9_1s_1s_2s(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_ram_wrapper.v":57:26:57:37|Tristate driver A_SB_CORRECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_64s_64s_9_9_1s_1s_2s(verilog)) on net A_SB_CORRECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_64s_64s_9_9_1s_1s_2s(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_ram_wrapper.v":60:26:60:36|Tristate driver B_DB_DETECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_64s_64s_9_9_1s_1s_2s(verilog)) on net B_DB_DETECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_64s_64s_9_9_1s_1s_2s(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_ram_wrapper.v":58:26:58:37|Tristate driver B_SB_CORRECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_64s_64s_9_9_1s_1s_2s(verilog)) on net B_SB_CORRECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_64s_64s_9_9_1s_1s_2s(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\video_axi_fifo.v":151:37:151:45|Tristate driver DB_DETECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_video_axi_fifo_Z1_layer0(verilog)) on net DB_DETECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_video_axi_fifo_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\video_axi_fifo.v":150:37:150:46|Tristate driver SB_CORRECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_video_axi_fifo_Z1_layer0(verilog)) on net SB_CORRECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_video_axi_fifo_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_ram_wrapper.v":59:26:59:36|Tristate driver A_DB_DETECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_8s_8s_3_3_1s_1s_2s(verilog)) on net A_DB_DETECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_8s_8s_3_3_1s_1s_2s(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_ram_wrapper.v":57:26:57:37|Tristate driver A_SB_CORRECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_8s_8s_3_3_1s_1s_2s(verilog)) on net A_SB_CORRECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_8s_8s_3_3_1s_1s_2s(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_ram_wrapper.v":60:26:60:36|Tristate driver B_DB_DETECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_8s_8s_3_3_1s_1s_2s(verilog)) on net B_DB_DETECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_8s_8s_3_3_1s_1s_2s(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_ram_wrapper.v":58:26:58:37|Tristate driver B_SB_CORRECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_8s_8s_3_3_1s_1s_2s(verilog)) on net B_SB_CORRECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_8s_8s_3_3_1s_1s_2s(verilog)) has its enable tied to GND.
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 278MB peak: 278MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 278MB peak: 279MB)
+
+@N: BN115 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\ddr_axi4_arbiter_pf.v":730:5:730:17|Removing instance genblk3\.AXI4_M_M_IF_0 (in view: work.DDR_AXI4_ARBITER_PF_4s_32s_64s_1s_1s_2s_1s(verilog)) because it does not drive other instances.
+@N: BN115 :"c:\prj\framereader\hdl\ddr_read.v":126:7:126:31|Removing instance genblk2\.ARBITER_INITIATOR_RD_IF_0 (in view: work.DDR_Read_1920s_64s_1s_1s_32s_0s_1s_8s_8s(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":1111:4:1111:9|Removing sequential instance genblk1\.wrap_waddr_next_r[13:0] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z13_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":1562:4:1562:9|Removing sequential instance genblk2\.raddr_sc_dummy[13:0] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z13_layer0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_corefifo_sync_scntr.v":365:4:365:9|Removing sequential instance dvld_r (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_sync_scntr_Z2_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance AWBURST_slvif[0] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF_64s_32s_1s_1s_1s_2048s_2s_8s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance ARBURST_slvif[0] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF_64s_32s_1s_1s_1s_2048s_2s_8s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_corefifo_sync_scntr.v":219:3:219:8|Removing sequential instance rdcnt[9:0] (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_sync_scntr_Z2_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_corefifo_sync_scntr.v":219:3:219:8|Removing sequential instance rdcnt[3:0] (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_sync_scntr_Z5_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\hdl\corefifo_async.v":776:12:776:17|Removing sequential instance genblk10\.afull_r (in view: work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\hdl\corefifo_async.v":709:12:709:17|Removing sequential instance genblk10\.rdcnt_r[15:1] (in view: work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":300:5:300:10|Removing sequential instance genblk1\.set_wraligned_done (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z13_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN115 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\write_top.v":313:12:313:24|Removing instance write_demux_0 (in view: work.write_top_32s_64s(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_corefifo_sync_scntr.v":324:3:324:8|Removing sequential instance genblk5\.almostemptyi (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_sync_scntr_Z2_layer0(verilog)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_corefifo_sync_scntr.v":324:3:324:8|Removing sequential instance genblk5\.almostemptyi (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_sync_scntr_Z5_layer0(verilog)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance AWADDR_slvif[31:0] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF_64s_32s_1s_1s_1s_2048s_2s_8s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: FP130 |Promoting Net ddr_clk_i on CLKINT  I_1 
+@N: FP130 |Promoting Net rstn_i_arst on CLKINT  I_2 
+@N: FP130 |Promoting Net pixel_clk_i on CLKINT  I_3 
+@N: FX1184 |Applying syn_allowed_resources blockrams=352 on top level netlist FrameRD 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 280MB peak: 280MB)
+
+Some data will not be shown as it is part of encrypted module
+
+
+Clock Summary
+******************
+
+          Start      Requested     Requested     Clock        Clock                Clock
+Level     Clock      Frequency     Period        Type         Group                Load 
+----------------------------------------------------------------------------------------
+0 -       ddrclk     200.0 MHz     5.000         declared     default_clkgroup     1486 
+                                                                                        
+0 -       pixclk     148.5 MHz     6.734         declared     default_clkgroup     202  
+========================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+           Clock     Source                Clock Pin                                                                                                  Non-clock Pin     Non-clock Pin
+Clock      Load      Pin                   Seq Example                                                                                                Seq Example       Comb Example 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ddrclk     1486      ddr_clk_i(port)       PF_SRAM_AHBL_AXI_C0_0.PF_TPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R0C0.B_CLK     -                 I_1.A(CLKINT)
+                                                                                                                                                                                     
+pixclk     202       pixel_clk_i(port)     DFN1_0.CLK                                                                                                 -                 I_3.A(CLKINT)
+=====================================================================================================================================================================================
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\prj\FrameReader\synthesis\FrameRD.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 279MB peak: 281MB)
+
+Encoding state machine local_wbus_state[3:0] (in view: work.ddr_rw_arbiter_Z7_layer0(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\ddr_rw_arbiter.v":356:1:356:6|There are no possible illegal states for state machine local_wbus_state[3:0] (in view: work.ddr_rw_arbiter_Z7_layer0(verilog)); safe FSM implementation is not required.
+Encoding state machine video_bus_state[4:0] (in view: work.ddr_rw_arbiter_Z7_layer0(verilog))
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   101 -> 01000
+   110 -> 10000
+Encoding state machine s_state[0:5] (in view: work.request_scheduler_0(request_scheduler))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+Encoding state machine s_state[0:5] (in view: work.request_scheduler_1(request_scheduler))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+Encoding state machine s_state[3:0] (in view: work.DDR_read_controller_64s_8s_0s_0_1_2_3_256s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\prj\framereader\hdl\ddr_read_controller.v":163:0:163:5|There are no possible illegal states for state machine s_state[3:0] (in view: work.DDR_read_controller_64s_8s_0s_0_1_2_3_256s(verilog)); safe FSM implementation is not required.
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 281MB peak: 281MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 281MB peak: 281MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 190MB peak: 282MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Tue Jan 27 22:09:48 2026
+
+###########################################################]

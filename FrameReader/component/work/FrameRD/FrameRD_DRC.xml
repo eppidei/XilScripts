@@ -23,4 +23,18 @@
     <detail>Unconnected bus interface pin DDR_AXI4_ARBITER_PF_C0_0:Read_channel_1</detail>
     <crossprobe>liberoaction://cross_probe/smartdesign/FrameRD/pins/DDR_AXI4_ARBITER_PF_C0_0:Read_channel_1</crossprobe>
   </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output bus pin Display_Controller_C0_0:H_RES_O[15:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FrameRD/pins/Display_Controller_C0_0:H_RES_O</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output bus pin Display_Controller_C0_0:V_RES_O[15:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FrameRD/pins/Display_Controller_C0_0:V_RES_O</crossprobe>
+  </drc>
 </drcreport>

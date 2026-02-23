@@ -1,0 +1,4 @@
+Library, Design Unit ,Compile time , Hardware Gen ,Optimization Stg1 ,Optimization Stg2 , Peak Mem Usage, Incr Mem Usage, Hardware Gen ,Optimization Stg1 ,Optimization Stg2
+work, DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_COREFIFO_Z8_layer0,0h:00m:01s,0h:00m:01s,0h:00m:00s,0h:00m:00s,   147 MB,     2 MB,     2 MB,     0 MB,     0 MB
+work, DDR_Read_1920s_64s_1s_1s_32s_0s_1s_8s_8s,0h:00m:01s,0h:00m:01s,-,0h:00m:00s,   147 MB,     4 MB,     4 MB,     0 MB,     0 MB
+work, DDR_AXI4_ARBITER_PF_4s_32s_64s_1s_1s_2s_1s,0h:00m:01s,0h:00m:01s,-,0h:00m:00s,   147 MB,     5 MB,     5 MB,     0 MB,     0 MB

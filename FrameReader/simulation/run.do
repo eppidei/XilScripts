@@ -35,6 +35,17 @@ vlog -sv -work presynth "${PROJECT_DIR}/component/Microchip/SolutionCore/DDR_AXI
 vlog -sv -work presynth "${PROJECT_DIR}/component/work/DDR_AXI4_ARBITER_PF_C0/DDR_AXI4_ARBITER_PF_C0.v"
 vlog -sv -work presynth "${PROJECT_DIR}/component/Microchip/SolutionCore/Display_Controller/5.0.0/Encrypted/display_controller.v"
 vlog -sv -work presynth "${PROJECT_DIR}/component/work/Display_Controller_C0/Display_Controller_C0.v"
+vlog -sv -work presynth "${PROJECT_DIR}/component/work/TCTRL_FIFO/TCTRL_FIFO_0/rtl/vlog/core/corefifo_fwft.v"
+vlog -sv -work presynth "${PROJECT_DIR}/component/work/TCTRL_FIFO/TCTRL_FIFO_0/rtl/vlog/core/corefifo_sync_scntr.v"
+vlog -sv -work presynth "${PROJECT_DIR}/component/work/TCTRL_FIFO/TCTRL_FIFO_0/rtl/vlog/core/corefifo_sync.v"
+vlog -sv -work presynth "${PROJECT_DIR}/component/work/TCTRL_FIFO/TCTRL_FIFO_0/rtl/vlog/core/corefifo_graytobinconv.v"
+vlog -sv -work presynth "${PROJECT_DIR}/component/work/TCTRL_FIFO/TCTRL_FIFO_0/rtl/vlog/core/corefifo_nstagessync.v"
+vlog -sv -work presynth "${PROJECT_DIR}/component/work/TCTRL_FIFO/TCTRL_FIFO_0/rtl/vlog/core/corefifo_async.v"
+vlog -sv -work presynth "${PROJECT_DIR}/component/work/TCTRL_FIFO/TCTRL_FIFO_0/rtl/vlog/core/TCTRL_FIFO_TCTRL_FIFO_0_LSRAM_top.v"
+vlog -sv -work presynth "${PROJECT_DIR}/component/work/TCTRL_FIFO/TCTRL_FIFO_0/rtl/vlog/core/TCTRL_FIFO_TCTRL_FIFO_0_ram_wrapper.v"
+vlog -sv -work presynth "${PROJECT_DIR}/component/work/TCTRL_FIFO/TCTRL_FIFO_0/rtl/vlog/core/COREFIFO.v"
+vlog -sv -work presynth "${PROJECT_DIR}/component/work/TCTRL_FIFO/TCTRL_FIFO.v"
+vlog -sv -work presynth "${PROJECT_DIR}/hdl/timing_controller.v"
 vlog -sv -work presynth "${PROJECT_DIR}/hdl/VideoCropper.v"
 vlog -sv -work presynth "${PROJECT_DIR}/hdl/Arbiter_Initiator_Rd_IF.v"
 vlog -sv -work presynth "${PROJECT_DIR}/hdl/corefifo_fwft.v"
@@ -79,5 +90,4 @@ vlog "+incdir+${PROJECT_DIR}/component/Actel/Simulation/CLK_GEN/1.0.1" "+incdir+
 
 vsim -voptargs=+acc -L PolarFire -L presynth  -t 1ps -displaymsgmode both presynth.FrameRD_TB
 add log -r /*
-do ./Mixerv20.do
 run 20 ms

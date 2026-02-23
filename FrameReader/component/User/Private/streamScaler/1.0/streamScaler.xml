@@ -1,0 +1,153 @@
+<spirit:component xmlns:actel-cc="http://www.actel.com/XMLSchema/CoreConsole" xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1.1 http://www.spiritconsortium.org/XMLSchema/SPIRIT/1.1/component.xsd">
+  <spirit:vendor>User</spirit:vendor>
+  <spirit:library>Private</spirit:library>
+  <spirit:name>streamScaler</spirit:name>
+  <spirit:version>1.0</spirit:version>
+  <spirit:busInterfaces>
+  </spirit:busInterfaces>
+  <spirit:memoryMaps>
+  </spirit:memoryMaps>
+  <spirit:hwModel>
+    <spirit:views>
+    </spirit:views>
+    <spirit:signals>
+      <spirit:signal>
+        <spirit:name>clk</spirit:name>
+        <spirit:direction>in</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>rst</spirit:name>
+        <spirit:direction>in</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>dIn</spirit:name>
+        <spirit:direction>in</spirit:direction>
+        <spirit:left spirit:dependency="(id('DATA_WIDTH') * id('CHANNELS')) - 1" spirit:resolve="dependent">7</spirit:left>
+        <spirit:right>0</spirit:right>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>dInValid</spirit:name>
+        <spirit:direction>in</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>nextDin</spirit:name>
+        <spirit:direction>out</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>start</spirit:name>
+        <spirit:direction>in</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>dOut</spirit:name>
+        <spirit:direction>out</spirit:direction>
+        <spirit:left spirit:dependency="(id('DATA_WIDTH') * id('CHANNELS')) - 1" spirit:resolve="dependent">7</spirit:left>
+        <spirit:right>0</spirit:right>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>dOutValid</spirit:name>
+        <spirit:direction>out</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>nextDout</spirit:name>
+        <spirit:direction>in</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>inputDiscardCnt</spirit:name>
+        <spirit:direction>in</spirit:direction>
+        <spirit:left spirit:dependency="id('DISCARD_CNT_WIDTH') - 1" spirit:resolve="dependent">7</spirit:left>
+        <spirit:right>0</spirit:right>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>inputXRes</spirit:name>
+        <spirit:direction>in</spirit:direction>
+        <spirit:left spirit:dependency="id('INPUT_X_RES_WIDTH') - 1" spirit:resolve="dependent">10</spirit:left>
+        <spirit:right>0</spirit:right>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>inputYRes</spirit:name>
+        <spirit:direction>in</spirit:direction>
+        <spirit:left spirit:dependency="id('INPUT_Y_RES_WIDTH') - 1" spirit:resolve="dependent">10</spirit:left>
+        <spirit:right>0</spirit:right>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>outputXRes</spirit:name>
+        <spirit:direction>in</spirit:direction>
+        <spirit:left spirit:dependency="id('OUTPUT_X_RES_WIDTH') - 1" spirit:resolve="dependent">10</spirit:left>
+        <spirit:right>0</spirit:right>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>outputYRes</spirit:name>
+        <spirit:direction>in</spirit:direction>
+        <spirit:left spirit:dependency="id('OUTPUT_Y_RES_WIDTH') - 1" spirit:resolve="dependent">10</spirit:left>
+        <spirit:right>0</spirit:right>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>xScale</spirit:name>
+        <spirit:direction>in</spirit:direction>
+        <spirit:left spirit:dependency="id('SCALE_BITS') - 1" spirit:resolve="dependent">17</spirit:left>
+        <spirit:right>0</spirit:right>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>yScale</spirit:name>
+        <spirit:direction>in</spirit:direction>
+        <spirit:left spirit:dependency="id('SCALE_BITS') - 1" spirit:resolve="dependent">17</spirit:left>
+        <spirit:right>0</spirit:right>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>leftOffset</spirit:name>
+        <spirit:direction>in</spirit:direction>
+        <spirit:left spirit:dependency="(id('OUTPUT_X_RES_WIDTH') - 1) + id('SCALE_FRAC_BITS')" spirit:resolve="dependent">24</spirit:left>
+        <spirit:right>0</spirit:right>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>topFracOffset</spirit:name>
+        <spirit:direction>in</spirit:direction>
+        <spirit:left spirit:dependency="id('SCALE_FRAC_BITS') - 1" spirit:resolve="dependent">13</spirit:left>
+        <spirit:right>0</spirit:right>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>nearestNeighbor</spirit:name>
+        <spirit:direction>in</spirit:direction>
+      </spirit:signal>
+    </spirit:signals>
+    <spirit:hwParameters>
+      <spirit:hwParameter spirit:id="DATA_WIDTH" spirit:name="DATA_WIDTH" spirit:prompt="DATA_WIDTH:" spirit:dataType="int" spirit:resolve="user">8</spirit:hwParameter>
+      <spirit:hwParameter spirit:id="CHANNELS" spirit:name="CHANNELS" spirit:prompt="CHANNELS:" spirit:dataType="int" spirit:resolve="user">1</spirit:hwParameter>
+      <spirit:hwParameter spirit:id="DISCARD_CNT_WIDTH" spirit:name="DISCARD_CNT_WIDTH" spirit:prompt="DISCARD_CNT_WIDTH:" spirit:dataType="int" spirit:resolve="user">8</spirit:hwParameter>
+      <spirit:hwParameter spirit:id="INPUT_X_RES_WIDTH" spirit:name="INPUT_X_RES_WIDTH" spirit:prompt="INPUT_X_RES_WIDTH:" spirit:dataType="int" spirit:resolve="user">11</spirit:hwParameter>
+      <spirit:hwParameter spirit:id="INPUT_Y_RES_WIDTH" spirit:name="INPUT_Y_RES_WIDTH" spirit:prompt="INPUT_Y_RES_WIDTH:" spirit:dataType="int" spirit:resolve="user">11</spirit:hwParameter>
+      <spirit:hwParameter spirit:id="OUTPUT_X_RES_WIDTH" spirit:name="OUTPUT_X_RES_WIDTH" spirit:prompt="OUTPUT_X_RES_WIDTH:" spirit:dataType="int" spirit:resolve="user">11</spirit:hwParameter>
+      <spirit:hwParameter spirit:id="OUTPUT_Y_RES_WIDTH" spirit:name="OUTPUT_Y_RES_WIDTH" spirit:prompt="OUTPUT_Y_RES_WIDTH:" spirit:dataType="int" spirit:resolve="user">11</spirit:hwParameter>
+      <spirit:hwParameter spirit:id="FRACTION_BITS" spirit:name="FRACTION_BITS" spirit:prompt="FRACTION_BITS:" spirit:dataType="int" spirit:resolve="user">8</spirit:hwParameter>
+      <spirit:hwParameter spirit:id="SCALE_INT_BITS" spirit:name="SCALE_INT_BITS" spirit:prompt="SCALE_INT_BITS:" spirit:dataType="int" spirit:resolve="user">4</spirit:hwParameter>
+      <spirit:hwParameter spirit:id="SCALE_FRAC_BITS" spirit:name="SCALE_FRAC_BITS" spirit:prompt="SCALE_FRAC_BITS:" spirit:dataType="int" spirit:resolve="user">14</spirit:hwParameter>
+      <spirit:hwParameter spirit:id="BUFFER_SIZE" spirit:name="BUFFER_SIZE" spirit:prompt="BUFFER_SIZE:" spirit:dataType="int" spirit:resolve="user">4</spirit:hwParameter>
+    </spirit:hwParameters>
+    <spirit:deletedhwParameters>
+      <spirit:hwParameter spirit:id="COEFF_WIDTH" spirit:name="COEFF_WIDTH" spirit:prompt="COEFF_WIDTH:" spirit:dataType="int" spirit:resolve="user">9</spirit:hwParameter>
+      <spirit:hwParameter spirit:id="SCALE_BITS" spirit:name="SCALE_BITS" spirit:prompt="SCALE_BITS:" spirit:dataType="int" spirit:resolve="user">18</spirit:hwParameter>
+      <spirit:hwParameter spirit:id="BUFFER_SIZE_WIDTH" spirit:name="BUFFER_SIZE_WIDTH" spirit:prompt="BUFFER_SIZE_WIDTH:" spirit:dataType="int" spirit:resolve="user">3</spirit:hwParameter>
+    </spirit:deletedhwParameters>
+  </spirit:hwModel>
+  <spirit:choices>
+  </spirit:choices>
+  <spirit:fileSets>
+  <spirit:fileSet spirit:fileSetId="HDL_FILESET">
+    <spirit:file>
+      <spirit:name>hdl/scaler.v</spirit:name>
+      <spirit:fileType>verilogSource</spirit:fileType>
+    <spirit:vendorExtensions></spirit:vendorExtensions>
+    </spirit:file>
+  <spirit:vendorExtensions></spirit:vendorExtensions>
+  </spirit:fileSet>
+  </spirit:fileSets>
+  <spirit:vendorExtensions>
+    <actel-cc:type typeName="IP"/>
+    <actel-cc:instantiateOnCreation value="false"/>
+    <actel-cc:diveInPermission value="READ_WRITE"/>
+    <actel-cc:categories categoryName="OS" style="hidden">
+      <actel-cc:category name="PC">
+      </actel-cc:category>
+    </actel-cc:categories>
+  </spirit:vendorExtensions>
+</spirit:component>

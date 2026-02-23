@@ -1,0 +1,21 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Interface 4LUT,Interface DFF,Single-Ended I/O,LSRAM (20K),Chip Globals
+DDR_AXI4_ARBITER_PF_C0_0/DDR_AXI4_ARBITER_PF_C0_0/genblk11.AXI4_S_IF_0/Primitives,0,70,0,0,0,0,0
+DDR_AXI4_ARBITER_PF_C0_0/DDR_AXI4_ARBITER_PF_C0_0/genblk2.DDR_AXI4_ARBITER_PF_axi_0/ddr_rw_arbiter_0/Primitives,8,7,0,0,0,0,0
+DDR_AXI4_ARBITER_PF_C0_0/DDR_AXI4_ARBITER_PF_C0_0/genblk2.DDR_AXI4_ARBITER_PF_axi_0/read_top_0/read_demux_1/Primitives,3,0,0,0,0,0,0
+DDR_AXI4_ARBITER_PF_C0_0/DDR_AXI4_ARBITER_PF_C0_0/genblk2.DDR_AXI4_ARBITER_PF_axi_0/read_top_0/request_scheduler_0/Primitives,39,23,0,0,0,0,0
+DDR_Read_0/genblk1.DDR_Read_Native_6/DDR_READ_ASYMM_FIFO_0/Primitives,11,12,0,0,0,0,0
+DDR_Read_0/genblk1.DDR_Read_Native_6/DDR_READ_ASYMM_FIFO_0/genblk16.U_corefifo_async/Primitives,148,111,0,0,0,0,0
+DDR_Read_0/genblk1.DDR_Read_Native_6/DDR_READ_ASYMM_FIFO_0/genblk16.U_corefifo_async/Rd_corefifo_NstagesSync/Primitives,0,26,0,0,0,0,0
+DDR_Read_0/genblk1.DDR_Read_Native_6/DDR_READ_ASYMM_FIFO_0/genblk16.U_corefifo_async/Rd_corefifo_grayToBinConv/Primitives,14,0,0,0,0,0,0
+DDR_Read_0/genblk1.DDR_Read_Native_6/DDR_READ_ASYMM_FIFO_0/genblk16.U_corefifo_async/Wr_corefifo_NstagesSync/Primitives,0,26,0,0,0,0,0
+DDR_Read_0/genblk1.DDR_Read_Native_6/DDR_READ_ASYMM_FIFO_0/genblk16.U_corefifo_async/Wr_corefifo_grayToBinConv/Primitives,12,0,0,0,0,0,0
+DDR_Read_0/genblk1.DDR_Read_Native_6/DDR_READ_ASYMM_FIFO_0/genblk23.UI_ram_wrapper_1/L1_asyncnonpipe/Primitives,11,0,648,648,0,18,0
+DDR_Read_0/genblk1.DDR_Read_Native_6/DDR_read_controller_0/Primitives,91,57,0,0,0,0,0
+DDR_Read_0/genblk1.DDR_Read_Native_6/Primitives,38,28,0,0,0,0,0
+Display_Controller_C0_0/MSC_i_0/MSC_i_1/Primitives,71,29,0,0,0,0,0
+Display_Controller_C0_0/MSC_i_0/MSC_i_2/Primitives,0,2,0,0,0,0,0
+PF_SRAM_AHBL_AXI_C0_0/COREAXI4SRAM_0/U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF/Primitives,0,2,0,0,0,0,0
+PF_SRAM_AHBL_AXI_C0_0/COREAXI4SRAM_0/genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/Primitives,269,186,0,0,0,0,0
+PF_SRAM_AHBL_AXI_C0_0/PF_TPSRAM_AHB_AXI_0/Primitives,67,0,288,288,0,8,0
+Primitives/Primitives,3,1,0,0,20,0,2

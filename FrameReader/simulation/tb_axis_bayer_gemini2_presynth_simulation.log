@@ -1,0 +1,101 @@
+# Reading pref.tcl
+# //  QuestaSim Pro Microchip Edition-64
+# //  Version 2024.3 win64 Sep 10 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# do run.do
+# INFO: Simulation library presynth already exists
+# QuestaSim Pro Microchip Edition-64 vmap 2024.3 Lib Mapping Utility 2024.09 Sep 10 2024
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# QuestaSim Pro Microchip Edition-64 vmap 2024.3 Lib Mapping Utility 2024.09 Sep 10 2024
+# vmap PolarFire C:/Microchip/Libero_SoC_2025.1/Libero_SoC/Designer/lib/questasim/precompiled/vlog/polarfire 
+# Modifying modelsim.ini
+# QuestaSim Pro Microchip Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 01:39:34 on Feb 01,2026
+# vlog -reportprogress 300 -sv -work presynth C:/prj/FrameReader/hdl/DebayerGemini2.v 
+# -- Compiling module axis_bayer_demosaic2
+# -- Compiling module generic_line_buffer
+# 
+# Top level modules:
+# 	axis_bayer_demosaic2
+# End time: 01:39:34 on Feb 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim Pro Microchip Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 01:39:34 on Feb 01,2026
+# vlog -reportprogress 300 "+incdir+C:/prj/FrameReader/hdl" "+incdir+C:/prj/FrameReader/stimulus" -sv -work presynth C:/prj/FrameReader/stimulus/tb_axis_bayergemini2.v 
+# -- Compiling module tb_axis_bayer_gemini2
+# 
+# Top level modules:
+# 	tb_axis_bayer_gemini2
+# End time: 01:39:34 on Feb 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" -L PolarFire -L presynth -t 1ps -displaymsgmode both presynth.tb_axis_bayer_gemini2 
+# Start time: 01:39:34 on Feb 01,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Error (suppressible): C:/prj/FrameReader/stimulus/tb_axis_bayergemini2.v(47): (vopt-2732) Module parameter 'IMG_WIDTH' not found for override.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 16
+abort
+# End time: 01:39:41 on Feb 01,2026, Elapsed time: 0:00:07
+# Errors: 1, Warnings: 1
+abort
+do run.do
+# INFO: Simulation library presynth already exists
+# QuestaSim Pro Microchip Edition-64 vmap 2024.3 Lib Mapping Utility 2024.09 Sep 10 2024
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# QuestaSim Pro Microchip Edition-64 vmap 2024.3 Lib Mapping Utility 2024.09 Sep 10 2024
+# vmap PolarFire C:/Microchip/Libero_SoC_2025.1/Libero_SoC/Designer/lib/questasim/precompiled/vlog/polarfire 
+# Modifying modelsim.ini
+# QuestaSim Pro Microchip Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 01:41:15 on Feb 01,2026
+# vlog -reportprogress 300 -sv -work presynth C:/prj/FrameReader/hdl/DebayerGemini2.v 
+# -- Compiling module axis_bayer_demosaic2
+# -- Compiling module generic_line_buffer
+# 
+# Top level modules:
+# 	axis_bayer_demosaic2
+# End time: 01:41:15 on Feb 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim Pro Microchip Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 01:41:15 on Feb 01,2026
+# vlog -reportprogress 300 "+incdir+C:/prj/FrameReader/hdl" "+incdir+C:/prj/FrameReader/stimulus" -sv -work presynth C:/prj/FrameReader/stimulus/tb_axis_bayergemini2.v 
+# -- Compiling module tb_axis_bayer_gemini2
+# 
+# Top level modules:
+# 	tb_axis_bayer_gemini2
+# End time: 01:41:15 on Feb 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" -L PolarFire -L presynth -t 1ps -displaymsgmode both presynth.tb_axis_bayer_gemini2 
+# Start time: 01:41:15 on Feb 01,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.tb_axis_bayer_gemini2(fast)
+# Loading work.axis_bayer_demosaic2(fast)
+# Loading work.generic_line_buffer(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'cfg_img_width'. The port definition is at: C:/prj/FrameReader/hdl/DebayerGemini2.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_axis_bayer_gemini2/dut File: C:/prj/FrameReader/stimulus/tb_axis_bayergemini2.v Line: 49
+# Simulation Done with Random Backpressure.
+# ** Note: $finish    : C:/prj/FrameReader/stimulus/tb_axis_bayergemini2.v(140)
+#    Time: 3937275 ns  Iteration: 1  Instance: /tb_axis_bayer_gemini2
+# 1
+# Break in Module tb_axis_bayer_gemini2 at C:/prj/FrameReader/stimulus/tb_axis_bayergemini2.v line 140
+# can't find package ScintillaTk

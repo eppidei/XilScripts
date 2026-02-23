@@ -1,0 +1,85 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "22:04:31    27-Jan-2026",
+	"Working Directory" : "C:/prj/FrameReader/synthesis",
+	"Install" : "C:/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro"
+},
+"synthesis" :{
+   "Job Flow" : "Sequential",
+   "Start Time" : "22:04:05",
+   "Runtime" : "26s",
+   "Executable Run Time" : "24s",
+   "synthesis" : {
+      "Job Flow" : "Sequential",
+      "Start Time" : "22:04:05",
+      "Runtime" : "26s",
+      "Executable Run Time" : "24s",
+      "compile" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "22:04:05",
+         "Runtime" : "22s",
+         "Executable Run Time" : "21s",
+         "compile_flow" : {
+            "Job Flow" : "Sequential",
+            "Start Time" : "22:04:05",
+            "Runtime" : "19s",
+            "Executable Run Time" : "18s",
+            "compiler" : {
+               "executable" : "bin64/c_hdl.exe",
+               "Run Directory" : "C:/prj/FrameReader/synthesis",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "22:04:05",
+               "Run Time" : "18s",
+               "Exe Run Time" : "17s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin64/syn_nfilter.exe",
+               "Run Directory" : "C:/prj/FrameReader/synthesis",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "22:04:23",
+               "Run Time" : "01s",
+               "Exe Run Time" : "01s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin64/m_generic.exe",
+            "Run Directory" : "C:/prj/FrameReader/synthesis",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "22:04:24",
+            "Run Time" : "03s",
+            "Exe Run Time" : "03s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "22:04:28",
+         "Runtime" : "03s",
+         "Executable Run Time" : "03s",
+         "fpga_mapper" : {
+            "executable" : "bin64/m_generic.exe",
+            "Run Directory" : "C:/prj/FrameReader/synthesis",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "22:04:28",
+            "Run Time" : "03s",
+            "Exe Run Time" : "03s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+}
+}

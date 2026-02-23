@@ -1,0 +1,28 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC_PA, RAM1K20, RAM64X12, GLOBAL, IO
+. FrameRD, 548, 446, 193, 0, 0, 26, 0, 2, 20
+.	. DDR_AXI4_ARBITER_PF_C0, 100, 45, 5, 0, 0, 0, 0, 0, 0
+.	.	. DDR_AXI4_ARBITER_PF_4s_32s_64s_1s_1s_2s_1s, 100, 45, 5, 0, 0, 0, 0, 0, 0
+.	.	.	. AXI4_S_IF_64s_32s, 70, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. DDR_AXI4_ARBITER_PF_Native_4s_32s_64s_1s_1s_2s, 30, 45, 5, 0, 0, 0, 0, 0, 0
+.	.	.	.	. ddr_rw_arbiter_Z7_layer0, 7, 8, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. read_top_32s, 23, 37, 5, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. read_demux, 0, 3, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. request_scheduler_0, 23, 34, 5, 0, 0, 0, 0, 0, 0
+.	. DDR_Read_1920s_64s_1s_1s_32s_0s_1s_8s_8s, 260, 157, 159, 0, 0, 18, 0, 0, 0
+.	.	. DDR_Read_Native_Z10_layer0, 260, 157, 159, 0, 0, 18, 0, 0, 0
+.	.	.	. DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_COREFIFO_Z8_layer0, 175, 98, 89, 0, 0, 18, 0, 0, 0
+.	.	.	.	. DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0, 163, 85, 89, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_graytobinconv_12, 0, 12, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_graytobinconv_15, 0, 14, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_nstagessync_2s_12, 26, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_nstagessync_2s_15, 26, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_ram_wrapper_9s_72s_15_12_0s_1s_2s_0s_0s, 0, 2, 0, 0, 0, 18, 0, 0, 0
+.	.	.	.	.	. DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_LSRAM_top, 0, 2, 0, 0, 0, 18, 0, 0, 0
+.	.	.	. DDR_read_controller_64s_8s_0s_0_1_2_3_256s, 57, 37, 54, 0, 0, 0, 0, 0, 0
+.	. Display_Controller_C0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	. PF_SRAM_AHBL_AXI_C0, 188, 243, 29, 0, 0, 8, 0, 0, 0
+.	.	. PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z12_layer0, 188, 240, 29, 0, 0, 0, 0, 0, 0
+.	.	.	. PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z13_layer0, 186, 240, 29, 0, 0, 0, 0, 0, 0
+.	.	.	. PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF_64s_32s_1s_1s_1s_2048s_2s_8s, 2, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM, 0, 3, 0, 0, 0, 8, 0, 0, 0

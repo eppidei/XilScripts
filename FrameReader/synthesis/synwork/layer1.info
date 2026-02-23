@@ -1,0 +1,5 @@
+read_demux
+|read_mux|parameter g_ADDR_WIDTH 32;|
+request_scheduler
+write_demux
+|write_mux|parameter g_ADDR_WIDTH 32;,parameter g_DATA_WIDTH 64;|

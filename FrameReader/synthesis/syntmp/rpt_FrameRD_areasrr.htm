@@ -1,0 +1,550 @@
+<html><body><samp><pre>
+<!@TC:1769537368>
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-5
+Install: C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: DESKTOP-8FMOK3J
+
+Implementation : synthesis
+
+#### START OF AREA REPORT #####[
+
+Part:			MPF100TFCG484-1 (Microchip)
+
+-----------------------------------------------------------------------
+########   Utilization report for  Top level view:   FrameRD   ########
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      548                100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FrameRD:	548 (40.23 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           446                100 %                
+ARI1          193                100 %                
+BLACK BOX     75                 100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block FrameRD:	714 (52.42 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K20     26                 100 %                
+====================================================
+Total MEMORY ELEMENTS in the block FrameRD:	26 (1.91 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block FrameRD:	2 (0.15 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       20                 100 %                
+=================================================
+Total IO PADS in the block FrameRD:	20 (1.47 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   DDR_AXI4_ARBITER_PF_C0   ########
+Instance path:   FrameRD.DDR_AXI4_ARBITER_PF_C0                             
+============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      100                18.2 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FrameRD.DDR_AXI4_ARBITER_PF_C0:	100 (7.34 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      45                 10.1 %               
+ARI1     5                  2.59 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block FrameRD.DDR_AXI4_ARBITER_PF_C0:	50 (3.67 % Utilization)
+
+------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   DDR_AXI4_ARBITER_PF_4s_32s_64s_1s_1s_2s_1s   ########
+Instance path:   DDR_AXI4_ARBITER_PF_C0.DDR_AXI4_ARBITER_PF_4s_32s_64s_1s_1s_2s_1s              
+================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      100                18.2 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block DDR_AXI4_ARBITER_PF_C0.DDR_AXI4_ARBITER_PF_4s_32s_64s_1s_1s_2s_1s:	100 (7.34 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      45                 10.1 %               
+ARI1     5                  2.59 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block DDR_AXI4_ARBITER_PF_C0.DDR_AXI4_ARBITER_PF_4s_32s_64s_1s_1s_2s_1s:	50 (3.67 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   AXI4_S_IF_64s_32s   ########      
+Instance path:   DDR_AXI4_ARBITER_PF_4s_32s_64s_1s_1s_2s_1s.AXI4_S_IF_64s_32s
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      70                 12.8 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block DDR_AXI4_ARBITER_PF_4s_32s_64s_1s_1s_2s_1s.AXI4_S_IF_64s_32s:	70 (5.14 % Utilization)
+
+----------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   DDR_AXI4_ARBITER_PF_Native_4s_32s_64s_1s_1s_2s   ########      
+Instance path:   DDR_AXI4_ARBITER_PF_4s_32s_64s_1s_1s_2s_1s.DDR_AXI4_ARBITER_PF_Native_4s_32s_64s_1s_1s_2s
+==========================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      30                 5.47 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block DDR_AXI4_ARBITER_PF_4s_32s_64s_1s_1s_2s_1s.DDR_AXI4_ARBITER_PF_Native_4s_32s_64s_1s_1s_2s:	30 (2.20 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      45                 10.1 %               
+ARI1     5                  2.59 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block DDR_AXI4_ARBITER_PF_4s_32s_64s_1s_1s_2s_1s.DDR_AXI4_ARBITER_PF_Native_4s_32s_64s_1s_1s_2s:	50 (3.67 % Utilization)
+
+----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   ddr_rw_arbiter_Z7_layer0   ########          
+Instance path:   DDR_AXI4_ARBITER_PF_Native_4s_32s_64s_1s_1s_2s.ddr_rw_arbiter_Z7_layer0
+========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      7                  1.28 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block DDR_AXI4_ARBITER_PF_Native_4s_32s_64s_1s_1s_2s.ddr_rw_arbiter_Z7_layer0:	7 (0.51 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      8                  1.79 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block DDR_AXI4_ARBITER_PF_Native_4s_32s_64s_1s_1s_2s.ddr_rw_arbiter_Z7_layer0:	8 (0.59 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   read_top_32s   ########          
+Instance path:   DDR_AXI4_ARBITER_PF_Native_4s_32s_64s_1s_1s_2s.read_top_32s
+============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      23                 4.2 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block DDR_AXI4_ARBITER_PF_Native_4s_32s_64s_1s_1s_2s.read_top_32s:	23 (1.69 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      37                 8.3 %                
+ARI1     5                  2.59 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block DDR_AXI4_ARBITER_PF_Native_4s_32s_64s_1s_1s_2s.read_top_32s:	42 (3.08 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   read_demux   ########
+Instance path:   read_top_32s.read_demux                        
+================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      3                  0.6730 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block read_top_32s.read_demux:	3 (0.22 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   request_scheduler_0   ########
+Instance path:   read_top_32s.request_scheduler_0                        
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      23                 4.2 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block read_top_32s.request_scheduler_0:	23 (1.69 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      34                 7.62 %               
+ARI1     5                  2.59 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block read_top_32s.request_scheduler_0:	39 (2.86 % Utilization)
+
+----------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   DDR_Read_1920s_64s_1s_1s_32s_0s_1s_8s_8s   ########
+Instance path:   FrameRD.DDR_Read_1920s_64s_1s_1s_32s_0s_1s_8s_8s                             
+==============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      260                47.4 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FrameRD.DDR_Read_1920s_64s_1s_1s_32s_0s_1s_8s_8s:	260 (19.09 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           157                35.2 %               
+ARI1          159                82.4 %               
+BLACK BOX     9                  12 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block FrameRD.DDR_Read_1920s_64s_1s_1s_32s_0s_1s_8s_8s:	325 (23.86 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K20     18                 69.2 %               
+====================================================
+Total MEMORY ELEMENTS in the block FrameRD.DDR_Read_1920s_64s_1s_1s_32s_0s_1s_8s_8s:	18 (1.32 % Utilization)
+
+------------------------------------------------------------------------------------
+########   Utilization report for  cell:   DDR_Read_Native_Z10_layer0   ########    
+Instance path:   DDR_Read_1920s_64s_1s_1s_32s_0s_1s_8s_8s.DDR_Read_Native_Z10_layer0
+====================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      260                47.4 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block DDR_Read_1920s_64s_1s_1s_32s_0s_1s_8s_8s.DDR_Read_Native_Z10_layer0:	260 (19.09 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           157                35.2 %               
+ARI1          159                82.4 %               
+BLACK BOX     9                  12 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block DDR_Read_1920s_64s_1s_1s_32s_0s_1s_8s_8s.DDR_Read_Native_Z10_layer0:	325 (23.86 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K20     18                 69.2 %               
+====================================================
+Total MEMORY ELEMENTS in the block DDR_Read_1920s_64s_1s_1s_32s_0s_1s_8s_8s.DDR_Read_Native_Z10_layer0:	18 (1.32 % Utilization)
+
+------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_COREFIFO_Z8_layer0   ########
+Instance path:   DDR_Read_Native_Z10_layer0.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_COREFIFO_Z8_layer0          
+==================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      175                31.9 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block DDR_Read_Native_Z10_layer0.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_COREFIFO_Z8_layer0:	175 (12.85 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           98                 22 %                 
+ARI1          89                 46.1 %               
+BLACK BOX     9                  12 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block DDR_Read_Native_Z10_layer0.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_COREFIFO_Z8_layer0:	196 (14.39 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K20     18                 69.2 %               
+====================================================
+Total MEMORY ELEMENTS in the block DDR_Read_Native_Z10_layer0.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_COREFIFO_Z8_layer0:	18 (1.32 % Utilization)
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0   ########                        
+Instance path:   DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_COREFIFO_Z8_layer0.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0
+================================================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      163                29.7 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_COREFIFO_Z8_layer0.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0:	163 (11.97 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      85                 19.1 %               
+ARI1     89                 46.1 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_COREFIFO_Z8_layer0.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0:	174 (12.78 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_graytobinconv_12   ########                              
+Instance path:   DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_graytobinconv_12
+=======================================================================================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      12                 2.69 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_graytobinconv_12:	12 (0.88 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_graytobinconv_15   ########                              
+Instance path:   DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_graytobinconv_15
+=======================================================================================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      14                 3.14 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_graytobinconv_15:	14 (1.03 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_nstagessync_2s_12   ########                              
+Instance path:   DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_nstagessync_2s_12
+========================================================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      26                 4.74 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_nstagessync_2s_12:	26 (1.91 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_nstagessync_2s_15   ########                              
+Instance path:   DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_nstagessync_2s_15
+========================================================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      26                 4.74 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_nstagessync_2s_15:	26 (1.91 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_ram_wrapper_9s_72s_15_12_0s_1s_2s_0s_0s   ########                        
+Instance path:   DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_COREFIFO_Z8_layer0.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_ram_wrapper_9s_72s_15_12_0s_1s_2s_0s_0s
+===============================================================================================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           2                  0.4480 %             
+BLACK BOX     9                  12 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_COREFIFO_Z8_layer0.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_ram_wrapper_9s_72s_15_12_0s_1s_2s_0s_0s:	11 (0.81 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K20     18                 69.2 %               
+====================================================
+Total MEMORY ELEMENTS in the block DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_COREFIFO_Z8_layer0.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_ram_wrapper_9s_72s_15_12_0s_1s_2s_0s_0s:	18 (1.32 % Utilization)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_LSRAM_top   ########                                             
+Instance path:   DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_ram_wrapper_9s_72s_15_12_0s_1s_2s_0s_0s.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_LSRAM_top
+======================================================================================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           2                  0.4480 %             
+BLACK BOX     9                  12 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_ram_wrapper_9s_72s_15_12_0s_1s_2s_0s_0s.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_LSRAM_top:	11 (0.81 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K20     18                 69.2 %               
+====================================================
+Total MEMORY ELEMENTS in the block DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_ram_wrapper_9s_72s_15_12_0s_1s_2s_0s_0s.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_LSRAM_top:	18 (1.32 % Utilization)
+
+------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   DDR_read_controller_64s_8s_0s_0_1_2_3_256s   ########
+Instance path:   DDR_Read_Native_Z10_layer0.DDR_read_controller_64s_8s_0s_0_1_2_3_256s          
+================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      57                 10.4 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block DDR_Read_Native_Z10_layer0.DDR_read_controller_64s_8s_0s_0_1_2_3_256s:	57 (4.19 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      37                 8.3 %                
+ARI1     54                 28 %                 
+=================================================
+Total COMBINATIONAL LOGIC in the block DDR_Read_Native_Z10_layer0.DDR_read_controller_64s_8s_0s_0_1_2_3_256s:	91 (6.68 % Utilization)
+
+---------------------------------------------------------------------------
+########   Utilization report for  cell:   Display_Controller_C0   ########
+Instance path:   FrameRD.Display_Controller_C0                             
+===========================================================================
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   PF_SRAM_AHBL_AXI_C0   ########
+Instance path:   FrameRD.PF_SRAM_AHBL_AXI_C0                             
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      188                34.3 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FrameRD.PF_SRAM_AHBL_AXI_C0:	188 (13.80 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           243                54.5 %               
+ARI1          29                 15 %                 
+BLACK BOX     64                 85.3 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FrameRD.PF_SRAM_AHBL_AXI_C0:	336 (24.67 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K20     8                  30.8 %               
+====================================================
+Total MEMORY ELEMENTS in the block FrameRD.PF_SRAM_AHBL_AXI_C0:	8 (0.59 % Utilization)
+
+----------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z12_layer0   ########
+Instance path:   PF_SRAM_AHBL_AXI_C0.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z12_layer0                 
+================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      188                34.3 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block PF_SRAM_AHBL_AXI_C0.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z12_layer0:	188 (13.80 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      240                53.8 %               
+ARI1     29                 15 %                 
+=================================================
+Total COMBINATIONAL LOGIC in the block PF_SRAM_AHBL_AXI_C0.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z12_layer0:	269 (19.75 % Utilization)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z13_layer0   ########                      
+Instance path:   PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z12_layer0.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z13_layer0
+===============================================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      186                33.9 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z12_layer0.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z13_layer0:	186 (13.66 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      240                53.8 %               
+ARI1     29                 15 %                 
+=================================================
+Total COMBINATIONAL LOGIC in the block PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z12_layer0.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z13_layer0:	269 (19.75 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF_64s_32s_1s_1s_1s_2048s_2s_8s   ########                      
+Instance path:   PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z12_layer0.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF_64s_32s_1s_1s_1s_2048s_2s_8s
+==============================================================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.3650 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z12_layer0.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF_64s_32s_1s_1s_1s_2048s_2s_8s:	2 (0.15 % Utilization)
+
+-------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM   ########
+Instance path:   PF_SRAM_AHBL_AXI_C0.PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM                 
+=======================================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           3                  0.6730 %             
+BLACK BOX     64                 85.3 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block PF_SRAM_AHBL_AXI_C0.PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM:	67 (4.92 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K20     8                  30.8 %               
+====================================================
+Total MEMORY ELEMENTS in the block PF_SRAM_AHBL_AXI_C0.PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM:	8 (0.59 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+
+
+</pre></samp></body></html>

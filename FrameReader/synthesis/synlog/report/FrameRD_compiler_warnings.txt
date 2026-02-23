@@ -1,0 +1,620 @@
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":21:13:21:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":61:13:61:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":88:13:88:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":118:13:118:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":168:13:168:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":213:13:213:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":232:13:232:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":281:13:281:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":335:13:335:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":657:13:657:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":761:13:761:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":795:13:795:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1059:13:1059:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1369:13:1369:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1396:13:1396:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1441:13:1441:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1474:13:1474:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1492:13:1492:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1518:13:1518:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1559:13:1559:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1581:13:1581:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1599:13:1599:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1616:13:1616:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1635:13:1635:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1652:13:1652:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1681:13:1681:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1712:13:1712:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1802:13:1802:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":2026:13:2026:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":2187:13:2187:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":2203:13:2203:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":2219:13:2219:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":2235:13:2235:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":2267:13:2267:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":2648:13:2648:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":3661:13:3661:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":3732:13:3732:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":3861:13:3861:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":3879:13:3879:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":3896:13:3896:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":3911:13:3911:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":3926:13:3926:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":3953:13:3953:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":4067:13:4067:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":4098:13:4098:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":4144:13:4144:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":4255:13:4255:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":4439:13:4439:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":4480:13:4480:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":4506:13:4506:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":4523:13:4523:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":4600:13:4600:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":5364:13:5364:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":6174:13:6174:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":6283:13:6283:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":6321:13:6321:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":6394:13:6394:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":7283:13:7283:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":8340:13:8340:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":9299:13:9299:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":10035:13:10035:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":10750:13:10750:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":10784:13:10784:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":10820:13:10820:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":10867:13:10867:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":10901:13:10901:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":11767:13:11767:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":12810:13:12810:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":12822:15:12822:27|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":12831:13:12831:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":12843:13:12843:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":12856:13:12856:25|User defined pragma syn_black_box detected
+@W: CG1337 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync.v":288:10:288:29|Net almostfulli_deassert is not declared.
+@W: CG1337 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync.v":293:10:293:30|Net almostemptyi_deassert is not declared.
+@W: CG1337 :"C:\prj\FrameReader\hdl\DDR_Read_Native.v":258:7:258:20|Net wPushLastValid is not declared.
+@W: CG1337 :"C:\prj\FrameReader\hdl\DDR_Read_Native.v":259:7:259:19|Net wPopLastValid is not declared.
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":21:13:21:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":61:13:61:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":88:13:88:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":118:13:118:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":168:13:168:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":213:13:213:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":232:13:232:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":281:13:281:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":335:13:335:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":657:13:657:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":761:13:761:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":795:13:795:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1059:13:1059:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1369:13:1369:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1396:13:1396:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1441:13:1441:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1474:13:1474:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1492:13:1492:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1518:13:1518:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1559:13:1559:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1581:13:1581:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1599:13:1599:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1616:13:1616:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1635:13:1635:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1652:13:1652:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1681:13:1681:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1712:13:1712:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":1802:13:1802:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":2026:13:2026:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":2187:13:2187:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":2203:13:2203:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":2219:13:2219:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":2235:13:2235:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":2267:13:2267:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":2648:13:2648:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":3661:13:3661:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":3732:13:3732:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":3861:13:3861:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":3879:13:3879:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":3896:13:3896:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":3911:13:3911:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":3926:13:3926:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":3953:13:3953:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":4067:13:4067:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":4098:13:4098:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":4144:13:4144:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":4255:13:4255:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":4439:13:4439:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":4480:13:4480:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":4506:13:4506:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":4523:13:4523:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":4600:13:4600:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":5364:13:5364:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":6174:13:6174:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":6283:13:6283:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":6321:13:6321:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":6394:13:6394:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":7283:13:7283:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":8340:13:8340:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":9299:13:9299:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":10035:13:10035:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":10750:13:10750:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":10784:13:10784:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":10820:13:10820:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":10867:13:10867:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":10901:13:10901:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":11767:13:11767:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":12810:13:12810:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":12822:15:12822:27|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":12831:13:12831:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":12843:13:12843:25|User defined pragma syn_black_box detected
+@W: CG100 :"C:\prj\FrameReader\component\syn_comps.v":12856:13:12856:25|User defined pragma syn_black_box detected
+@W: CG1337 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync.v":288:10:288:29|Net almostfulli_deassert is not declared.
+@W: CG1337 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync.v":293:10:293:30|Net almostemptyi_deassert is not declared.
+@W: CG1337 :"C:\prj\FrameReader\hdl\DDR_Read_Native.v":258:7:258:20|Net wPushLastValid is not declared.
+@W: CG1337 :"C:\prj\FrameReader\hdl\DDR_Read_Native.v":259:7:259:19|Net wPopLastValid is not declared.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync_scntr.v":158:29:158:37|Removing wire neg_reset, as there is no assignment to it.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync_scntr.v":365:4:365:9|Pruning unused register aempty_r_fwft. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync_scntr.v":349:3:349:8|Pruning unused register dvld_r2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync_scntr.v":349:3:349:8|Pruning unused register full_reg. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync_scntr.v":349:3:349:8|Pruning unused register re_p_d1. Make sure that there are no unused intermediate registers.
+@W: CL207 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync_scntr.v":453:9:453:14|All reachable assignments to genblk7.wack_r assign 0, register removed by optimization.
+@W: CL207 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync_scntr.v":453:9:453:14|All reachable assignments to genblk7.overflow_r assign 0, register removed by optimization.
+@W: CL207 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync_scntr.v":365:4:365:9|All reachable assignments to underflow_r assign 0, register removed by optimization.
+@W: CL207 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync_scntr.v":203:3:203:8|All reachable assignments to wrcnt[9:0] assign 0, register removed by optimization.
+@W: CG133 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_fwft.v":101:27:101:32|Object wr_p_r is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_fwft.v":107:27:107:33|Removing wire aresetn, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_fwft.v":113:27:113:32|Removing wire empty1, as there is no assignment to it.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_fwft.v":261:3:261:8|Pruning unused register we_p_r. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_fwft.v":171:3:171:8|Pruning unused register fifo_empty_pulse_d. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_fwft.v":163:4:163:9|Pruning unused register re_p_d. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_fwft.v":149:3:149:8|Pruning unused register fifo_empty_r. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_fwft.v":149:3:149:8|Pruning unused register update_dout_r. Make sure that there are no unused intermediate registers.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_ram_wrapper.v":57:26:57:37|*Output A_SB_CORRECT has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_ram_wrapper.v":58:26:58:37|*Output B_SB_CORRECT has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_ram_wrapper.v":59:26:59:36|*Output A_DB_DETECT has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_ram_wrapper.v":60:26:60:36|*Output B_DB_DETECT has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":150:37:150:46|Removing wire SB_CORRECT, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":151:37:151:45|Removing wire DB_DETECT, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":188:36:188:46|Removing wire pf_MEMRADDR, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":194:36:194:39|Removing wire pf_Q, as there is no assignment to it.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":212:36:212:45|Removing wire DVLD_async, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":214:36:214:44|Removing wire DVLD_sync, as it has the load but no drivers.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":217:36:217:42|Removing wire pf_dvld, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":222:36:222:47|Removing wire A_SB_CORRECT, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":223:36:223:46|Removing wire A_DB_DETECT, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":224:36:224:47|Removing wire B_SB_CORRECT, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":225:36:225:46|Removing wire B_DB_DETECT, as there is no assignment to it.
+@W: CG133 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":226:36:226:44|Object reg_valid is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":240:36:240:41|Object reg_RD is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":255:8:255:19|Removing wire reset_sync_r, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":256:8:256:19|Removing wire reset_sync_w, as there is no assignment to it.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":150:37:150:46|*Output SB_CORRECT has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":151:37:151:45|*Output DB_DETECT has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":965:3:965:8|Pruning unused register RDATA_ext_r1[63:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":955:3:955:8|Pruning unused register RDATA_ext_r[63:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":893:3:893:8|Pruning unused register REN_d2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":893:3:893:8|Pruning unused register REN_d3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":893:3:893:8|Pruning unused register RE_d2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":893:3:893:8|Pruning unused register RE_d3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":893:3:893:8|Pruning unused register re_pulse_d1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":893:3:893:8|Pruning unused register re_pulse_d2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":893:3:893:8|Pruning unused register re_pulse_d3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":881:3:881:8|Pruning unused register RDATA_r2[63:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":871:3:871:8|Pruning unused register RDATA_r1[63:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":861:3:861:8|Pruning unused register RDATA_r_pre[63:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":851:3:851:8|Pruning unused register fwft_Q_r[63:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":379:3:379:8|Pruning unused register DVLD_async_ecc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":379:3:379:8|Pruning unused register DVLD_sync_ecc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":379:3:379:8|Pruning unused register DVLD_scntr_ecc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":367:3:367:8|Pruning unused register AEMPTY1_r. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":367:3:367:8|Pruning unused register AEMPTY1_r1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync_scntr.v":365:4:365:9|Pruning unused register aempty_r_fwft. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync_scntr.v":349:3:349:8|Pruning unused register dvld_r2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync_scntr.v":349:3:349:8|Pruning unused register full_reg. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync_scntr.v":349:3:349:8|Pruning unused register re_p_d1. Make sure that there are no unused intermediate registers.
+@W: CL207 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync_scntr.v":453:9:453:14|All reachable assignments to genblk7.wack_r assign 0, register removed by optimization.
+@W: CL207 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync_scntr.v":453:9:453:14|All reachable assignments to genblk7.overflow_r assign 0, register removed by optimization.
+@W: CL207 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync_scntr.v":365:4:365:9|All reachable assignments to underflow_r assign 0, register removed by optimization.
+@W: CL207 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync_scntr.v":365:4:365:9|All reachable assignments to dvld_r assign 0, register removed by optimization.
+@W: CL207 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync_scntr.v":203:3:203:8|All reachable assignments to wrcnt[3:0] assign 0, register removed by optimization.
+@W: CG133 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_fwft.v":101:27:101:32|Object wr_p_r is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_fwft.v":261:3:261:8|Pruning unused register we_p_r. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_fwft.v":171:3:171:8|Pruning unused register fifo_empty_pulse_d. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_fwft.v":163:4:163:9|Pruning unused register re_p_d. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_fwft.v":149:3:149:8|Pruning unused register fifo_empty_r. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_fwft.v":149:3:149:8|Pruning unused register update_dout_r. Make sure that there are no unused intermediate registers.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_ram_wrapper.v":57:26:57:37|*Output A_SB_CORRECT has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_ram_wrapper.v":58:26:58:37|*Output B_SB_CORRECT has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_ram_wrapper.v":59:26:59:36|*Output A_DB_DETECT has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_ram_wrapper.v":60:26:60:36|*Output B_DB_DETECT has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CG133 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":226:36:226:44|Object reg_valid is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":240:36:240:41|Object reg_RD is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":150:37:150:46|*Output SB_CORRECT has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":151:37:151:45|*Output DB_DETECT has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":965:3:965:8|Pruning unused register RDATA_ext_r1[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":955:3:955:8|Pruning unused register RDATA_ext_r[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":893:3:893:8|Pruning unused register REN_d2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":893:3:893:8|Pruning unused register REN_d3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":893:3:893:8|Pruning unused register RE_d2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":893:3:893:8|Pruning unused register RE_d3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":893:3:893:8|Pruning unused register re_pulse_d1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":893:3:893:8|Pruning unused register re_pulse_d2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":893:3:893:8|Pruning unused register re_pulse_d3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":881:3:881:8|Pruning unused register RDATA_r2[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":871:3:871:8|Pruning unused register RDATA_r1[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":861:3:861:8|Pruning unused register RDATA_r_pre[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":851:3:851:8|Pruning unused register fwft_Q_r[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":379:3:379:8|Pruning unused register DVLD_async_ecc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":379:3:379:8|Pruning unused register DVLD_sync_ecc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":379:3:379:8|Pruning unused register DVLD_scntr_ecc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":367:3:367:8|Pruning unused register AEMPTY1_r. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":367:3:367:8|Pruning unused register AEMPTY1_r1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":302:1:302:6|Pruning unused register wval_k. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":302:1:302:6|Pruning unused register VAL_ST. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":302:1:302:6|Pruning unused register DVLD_reg. Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":449:1:449:6|Sharing sequential element bready and merging rready. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":449:1:449:6|Feedback mux created for signal awsize[2:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":449:1:449:6|Feedback mux created for signal awprot[2:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":449:1:449:6|Feedback mux created for signal awlock[1:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":449:1:449:6|Feedback mux created for signal awid[3:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":449:1:449:6|Feedback mux created for signal awcache[3:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":449:1:449:6|Sharing sequential element awcache and merging awid. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":449:1:449:6|Feedback mux created for signal awburst[1:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":449:1:449:6|Feedback mux created for signal arsize[2:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":449:1:449:6|Sharing sequential element arsize and merging awsize. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":449:1:449:6|Feedback mux created for signal arprot[2:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":449:1:449:6|Sharing sequential element arprot and merging awprot. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":449:1:449:6|Feedback mux created for signal arlock[1:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":449:1:449:6|Sharing sequential element arlock and merging awlock. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":449:1:449:6|Feedback mux created for signal arid[3:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":449:1:449:6|Sharing sequential element arid and merging awid. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":449:1:449:6|Feedback mux created for signal arcache[3:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":449:1:449:6|Sharing sequential element arcache and merging awid. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":449:1:449:6|Feedback mux created for signal arburst[1:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":449:1:449:6|Sharing sequential element arburst and merging awburst. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":449:1:449:6|Sharing sequential element arburst and merging awburst. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL251 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":449:1:449:6|All reachable assignments to arsize[1:0] assign 1, register removed by optimization
+@W: CL250 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":449:1:449:6|All reachable assignments to awburst[1] assign 0, register removed by optimization
+@W: CL251 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":449:1:449:6|All reachable assignments to awburst[0] assign 1, register removed by optimization
+@W: CL250 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":449:1:449:6|All reachable assignments to awid[3:0] assign 0, register removed by optimization
+@W: CL250 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":449:1:449:6|All reachable assignments to awlock[1:0] assign 0, register removed by optimization
+@W: CL250 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":449:1:449:6|All reachable assignments to awprot[2:0] assign 0, register removed by optimization
+@W: CL250 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":449:1:449:6|All reachable assignments to awsize[2] assign 0, register removed by optimization
+@W: CL251 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":449:1:449:6|All reachable assignments to awsize[1:0] assign 1, register removed by optimization
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":162:15:162:23|Removing wire BUSER_O_1, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":163:15:163:25|Removing wire AWREADY_O_1, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":164:15:164:23|Removing wire BUSER_O_2, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":165:15:165:25|Removing wire AWREADY_O_2, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":166:15:166:23|Removing wire BUSER_O_3, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":167:15:167:25|Removing wire AWREADY_O_3, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":168:15:168:23|Removing wire BUSER_O_4, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":169:15:169:25|Removing wire AWREADY_O_4, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":170:15:170:23|Removing wire BUSER_O_5, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":171:15:171:25|Removing wire AWREADY_O_5, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":172:15:172:23|Removing wire BUSER_O_6, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":173:15:173:25|Removing wire AWREADY_O_6, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":174:15:174:23|Removing wire BUSER_O_7, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":175:15:175:25|Removing wire AWREADY_O_7, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":181:15:181:24|Removing wire BUSER_O_r1, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":182:15:182:25|Removing wire ARREADY_O_1, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":183:31:183:39|Removing wire RDATA_O_1, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":184:15:184:24|Removing wire RVALID_O_1, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":185:15:185:23|Removing wire RLAST_O_1, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":186:15:186:24|Removing wire BUSER_O_r2, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":187:15:187:25|Removing wire ARREADY_O_2, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":188:31:188:39|Removing wire RDATA_O_2, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":189:15:189:24|Removing wire RVALID_O_2, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":190:15:190:23|Removing wire RLAST_O_2, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":191:15:191:24|Removing wire BUSER_O_r3, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":192:15:192:25|Removing wire ARREADY_O_3, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":193:31:193:39|Removing wire RDATA_O_3, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":194:15:194:24|Removing wire RVALID_O_3, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":195:15:195:23|Removing wire RLAST_O_3, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":196:15:196:24|Removing wire BUSER_O_r4, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":197:15:197:25|Removing wire ARREADY_O_4, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":198:31:198:39|Removing wire RDATA_O_4, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":199:15:199:24|Removing wire RVALID_O_4, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":200:15:200:23|Removing wire RLAST_O_4, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":201:15:201:24|Removing wire BUSER_O_r5, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":202:15:202:25|Removing wire ARREADY_O_5, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":203:31:203:39|Removing wire RDATA_O_5, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":204:15:204:24|Removing wire RVALID_O_5, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":205:15:205:23|Removing wire RLAST_O_5, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":206:15:206:24|Removing wire BUSER_O_r6, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":207:15:207:25|Removing wire ARREADY_O_6, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":208:31:208:39|Removing wire RDATA_O_6, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":209:15:209:24|Removing wire RVALID_O_6, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":210:15:210:23|Removing wire RLAST_O_6, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":211:15:211:24|Removing wire BUSER_O_r7, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":212:15:212:25|Removing wire ARREADY_O_7, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":213:31:213:39|Removing wire RDATA_O_7, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":214:15:214:24|Removing wire RVALID_O_7, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":215:15:215:23|Removing wire RLAST_O_7, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":235:15:235:22|Removing wire r0_ack_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":236:15:236:29|Removing wire r0_data_valid_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":237:15:237:23|Removing wire r0_done_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":238:15:238:22|Removing wire r1_ack_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":239:15:239:29|Removing wire r1_data_valid_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":240:15:240:23|Removing wire r1_done_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":241:15:241:22|Removing wire r2_ack_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":242:15:242:29|Removing wire r2_data_valid_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":243:15:243:23|Removing wire r2_done_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":244:15:244:22|Removing wire r3_ack_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":245:15:245:29|Removing wire r3_data_valid_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":246:15:246:23|Removing wire r3_done_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":247:15:247:22|Removing wire r4_ack_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":248:15:248:29|Removing wire r4_data_valid_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":249:15:249:23|Removing wire r4_done_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":250:15:250:22|Removing wire r5_ack_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":251:15:251:29|Removing wire r5_data_valid_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":252:15:252:23|Removing wire r5_done_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":253:15:253:22|Removing wire r6_ack_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":254:15:254:29|Removing wire r6_data_valid_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":255:15:255:23|Removing wire r6_done_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":256:15:256:22|Removing wire r7_ack_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":257:15:257:29|Removing wire r7_data_valid_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":258:15:258:23|Removing wire r7_done_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":259:28:259:34|Removing wire rdata_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":261:15:261:22|Removing wire w0_ack_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":262:15:262:23|Removing wire w0_done_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":263:15:263:22|Removing wire w1_ack_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":264:15:264:23|Removing wire w1_done_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":265:15:265:22|Removing wire w2_ack_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":266:15:266:23|Removing wire w2_done_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":267:15:267:22|Removing wire w3_ack_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":268:15:268:23|Removing wire w3_done_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":269:15:269:22|Removing wire w4_ack_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":270:15:270:23|Removing wire w4_done_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":271:15:271:22|Removing wire w5_ack_o, as there is no assignment to it.
+@W: CG360 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":272:15:272:23|Removing wire w5_done_o, as there is no assignment to it.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":322:13:322:29|Removing wire r1_burst_size_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":323:13:323:22|Removing wire r1_req_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":324:27:324:44|Removing wire r1_rstart_addr_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":325:13:325:29|Removing wire w1_burst_size_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":326:33:326:43|Removing wire w1_data_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":327:13:327:29|Removing wire w1_data_valid_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":328:13:328:22|Removing wire w1_req_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":329:27:329:44|Removing wire w1_wstart_addr_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":335:13:335:29|Removing wire r2_burst_size_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":336:13:336:22|Removing wire r2_req_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":337:27:337:44|Removing wire r2_rstart_addr_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":338:13:338:29|Removing wire w2_burst_size_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":339:33:339:43|Removing wire w2_data_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":340:13:340:29|Removing wire w2_data_valid_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":341:13:341:22|Removing wire w2_req_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":342:27:342:44|Removing wire w2_wstart_addr_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":348:13:348:29|Removing wire r3_burst_size_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":349:13:349:22|Removing wire r3_req_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":350:27:350:44|Removing wire r3_rstart_addr_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":351:13:351:29|Removing wire w3_burst_size_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":352:33:352:43|Removing wire w3_data_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":353:13:353:29|Removing wire w3_data_valid_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":354:13:354:22|Removing wire w3_req_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":355:27:355:44|Removing wire w3_wstart_addr_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":361:13:361:29|Removing wire r4_burst_size_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":362:13:362:22|Removing wire r4_req_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":363:27:363:44|Removing wire r4_rstart_addr_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":364:13:364:29|Removing wire w4_burst_size_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":365:33:365:43|Removing wire w4_data_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":366:13:366:29|Removing wire w4_data_valid_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":367:13:367:22|Removing wire w4_req_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":368:27:368:44|Removing wire w4_wstart_addr_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":374:13:374:29|Removing wire r5_burst_size_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":375:13:375:22|Removing wire r5_req_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":376:27:376:44|Removing wire r5_rstart_addr_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":377:13:377:29|Removing wire w5_burst_size_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":378:33:378:43|Removing wire w5_data_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":379:13:379:29|Removing wire w5_data_valid_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":380:13:380:22|Removing wire w5_req_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":381:27:381:44|Removing wire w5_wstart_addr_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":387:13:387:29|Removing wire r6_burst_size_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":388:13:388:22|Removing wire r6_req_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":389:27:389:44|Removing wire r6_rstart_addr_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":390:13:390:29|Removing wire w6_burst_size_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":391:33:391:43|Removing wire w6_data_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":392:13:392:29|Removing wire w6_data_valid_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":393:13:393:22|Removing wire w6_req_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":394:27:394:44|Removing wire w6_wstart_addr_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":400:13:400:29|Removing wire r7_burst_size_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":401:13:401:22|Removing wire r7_req_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":402:27:402:44|Removing wire r7_rstart_addr_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":403:13:403:29|Removing wire w7_burst_size_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":404:33:404:43|Removing wire w7_data_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":405:13:405:29|Removing wire w7_data_valid_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":406:13:406:22|Removing wire w7_req_axi, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":407:27:407:44|Removing wire w7_wstart_addr_axi, as it has the load but no drivers.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":162:15:162:23|*Output BUSER_O_1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":163:15:163:25|*Output AWREADY_O_1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":164:15:164:23|*Output BUSER_O_2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":165:15:165:25|*Output AWREADY_O_2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":166:15:166:23|*Output BUSER_O_3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":167:15:167:25|*Output AWREADY_O_3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":168:15:168:23|*Output BUSER_O_4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":169:15:169:25|*Output AWREADY_O_4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":170:15:170:23|*Output BUSER_O_5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":171:15:171:25|*Output AWREADY_O_5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":172:15:172:23|*Output BUSER_O_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":173:15:173:25|*Output AWREADY_O_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":174:15:174:23|*Output BUSER_O_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":175:15:175:25|*Output AWREADY_O_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":181:15:181:24|*Output BUSER_O_r1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":182:15:182:25|*Output ARREADY_O_1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":183:31:183:39|*Output RDATA_O_1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":184:15:184:24|*Output RVALID_O_1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":185:15:185:23|*Output RLAST_O_1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":186:15:186:24|*Output BUSER_O_r2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":187:15:187:25|*Output ARREADY_O_2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":188:31:188:39|*Output RDATA_O_2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":189:15:189:24|*Output RVALID_O_2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":190:15:190:23|*Output RLAST_O_2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":191:15:191:24|*Output BUSER_O_r3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":192:15:192:25|*Output ARREADY_O_3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":193:31:193:39|*Output RDATA_O_3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":194:15:194:24|*Output RVALID_O_3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":195:15:195:23|*Output RLAST_O_3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":196:15:196:24|*Output BUSER_O_r4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":197:15:197:25|*Output ARREADY_O_4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":198:31:198:39|*Output RDATA_O_4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":199:15:199:24|*Output RVALID_O_4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":200:15:200:23|*Output RLAST_O_4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":201:15:201:24|*Output BUSER_O_r5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":202:15:202:25|*Output ARREADY_O_5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":203:31:203:39|*Output RDATA_O_5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":204:15:204:24|*Output RVALID_O_5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":205:15:205:23|*Output RLAST_O_5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":206:15:206:24|*Output BUSER_O_r6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":207:15:207:25|*Output ARREADY_O_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":208:31:208:39|*Output RDATA_O_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":209:15:209:24|*Output RVALID_O_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":210:15:210:23|*Output RLAST_O_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":211:15:211:24|*Output BUSER_O_r7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":212:15:212:25|*Output ARREADY_O_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":213:31:213:39|*Output RDATA_O_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":214:15:214:24|*Output RVALID_O_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":215:15:215:23|*Output RLAST_O_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":235:15:235:22|*Output r0_ack_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":236:15:236:29|*Output r0_data_valid_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":237:15:237:23|*Output r0_done_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":238:15:238:22|*Output r1_ack_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":239:15:239:29|*Output r1_data_valid_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":240:15:240:23|*Output r1_done_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":241:15:241:22|*Output r2_ack_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":242:15:242:29|*Output r2_data_valid_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":243:15:243:23|*Output r2_done_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":244:15:244:22|*Output r3_ack_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":245:15:245:29|*Output r3_data_valid_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":246:15:246:23|*Output r3_done_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":247:15:247:22|*Output r4_ack_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":248:15:248:29|*Output r4_data_valid_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":249:15:249:23|*Output r4_done_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":250:15:250:22|*Output r5_ack_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":251:15:251:29|*Output r5_data_valid_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":252:15:252:23|*Output r5_done_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":253:15:253:22|*Output r6_ack_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":254:15:254:29|*Output r6_data_valid_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":255:15:255:23|*Output r6_done_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":256:15:256:22|*Output r7_ack_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":257:15:257:29|*Output r7_data_valid_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":258:15:258:23|*Output r7_done_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":259:28:259:34|*Output rdata_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":261:15:261:22|*Output w0_ack_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":262:15:262:23|*Output w0_done_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":263:15:263:22|*Output w1_ack_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":264:15:264:23|*Output w1_done_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":265:15:265:22|*Output w2_ack_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":266:15:266:23|*Output w2_done_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":267:15:267:22|*Output w3_ack_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":268:15:268:23|*Output w3_done_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":269:15:269:22|*Output w4_ack_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":270:15:270:23|*Output w4_done_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":271:15:271:22|*Output w5_ack_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":272:15:272:23|*Output w5_done_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":273:15:273:22|*Output w6_ack_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":274:15:274:23|*Output w6_done_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL169 :"C:\prj\FrameReader\hdl\DDR_read_controller.v":163:0:163:5|Pruning unused register s_hcount[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\hdl\DDR_read_controller.v":163:0:163:5|Pruning unused register dummy1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\hdl\DDR_read_controller.v":163:0:163:5|Pruning unused register rOUTOFSYNC. Make sure that there are no unused intermediate registers.
+@W: CG133 :"C:\prj\FrameReader\hdl\corefifo_async.v":140:34:140:42|Object wptr_fwft is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG184 :"C:\prj\FrameReader\hdl\corefifo_async.v":200:34:200:50|Removing wire almostemptyi_fwft, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\hdl\corefifo_async.v":209:34:209:41|Removing wire re_top_p, as it has the load but no drivers.
+@W: CG133 :"C:\prj\FrameReader\hdl\corefifo_async.v":647:10:647:10|Object k is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL168 :"C:\prj\FrameReader\hdl\corefifo_async.v":554:19:554:39|Removing instance Rd_grayToBinConv_fwft because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\prj\FrameReader\hdl\corefifo_async.v":539:16:539:43|Removing instance Rd_corefifo_NstagesSync_fwft because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL169 :"C:\prj\FrameReader\hdl\corefifo_async.v":709:12:709:17|Pruning unused register genblk10.empty_r_fwft. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\hdl\corefifo_async.v":709:12:709:17|Pruning unused register genblk10.aempty_r_fwft. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\hdl\corefifo_async.v":693:12:693:17|Pruning unused register genblk10.rptr_fwft[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\hdl\corefifo_async.v":693:12:693:17|Pruning unused register genblk10.rptr_gray_fwft[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\hdl\corefifo_async.v":625:4:625:9|Pruning unused register full_reg. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\hdl\corefifo_async.v":625:4:625:9|Pruning unused register we_p_r. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\hdl\corefifo_async.v":609:4:609:9|Pruning unused register dvld_r2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\hdl\corefifo_async.v":609:4:609:9|Pruning unused register empty_reg. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\hdl\corefifo_async.v":609:4:609:9|Pruning unused register re_p_d1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\hdl\corefifo_async.v":609:4:609:9|Pruning unused register re_p_d2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\hdl\corefifo_async.v":564:3:564:8|Pruning unused register rptr_bin_sync2_fwft[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL207 :"C:\prj\FrameReader\hdl\corefifo_async.v":776:12:776:17|All reachable assignments to genblk10.wack_r assign 0, register removed by optimization.
+@W: CL207 :"C:\prj\FrameReader\hdl\corefifo_async.v":776:12:776:17|All reachable assignments to genblk10.overflow_r assign 0, register removed by optimization.
+@W: CL207 :"C:\prj\FrameReader\hdl\corefifo_async.v":709:12:709:17|All reachable assignments to genblk10.underflow_r assign 0, register removed by optimization.
+@W: CL279 :"C:\prj\FrameReader\hdl\corefifo_async.v":520:3:520:8|Pruning register bits 2 to 0 of rptr_bin_sync2[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CG184 :"C:\prj\FrameReader\hdl\COREFIFO.v":237:36:237:45|Removing wire DVLD_scntr, as it has the load but no drivers.
+@W: CG184 :"C:\prj\FrameReader\hdl\COREFIFO.v":238:36:238:44|Removing wire DVLD_sync, as it has the load but no drivers.
+@W: CG133 :"C:\prj\FrameReader\hdl\COREFIFO.v":250:36:250:44|Object reg_valid is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\prj\FrameReader\hdl\COREFIFO.v":264:36:264:41|Object reg_RD is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"C:\prj\FrameReader\hdl\COREFIFO.v":1175:3:1175:8|Pruning unused register RDATA_ext_r1[8:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\hdl\COREFIFO.v":1165:3:1165:8|Pruning unused register RDATA_ext_r[8:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\hdl\COREFIFO.v":1100:3:1100:8|Pruning unused register REN_d2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\hdl\COREFIFO.v":1100:3:1100:8|Pruning unused register REN_d3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\hdl\COREFIFO.v":1100:3:1100:8|Pruning unused register RE_d2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\hdl\COREFIFO.v":1100:3:1100:8|Pruning unused register RE_d3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\hdl\COREFIFO.v":1100:3:1100:8|Pruning unused register re_pulse_d2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\hdl\COREFIFO.v":1100:3:1100:8|Pruning unused register re_pulse_d3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\hdl\COREFIFO.v":1088:3:1088:8|Pruning unused register RDATA_r2[8:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\hdl\COREFIFO.v":1078:3:1078:8|Pruning unused register RDATA_r1[8:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\hdl\COREFIFO.v":1068:3:1068:8|Pruning unused register RDATA_r_pre[8:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\hdl\COREFIFO.v":1058:3:1058:8|Pruning unused register fwft_Q_r[8:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\hdl\COREFIFO.v":503:3:503:8|Pruning unused register DVLD_async_ecc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\hdl\COREFIFO.v":503:3:503:8|Pruning unused register DVLD_sync_ecc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\hdl\COREFIFO.v":503:3:503:8|Pruning unused register DVLD_scntr_ecc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\hdl\COREFIFO.v":490:3:490:8|Pruning unused register AEMPTY1_r. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\prj\FrameReader\hdl\COREFIFO.v":490:3:490:8|Pruning unused register AEMPTY1_r1. Make sure that there are no unused intermediate registers.
+@W: CL271 :"C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\COREAXI4SRAM_0\rtl\vlog\core\CoreAXI4SRAM_MAINCTRL.v":2264:4:2264:9|Pruning unused bits 2 to 0 of genblk2.wrap_raddr_r[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\COREAXI4SRAM_0\rtl\vlog\core\CoreAXI4SRAM_MAINCTRL.v":138:32:138:43|Input port bits 31 to 14 of AWADDR_slvif[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\COREAXI4SRAM_0\rtl\vlog\core\CoreAXI4SRAM_MAINCTRL.v":148:32:148:37|Input port bits 31 to 14 of AWADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\COREAXI4SRAM_0\rtl\vlog\core\CoreAXI4SRAM_MAINCTRL.v":154:32:154:43|Input port bits 31 to 14 of ARADDR_slvif[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\COREAXI4SRAM_0\rtl\vlog\core\CoreAXI4SRAM_MAINCTRL.v":160:32:160:37|Input port bits 31 to 14 of ARADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL177 :"C:\prj\FrameReader\hdl\corefifo_async.v":776:12:776:17|Sharing sequential element genblk10.full_r and merging genblk10.wrcnt_r. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL260 :"C:\prj\FrameReader\hdl\corefifo_async.v":709:12:709:17|Pruning register bit 0 of genblk10.rdcnt_r[15:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":322:13:322:29|*Input r1_burst_size_axi[7:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":323:13:323:22|*Input r1_req_axi to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":324:27:324:44|*Input r1_rstart_addr_axi[31:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":335:13:335:29|*Input r2_burst_size_axi[7:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":336:13:336:22|*Input r2_req_axi to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":337:27:337:44|*Input r2_rstart_addr_axi[31:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":348:13:348:29|*Input r3_burst_size_axi[7:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":349:13:349:22|*Input r3_req_axi to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":350:27:350:44|*Input r3_rstart_addr_axi[31:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":361:13:361:29|*Input r4_burst_size_axi[7:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":362:13:362:22|*Input r4_req_axi to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":363:27:363:44|*Input r4_rstart_addr_axi[31:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":374:13:374:29|*Input r5_burst_size_axi[7:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":375:13:375:22|*Input r5_req_axi to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":376:27:376:44|*Input r5_rstart_addr_axi[31:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":387:13:387:29|*Input r6_burst_size_axi[7:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":388:13:388:22|*Input r6_req_axi to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":389:27:389:44|*Input r6_rstart_addr_axi[31:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":400:13:400:29|*Input r7_burst_size_axi[7:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":401:13:401:22|*Input r7_req_axi to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":402:27:402:44|*Input r7_rstart_addr_axi[31:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":325:13:325:29|*Input w1_burst_size_axi[7:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":326:33:326:43|*Input w1_data_axi[63:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":327:13:327:29|*Input w1_data_valid_axi to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":328:13:328:22|*Input w1_req_axi to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":329:27:329:44|*Input w1_wstart_addr_axi[31:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":338:13:338:29|*Input w2_burst_size_axi[7:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":339:33:339:43|*Input w2_data_axi[63:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":340:13:340:29|*Input w2_data_valid_axi to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":341:13:341:22|*Input w2_req_axi to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":342:27:342:44|*Input w2_wstart_addr_axi[31:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":351:13:351:29|*Input w3_burst_size_axi[7:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":352:33:352:43|*Input w3_data_axi[63:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":353:13:353:29|*Input w3_data_valid_axi to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":354:13:354:22|*Input w3_req_axi to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":355:27:355:44|*Input w3_wstart_addr_axi[31:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":364:13:364:29|*Input w4_burst_size_axi[7:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":365:33:365:43|*Input w4_data_axi[63:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":366:13:366:29|*Input w4_data_valid_axi to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":367:13:367:22|*Input w4_req_axi to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":368:27:368:44|*Input w4_wstart_addr_axi[31:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":377:13:377:29|*Input w5_burst_size_axi[7:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":378:33:378:43|*Input w5_data_axi[63:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":379:13:379:29|*Input w5_data_valid_axi to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":380:13:380:22|*Input w5_req_axi to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":381:27:381:44|*Input w5_wstart_addr_axi[31:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":390:13:390:29|*Input w6_burst_size_axi[7:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":391:33:391:43|*Input w6_data_axi[63:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":392:13:392:29|*Input w6_data_valid_axi to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":393:13:393:22|*Input w6_req_axi to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":394:27:394:44|*Input w6_wstart_addr_axi[31:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":403:13:403:29|*Input w7_burst_size_axi[7:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":404:33:404:43|*Input w7_data_axi[63:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":405:13:405:29|*Input w7_data_valid_axi to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":406:13:406:22|*Input w7_req_axi to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":407:27:407:44|*Input w7_wstart_addr_axi[31:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+

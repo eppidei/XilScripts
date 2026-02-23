@@ -1,0 +1,168 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\read_mux.vhd":26:7:26:14|Top entity is set to read_mux.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\write_mux.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\request_scheduler.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\write_demux.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\read_demux.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\read_mux.vhd'.
+@N: CD231 :"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG334 :"C:\prj\FrameReader\hdl\COREFIFO.v":437:13:437:25|Read directive translate_off.
+@N: CG333 :"C:\prj\FrameReader\hdl\COREFIFO.v":449:13:449:24|Read directive translate_on.
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG334 :"C:\prj\FrameReader\hdl\COREFIFO.v":437:13:437:25|Read directive translate_off.
+@N: CG333 :"C:\prj\FrameReader\hdl\COREFIFO.v":449:13:449:24|Read directive translate_on.
+@N: CG364 :"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\generic\acg5.v":121:7:121:10|Synthesizing module AND2 in library work.
+@N: CG364 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":4:7:4:25|Synthesizing module DDR_AXI4_ARBITER_PF in library work.
+@N: CG364 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":15:7:15:58|Synthesizing module ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_video_axi_fifo in library work.
+@N: CG364 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync_scntr.v":16:7:16:63|Synthesizing module ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_sync_scntr in library work.
+@N: CG364 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_fwft.v":16:7:16:57|Synthesizing module ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_fwft in library work.
+@N: CG179 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_fwft.v":181:38:181:55|Removing redundant assignment.
+@N: CG364 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_LSRAM_top.v":14:7:14:53|Synthesizing module ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_LSRAM_top in library work.
+@N: CL134 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_LSRAM_top.v":50:0:50:5|Found RAM pf_ram, depth=512, width=64
+@N: CG364 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_ram_wrapper.v":17:7:17:55|Synthesizing module ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper in library work.
+@N: CG364 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":15:7:15:58|Synthesizing module ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_video_axi_fifo in library work.
+@N: CG364 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync_scntr.v":16:7:16:63|Synthesizing module ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_sync_scntr in library work.
+@N: CG364 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_fwft.v":16:7:16:57|Synthesizing module ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_fwft in library work.
+@N: CG364 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_LSRAM_top.v":14:7:14:53|Synthesizing module ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_LSRAM_top in library work.
+@N: CL134 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_LSRAM_top.v":50:0:50:5|Found RAM pf_ram, depth=8, width=8
+@N: CG364 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_ram_wrapper.v":17:7:17:55|Synthesizing module ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper in library work.
+@N: CG364 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":22:7:22:20|Synthesizing module ddr_rw_arbiter in library work.
+@N: CG364 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\read_top.v":9:7:9:14|Synthesizing module read_top in library work.
+@N: CG794 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\read_top.v":283:11:283:22|Using module read_demux from library work
+@N: CG794 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\read_top.v":320:4:320:13|Using module read_mux from library work
+@N: CG794 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\read_top.v":345:18:345:36|Using module request_scheduler from library work
+@N: CG364 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\write_top.v":9:7:9:15|Synthesizing module write_top in library work.
+@N: CG794 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\write_top.v":313:12:313:24|Using module write_demux from library work
+@N: CG794 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\write_top.v":342:4:342:14|Using module write_mux from library work
+@N: CG364 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF_Native.v":9:7:9:32|Synthesizing module DDR_AXI4_ARBITER_PF_Native in library work.
+@N: CG364 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\AXI4_M_M_IF.v":1:7:1:17|Synthesizing module AXI4_M_M_IF in library work.
+@N: CG364 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\AXI4_S_IF.v":2:7:2:15|Synthesizing module AXI4_S_IF in library work.
+@N: CG364 :"C:\prj\FrameReader\component\work\DDR_AXI4_ARBITER_PF_C0\DDR_AXI4_ARBITER_PF_C0.v":28:7:28:28|Synthesizing module DDR_AXI4_ARBITER_PF_C0 in library work.
+@N: CG364 :"C:\prj\FrameReader\hdl\DDR_Read.v":13:7:13:14|Synthesizing module DDR_Read in library work.
+@N: CG364 :"C:\prj\FrameReader\hdl\DDR_read_controller.v":13:7:13:25|Synthesizing module DDR_read_controller in library work.
+@N: CG793 :"C:\prj\FrameReader\hdl\DDR_read_controller.v":219:20:219:27|Ignoring system task $display
+@N: CG793 :"C:\prj\FrameReader\hdl\DDR_read_controller.v":228:20:228:27|Ignoring system task $display
+@N: CG793 :"C:\prj\FrameReader\hdl\DDR_read_controller.v":242:20:242:27|Ignoring system task $display
+@N: CG364 :"C:\prj\FrameReader\hdl\COREFIFO.v":19:7:19:56|Synthesizing module DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_COREFIFO in library work.
+@N: CG364 :"C:\prj\FrameReader\hdl\corefifo_nstagessync.v":20:7:20:68|Synthesizing module DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_nstagessync in library work.
+@N: CG364 :"C:\prj\FrameReader\hdl\corefifo_nstagessync.v":20:7:20:68|Synthesizing module DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_nstagessync in library work.
+@N: CG364 :"C:\prj\FrameReader\hdl\corefifo_graytobinconv.v":20:7:20:70|Synthesizing module DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_graytobinconv in library work.
+@N: CG364 :"C:\prj\FrameReader\hdl\corefifo_graytobinconv.v":20:7:20:70|Synthesizing module DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_graytobinconv in library work.
+@N: CG364 :"C:\prj\FrameReader\hdl\corefifo_async.v":20:7:20:62|Synthesizing module DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\generic\acg5.v":578:7:578:13|Synthesizing module RAM1K20 in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\generic\acg5.v":108:7:108:10|Synthesizing module CFG1 in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\generic\acg5.v":133:7:133:9|Synthesizing module OR2 in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\generic\acg5.v":500:7:500:9|Synthesizing module GND in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\generic\acg5.v":504:7:504:9|Synthesizing module VCC in library work.
+@N: CG364 :"C:\prj\FrameReader\hdl\DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_LSRAM_top.v":5:7:5:57|Synthesizing module DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_LSRAM_top in library work.
+@N: CG364 :"C:\prj\FrameReader\hdl\DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_ram_wrapper.v":4:7:4:59|Synthesizing module DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_ram_wrapper in library work.
+@N: CG364 :"C:\prj\FrameReader\hdl\DDR_Read_Native.v":13:7:13:21|Synthesizing module DDR_Read_Native in library work.
+@N: CG364 :"C:\prj\FrameReader\hdl\Arbiter_Initiator_Rd_IF.v":13:7:13:29|Synthesizing module Arbiter_Initiator_Rd_IF in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\generic\acg5.v":17:7:17:10|Synthesizing module DFN1 in library work.
+@N: CG364 :"C:\prj\FrameReader\component\work\Display_Controller_C0\Display_Controller_C0.v":32:7:32:27|Synthesizing module Display_Controller_C0 in library work.
+@N: CG364 :"C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\COREAXI4SRAM_0\rtl\vlog\core\CoreAXI4SRAM_SLVIF.v":37:7:37:59|Synthesizing module PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF in library work.
+@N: CG364 :"C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\COREAXI4SRAM_0\rtl\vlog\core\CoreAXI4SRAM.v":44:7:44:53|Synthesizing module PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM in library work.
+@N: CG364 :"C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\COREAXI4SRAM_0\rtl\vlog\core\CoreAXI4SRAM_MAINCTRL.v":37:7:37:62|Synthesizing module PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL in library work.
+@N: CG179 :"C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\COREAXI4SRAM_0\rtl\vlog\core\CoreAXI4SRAM_MAINCTRL.v":517:94:517:106|Removing redundant assignment.
+@N: CG364 :"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\generic\acg5.v":199:7:199:9|Synthesizing module OR4 in library work.
+@N: CG364 :"C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\PF_TPSRAM_AHB_AXI_0\PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v":5:7:5:55|Synthesizing module PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM in library work.
+@N: CG364 :"C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\PF_SRAM_AHBL_AXI_C0.v":42:7:42:25|Synthesizing module PF_SRAM_AHBL_AXI_C0 in library work.
+@N: CG364 :"C:\prj\FrameReader\component\work\FrameRD\FrameRD.v":9:7:9:13|Synthesizing module FrameRD in library work.
+@N: CL159 :"C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\COREAXI4SRAM_0\rtl\vlog\core\CoreAXI4SRAM_MAINCTRL.v":162:32:162:38|Input ARBURST is unused.
+@N: CL159 :"C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\COREAXI4SRAM_0\rtl\vlog\core\CoreAXI4SRAM.v":147:30:147:36|Input AWCACHE is unused.
+@N: CL159 :"C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\COREAXI4SRAM_0\rtl\vlog\core\CoreAXI4SRAM.v":148:30:148:35|Input AWPROT is unused.
+@N: CL159 :"C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\COREAXI4SRAM_0\rtl\vlog\core\CoreAXI4SRAM.v":149:30:149:35|Input AWLOCK is unused.
+@N: CL159 :"C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\COREAXI4SRAM_0\rtl\vlog\core\CoreAXI4SRAM.v":166:31:166:37|Input ARCACHE is unused.
+@N: CL159 :"C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\COREAXI4SRAM_0\rtl\vlog\core\CoreAXI4SRAM.v":167:31:167:36|Input ARPROT is unused.
+@N: CL159 :"C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\COREAXI4SRAM_0\rtl\vlog\core\CoreAXI4SRAM.v":168:31:168:36|Input ARLOCK is unused.
+@N: CL159 :"C:\prj\FrameReader\hdl\DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_ram_wrapper.v":43:25:43:31|Input RESET_N is unused.
+@N: CL159 :"C:\prj\FrameReader\hdl\DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_ram_wrapper.v":50:25:50:29|Input CLOCK is unused.
+@N: CL159 :"C:\prj\FrameReader\hdl\corefifo_async.v":113:31:113:36|Input re_top is unused.
+@N: CL159 :"C:\prj\FrameReader\hdl\COREFIFO.v":164:36:164:42|Input RESET_N is unused.
+@N: CL159 :"C:\prj\FrameReader\hdl\COREFIFO.v":171:36:171:40|Input MEMRD is unused.
+@N: CL201 :"C:\prj\FrameReader\hdl\DDR_read_controller.v":163:0:163:5|Trying to extract state machine for register s_state.
+@N: CL201 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":449:1:449:6|Trying to extract state machine for register video_bus_state.
+@N: CL201 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":356:1:356:6|Trying to extract state machine for register local_wbus_state.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":65:37:65:39|Input bid is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":66:39:66:43|Input bresp is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":87:39:87:41|Input rid is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v":89:39:89:43|Input rresp is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_ram_wrapper.v":54:25:54:31|Input RESET_N is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_ram_wrapper.v":55:25:55:30|Input WCLOCK is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_ram_wrapper.v":56:25:56:30|Input RCLOCK is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_fwft.v":61:26:61:31|Input wr_clk is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_fwft.v":62:26:62:31|Input rd_clk is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_fwft.v":65:26:65:39|Input reset_wclk_top is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_fwft.v":66:26:66:30|Input wr_en is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_fwft.v":72:26:72:28|Input din is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":148:36:148:40|Input MEMRD is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_ram_wrapper.v":54:25:54:31|Input RESET_N is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_ram_wrapper.v":55:25:55:30|Input WCLOCK is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_ram_wrapper.v":56:25:56:30|Input RCLOCK is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_fwft.v":61:26:61:31|Input wr_clk is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_fwft.v":62:26:62:31|Input rd_clk is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_fwft.v":65:26:65:39|Input reset_wclk_top is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_fwft.v":66:26:66:30|Input wr_en is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_fwft.v":72:26:72:28|Input din is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v":148:36:148:40|Input MEMRD is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":21:15:21:29|Input r0_burst_size_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":22:15:22:22|Input r0_req_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":23:29:23:44|Input r0_rstart_addr_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":24:15:24:29|Input r1_burst_size_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":25:15:25:22|Input r1_req_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":26:29:26:44|Input r1_rstart_addr_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":27:15:27:29|Input r2_burst_size_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":28:15:28:22|Input r2_req_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":29:29:29:44|Input r2_rstart_addr_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":30:15:30:29|Input r3_burst_size_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":31:15:31:22|Input r3_req_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":32:29:32:44|Input r3_rstart_addr_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":33:15:33:29|Input r4_burst_size_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":34:15:34:22|Input r4_req_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":35:29:35:44|Input r4_rstart_addr_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":36:15:36:29|Input r5_burst_size_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":37:15:37:22|Input r5_req_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":38:29:38:44|Input r5_rstart_addr_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":39:15:39:29|Input r6_burst_size_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":40:15:40:22|Input r6_req_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":41:29:41:44|Input r6_rstart_addr_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":42:15:42:29|Input r7_burst_size_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":43:15:43:22|Input r7_req_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":44:29:44:44|Input r7_rstart_addr_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":52:15:52:29|Input w0_burst_size_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":53:28:53:36|Input w0_data_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":54:15:54:29|Input w0_data_valid_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":55:15:55:22|Input w0_req_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":56:29:56:44|Input w0_wstart_addr_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":57:15:57:29|Input w1_burst_size_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":58:28:58:36|Input w1_data_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":59:15:59:29|Input w1_data_valid_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":60:15:60:22|Input w1_req_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":61:29:61:44|Input w1_wstart_addr_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":62:15:62:29|Input w2_burst_size_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":63:28:63:36|Input w2_data_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":64:15:64:29|Input w2_data_valid_i is unused.
+@N: CL159 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v":65:15:65:22|Input w2_req_i is unused.
+@N:"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\read_demux.vhd":26:7:26:16|Top entity is set to read_demux.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\write_mux.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\request_scheduler.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\write_demux.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\read_demux.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\read_mux.vhd'.
+@N: CD231 :"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: Setting default value for generic g_data_width to 64;
+@N: Setting default value for generic g_addr_width to 32;
+@N: CD630 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\write_mux.vhd":26:7:26:15|Synthesizing work.write_mux.write_mux.
+@N: CD630 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\write_demux.vhd":26:7:26:17|Synthesizing work.write_demux.write_demux.
+@N: CD630 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\request_scheduler.vhd":26:7:26:23|Synthesizing work.request_scheduler.request_scheduler.
+@N: CD231 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\request_scheduler.vhd":75:25:75:26|Using onehot encoding for type scheduler_states. For example, enumeration idle is mapped to "100000".
+@N: CD604 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\request_scheduler.vhd":337:20:337:33|OTHERS clause is not synthesized.
+@N: Setting default value for generic g_addr_width to 32;
+@N: CD630 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\read_mux.vhd":26:7:26:14|Synthesizing work.read_mux.read_mux.
+@N: CD630 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\read_demux.vhd":26:7:26:16|Synthesizing work.read_demux.read_demux.
+@N: CL201 :"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\request_scheduler.vhd":253:12:253:13|Trying to extract state machine for register s_state.
+@N|Running in 64-bit mode
+

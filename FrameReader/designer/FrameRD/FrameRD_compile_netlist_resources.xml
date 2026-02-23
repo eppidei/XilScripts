@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Compile Report</title>
+<text>Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)</text>
+<text>Date: Tue Jan 27 22:10:09 2026
+</text>
+<section><name>Device Selection</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Family</cell>
+ <cell>PolarFire</cell>
+</row>
+<row>
+ <cell>Device</cell>
+ <cell>MPF100T</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>FCSG325</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>-1</cell>
+</row>
+<row>
+ <cell>Core Voltage</cell>
+ <cell>1.0V</cell>
+</row>
+<row>
+ <cell>Part Range</cell>
+ <cell>IND</cell>
+</row>
+<row>
+ <cell>Default I/O technology</cell>
+ <cell>LVCMOS 1.8V</cell>
+</row>
+</table>
+<section><name>Source Files</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Topcell</cell>
+ <cell>FrameRD</cell>
+</row>
+<row>
+ <cell>Format</cell>
+ <cell>Verilog</cell>
+</row>
+<row>
+ <cell>Source</cell>
+ <cell>C:\prj\FrameReader\synthesis\FrameRD.vm</cell>
+</row>
+</table>
+<section><name>Options</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Limit the number of high fanout nets to display to</cell>
+ <cell>10</cell>
+</row>
+</table>
+<section><name>Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>Used</cell>
+ <cell>Total</cell>
+ <cell>Percentage</cell>
+</header>
+<row>
+ <cell>4LUT</cell>
+ <cell>1721</cell>
+ <cell>108600</cell>
+ <cell>1.58</cell>
+</row>
+<row>
+ <cell>DFF</cell>
+ <cell>1516</cell>
+ <cell>108600</cell>
+ <cell>1.40</cell>
+</row>
+<row>
+ <cell>User I/O</cell>
+ <cell>20</cell>
+ <cell>170</cell>
+ <cell>11.76</cell>
+</row>
+<row>
+ <cell>-- Single-ended I/O</cell>
+ <cell>20</cell>
+ <cell>170</cell>
+ <cell>11.76</cell>
+</row>
+<row>
+ <cell>-- Differential I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>85</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>-- I/Os using I/O Registers</cell>
+ <cell>0</cell>
+ <cell>170</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>I/O Register Flip-Flops </cell>
+ <cell>0</cell>
+ <cell>510</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>-- Input  I/O Flip-Flops </cell>
+ <cell>0</cell>
+ <cell>170</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>-- Output I/O Flip-Flops </cell>
+ <cell>0</cell>
+ <cell>170</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>-- Enable I/O Flip-Flops </cell>
+ <cell>0</cell>
+ <cell>170</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>uSRAM</cell>
+ <cell>0</cell>
+ <cell>1008</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>LSRAM</cell>
+ <cell>26</cell>
+ <cell>352</cell>
+ <cell>7.39</cell>
+</row>
+<row>
+ <cell>Math</cell>
+ <cell>0</cell>
+ <cell>336</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>H-Chip Global</cell>
+ <cell>2</cell>
+ <cell>48</cell>
+ <cell>4.17</cell>
+</row>
+<row>
+ <cell>PLL</cell>
+ <cell>0</cell>
+ <cell>8</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>DLL</cell>
+ <cell>0</cell>
+ <cell>8</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>Transceiver Lanes</cell>
+ <cell>0</cell>
+ <cell>4</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>Transceiver PCIe</cell>
+ <cell>0</cell>
+ <cell>2</cell>
+ <cell>0.00</cell>
+</row>
+</table>
+<section><name>Detailed Logic Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>4LUT</cell>
+ <cell>DFF</cell>
+</header>
+<row>
+ <cell>Fabric Logic</cell>
+ <cell>785</cell>
+ <cell>580</cell>
+</row>
+<row>
+ <cell>uSRAM Interface Logic</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>LSRAM Interface Logic</cell>
+ <cell>936</cell>
+ <cell>936</cell>
+</row>
+<row>
+ <cell>Math Interface Logic</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Total Used</cell>
+ <cell>1721</cell>
+ <cell>1516</cell>
+</row>
+</table>
+<section><name>Detailed Carry Chains Resource Usage</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Length</cell>
+ <cell>Used</cell>
+</row>
+<row>
+ <cell>9</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>11</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>12</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>13</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>14</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>16</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>17</cell>
+ <cell>4</cell>
+</row>
+<row>
+ <cell>20</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>Total</cell>
+ <cell>15</cell>
+</row>
+</table>
+<section><name>Detailed 4LUT Groups Resource Usage</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Length</cell>
+ <cell>Used</cell>
+</row>
+<row>
+ <cell>5</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>Total</cell>
+ <cell>1</cell>
+</row>
+</table>
+<section><name>I/O Function</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>w/o register</cell>
+ <cell>w/ register</cell>
+ <cell>w/ DDR register</cell>
+</header>
+<row>
+ <cell>Input I/O</cell>
+ <cell>4</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Output I/O</cell>
+ <cell>16</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Bidirectional I/O</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Input I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Output I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+</table>
+<section><name>Nets assigned to chip global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>458</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NN_1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: I_1/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>174</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NN_2</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: I_3/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+</table>
+<section><name>Nets assigned to row global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+</table>
+<section><name>High fanout nets</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>566</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : rstn_i_c</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: rstn_i_ibuf</cell>
+</row>
+<row>
+ <cell>128</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_SRAM_AHBL_AXI_C0_0/COREAXI4SRAM_0/genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/rdata_mc3</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_SRAM_AHBL_AXI_C0_0/COREAXI4SRAM_0/genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/genblk2.genblk1.rdata_mc3</cell>
+</row>
+<row>
+ <cell>65</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_SRAM_AHBL_AXI_C0_0/COREAXI4SRAM_0/genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/rdata_mc_reg1_sel</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_SRAM_AHBL_AXI_C0_0/COREAXI4SRAM_0/genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/genblk2.genblk1.rdata_mc_reg1_sel</cell>
+</row>
+<row>
+ <cell>64</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_SRAM_AHBL_AXI_C0_0/COREAXI4SRAM_0/genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/rdata_mc_reg1_en6</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_SRAM_AHBL_AXI_C0_0/COREAXI4SRAM_0/genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/genblk2.genblk1.rdata_mc_reg1_en6</cell>
+</row>
+<row>
+ <cell>64</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_SRAM_AHBL_AXI_C0_0/COREAXI4SRAM_0/genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/rdata_mc_reg2_en6</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_SRAM_AHBL_AXI_C0_0/COREAXI4SRAM_0/genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/genblk2.genblk1.rdata_mc_reg2_en6</cell>
+</row>
+<row>
+ <cell>63</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : DDR_Read_0/genblk1.DDR_Read_Native_6/DDR_read_controller_0/s_state_Z[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: DDR_Read_0/genblk1.DDR_Read_Native_6/DDR_read_controller_0/s_state[1]</cell>
+</row>
+<row>
+ <cell>50</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : DDR_Read_0/genblk1.DDR_Read_Native_6/DDR_READ_ASYMM_FIFO_0/empty_r_RNI924H7_Y</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: DDR_Read_0/genblk1.DDR_Read_Native_6/DDR_READ_ASYMM_FIFO_0/genblk16.U_corefifo_async/genblk10.empty_r_RNI924H7</cell>
+</row>
+<row>
+ <cell>43</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : DDR_Read_0/genblk1.DDR_Read_Native_6/DDR_READ_ASYMM_FIFO_0/wrcnt_r_RNIR9KB8_Y[12]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: DDR_Read_0/genblk1.DDR_Read_Native_6/DDR_READ_ASYMM_FIFO_0/genblk16.U_corefifo_async/genblk10.wrcnt_r_RNIR9KB8[12]</cell>
+</row>
+<row>
+ <cell>27</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : genblk2.un1_ARVALID_slvif_0_a2</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_SRAM_AHBL_AXI_C0_0/COREAXI4SRAM_0/genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/genblk2.un1_ARVALID_slvif_0_a2</cell>
+</row>
+<row>
+ <cell>27</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Display_Controller_C0_0/MSC_i_0/MSC_i_1/MSC_net_64</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Display_Controller_C0_0/MSC_i_0/MSC_i_1/r_RSTN</cell>
+</row>
+</table>
+<section><name>High fanout nets (through buffer trees)</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>566</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : rstn_i_c</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: rstn_i_ibuf</cell>
+</row>
+<row>
+ <cell>128</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_SRAM_AHBL_AXI_C0_0/COREAXI4SRAM_0/genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/rdata_mc3</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_SRAM_AHBL_AXI_C0_0/COREAXI4SRAM_0/genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/genblk2.genblk1.rdata_mc3</cell>
+</row>
+<row>
+ <cell>65</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_SRAM_AHBL_AXI_C0_0/COREAXI4SRAM_0/genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/rdata_mc_reg1_sel</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_SRAM_AHBL_AXI_C0_0/COREAXI4SRAM_0/genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/genblk2.genblk1.rdata_mc_reg1_sel</cell>
+</row>
+<row>
+ <cell>64</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_SRAM_AHBL_AXI_C0_0/COREAXI4SRAM_0/genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/rdata_mc_reg1_en6</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_SRAM_AHBL_AXI_C0_0/COREAXI4SRAM_0/genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/genblk2.genblk1.rdata_mc_reg1_en6</cell>
+</row>
+<row>
+ <cell>64</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_SRAM_AHBL_AXI_C0_0/COREAXI4SRAM_0/genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/rdata_mc_reg2_en6</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_SRAM_AHBL_AXI_C0_0/COREAXI4SRAM_0/genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/genblk2.genblk1.rdata_mc_reg2_en6</cell>
+</row>
+<row>
+ <cell>63</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : DDR_Read_0/genblk1.DDR_Read_Native_6/DDR_read_controller_0/s_state_Z[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: DDR_Read_0/genblk1.DDR_Read_Native_6/DDR_read_controller_0/s_state[1]</cell>
+</row>
+<row>
+ <cell>50</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : DDR_Read_0/genblk1.DDR_Read_Native_6/DDR_READ_ASYMM_FIFO_0/empty_r_RNI924H7_Y</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: DDR_Read_0/genblk1.DDR_Read_Native_6/DDR_READ_ASYMM_FIFO_0/genblk16.U_corefifo_async/genblk10.empty_r_RNI924H7</cell>
+</row>
+<row>
+ <cell>43</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : DDR_Read_0/genblk1.DDR_Read_Native_6/DDR_READ_ASYMM_FIFO_0/wrcnt_r_RNIR9KB8_Y[12]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: DDR_Read_0/genblk1.DDR_Read_Native_6/DDR_READ_ASYMM_FIFO_0/genblk16.U_corefifo_async/genblk10.wrcnt_r_RNIR9KB8[12]</cell>
+</row>
+<row>
+ <cell>27</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : genblk2.un1_ARVALID_slvif_0_a2</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_SRAM_AHBL_AXI_C0_0/COREAXI4SRAM_0/genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/genblk2.un1_ARVALID_slvif_0_a2</cell>
+</row>
+<row>
+ <cell>27</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Display_Controller_C0_0/MSC_i_0/MSC_i_1/MSC_net_64</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Display_Controller_C0_0/MSC_i_0/MSC_i_1/r_RSTN</cell>
+</row>
+</table>
+</doc>

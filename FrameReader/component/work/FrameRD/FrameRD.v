@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Mon Feb 23 02:12:46 2026
+// Created by SmartDesign Tue Feb 24 02:47:42 2026
 // Version: 2025.1 2025.1.0.14
 //////////////////////////////////////////////////////////////////////
 
@@ -8,37 +8,22 @@
 // FrameRD
 module FrameRD(
     // Inputs
-    M_AXIS_iTREADY,
     ddr_clk_i,
     pixel_clk,
     rstn_i,
-    video_clk,
-    // Outputs
-    M_AXIS_oTDATA,
-    M_AXIS_oTLAST,
-    M_AXIS_oTUSER,
-    M_AXIS_oTVALID
+    video_clk
 );
 
 //--------------------------------------------------------------------
 // Input
 //--------------------------------------------------------------------
-input         M_AXIS_iTREADY;
-input         ddr_clk_i;
-input         pixel_clk;
-input         rstn_i;
-input         video_clk;
-//--------------------------------------------------------------------
-// Output
-//--------------------------------------------------------------------
-output [23:0] M_AXIS_oTDATA;
-output        M_AXIS_oTLAST;
-output        M_AXIS_oTUSER;
-output        M_AXIS_oTVALID;
+input  ddr_clk_i;
+input  pixel_clk;
+input  rstn_i;
+input  video_clk;
 //--------------------------------------------------------------------
 // Nets
 //--------------------------------------------------------------------
-wire          AND2_0_Y_0;
 wire   [23:0] axis_bayer_demosaic_final_0_0_M_AXIS_TDATA;
 wire          axis_bayer_demosaic_final_0_0_M_AXIS_TLAST;
 wire          axis_bayer_demosaic_final_0_0_M_AXIS_TREADY;
@@ -109,26 +94,29 @@ wire          DDR_Read_0_AXIS_M_TREADY;
 wire   [0:0]  DDR_Read_0_AXIS_M_TSTRB;
 wire   [3:0]  DDR_Read_0_AXIS_M_TUSER;
 wire          DDR_Read_0_AXIS_M_TVALID;
-wire          DFN1_0_0_Q;
-wire          DFN1_0_Q;
+wire   [0:0]  Display_Controller_C0_0_DATA_TRIGGER_O;
+wire          Display_Controller_C0_0_FRAME_END_O;
+wire   [10:0] Display_Controller_C0_0_H_RES_O10to0;
+wire   [0:0]  Display_Controller_C0_0_H_SYNC_O;
 wire          Display_Controller_C0_0_V_ACTIVE_O;
-wire   [23:0] M_AXIS_TDATA;
-wire          M_AXIS_TLAST;
-wire          M_AXIS_iTREADY;
-wire          M_AXIS_TUSER;
-wire          M_AXIS_TVALID;
+wire   [10:0] Display_Controller_C0_0_V_RES_O10to0;
+wire          Display_Controller_C0_0_V_SYNC_O;
 wire          pixel_clk;
 wire          rstn_i;
+wire          TimingController_0_oDdrFrameStart;
 wire          video_clk;
 wire   [23:0] VideoCropper_0_M_AXIS_TDATA;
 wire          VideoCropper_0_M_AXIS_TLAST;
 wire          VideoCropper_0_M_AXIS_TREADY;
 wire          VideoCropper_0_M_AXIS_TUSER;
 wire          VideoCropper_0_M_AXIS_TVALID;
-wire          M_AXIS_TVALID_net_0;
-wire   [23:0] M_AXIS_TDATA_net_0;
-wire          M_AXIS_TLAST_net_0;
-wire          M_AXIS_TUSER_net_0;
+wire   [23:0] VideoMixerV20_0_M_AXIS_TDATA;
+wire          VideoMixerV20_0_M_AXIS_TLAST;
+wire          VideoMixerV20_0_M_AXIS_TREADY;
+wire          VideoMixerV20_0_M_AXIS_TUSER;
+wire          VideoMixerV20_0_M_AXIS_TVALID;
+wire   [15:0] H_RES_O_net_0;
+wire   [15:0] V_RES_O_net_0;
 //--------------------------------------------------------------------
 // TiedOff Nets
 //--------------------------------------------------------------------
@@ -162,8 +150,6 @@ wire   [10:0] iX1a_const_net_0;
 wire   [10:0] iY1a_const_net_0;
 wire   [10:0] iX1b_const_net_0;
 wire   [10:0] iY1b_const_net_0;
-wire   [10:0] iHRESBack_const_net_0;
-wire   [10:0] iVRESBack_const_net_0;
 wire   [1:0]  iDisplayLayer_const_net_0;
 wire   [7:0]  iBackRed_const_net_0;
 wire   [7:0]  iBackGreen_const_net_0;
@@ -181,10 +167,6 @@ wire   [3:0]  rid_const_net_0;
 wire   [31:0] AWADDR_I_0_const_net_0;
 wire   [7:0]  AWSIZE_I_0_const_net_0;
 wire   [63:0] WDATA_I_0_const_net_0;
-//--------------------------------------------------------------------
-// Inverted Nets
-//--------------------------------------------------------------------
-wire          B_IN_POST_INV0_0;
 //--------------------------------------------------------------------
 // Bus Interface Nets Declarations - Unequal Pin Widths
 //--------------------------------------------------------------------
@@ -227,9 +209,7 @@ assign iX1a_const_net_0               = 11'h096;
 assign iY1a_const_net_0               = 11'h055;
 assign iX1b_const_net_0               = 11'h257;
 assign iY1b_const_net_0               = 11'h1F4;
-assign iHRESBack_const_net_0          = 11'h780;
-assign iVRESBack_const_net_0          = 11'h438;
-assign iDisplayLayer_const_net_0      = 2'h3;
+assign iDisplayLayer_const_net_0      = 2'h1;
 assign iBackRed_const_net_0           = 8'h00;
 assign iBackGreen_const_net_0         = 8'h00;
 assign iBackBlue_const_net_0          = 8'h00;
@@ -247,20 +227,10 @@ assign AWADDR_I_0_const_net_0         = 32'h00000000;
 assign AWSIZE_I_0_const_net_0         = 8'h00;
 assign WDATA_I_0_const_net_0          = 64'h0000000000000000;
 //--------------------------------------------------------------------
-// Inversions
+// Slices assignments
 //--------------------------------------------------------------------
-assign B_IN_POST_INV0_0 = ~ DFN1_0_0_Q;
-//--------------------------------------------------------------------
-// Top level output port assignments
-//--------------------------------------------------------------------
-assign M_AXIS_TVALID_net_0 = M_AXIS_TVALID;
-assign M_AXIS_oTVALID      = M_AXIS_TVALID_net_0;
-assign M_AXIS_TDATA_net_0  = M_AXIS_TDATA;
-assign M_AXIS_oTDATA[23:0] = M_AXIS_TDATA_net_0;
-assign M_AXIS_TLAST_net_0  = M_AXIS_TLAST;
-assign M_AXIS_oTLAST       = M_AXIS_TLAST_net_0;
-assign M_AXIS_TUSER_net_0  = M_AXIS_TUSER;
-assign M_AXIS_oTUSER       = M_AXIS_TUSER_net_0;
+assign Display_Controller_C0_0_H_RES_O10to0 = H_RES_O_net_0[10:0];
+assign Display_Controller_C0_0_V_RES_O10to0 = V_RES_O_net_0[10:0];
 //--------------------------------------------------------------------
 // Bus Interface Nets Assignments - Unequal Pin Widths
 //--------------------------------------------------------------------
@@ -273,15 +243,6 @@ assign axis_bayer_demosaic_final_0_M_AXIS_TUSER_0_0to0 = axis_bayer_demosaic_fin
 //--------------------------------------------------------------------
 // Component instances
 //--------------------------------------------------------------------
-//--------AND2
-AND2 AND2_0(
-        // Inputs
-        .A ( DFN1_0_Q ),
-        .B ( B_IN_POST_INV0_0 ),
-        // Outputs
-        .Y ( AND2_0_Y_0 ) 
-        );
-
 //--------axi4_mem_model
 axi4_mem_model #( 
         .AXI_ADDR_WIDTH ( 32 ),
@@ -447,7 +408,7 @@ DDR_Read_0(
         .reset_i            ( rstn_i ),
         .pixel_clk_i        ( pixel_clk ),
         .ddr_clk_i          ( ddr_clk_i ),
-        .frame_start_i      ( AND2_0_Y_0 ),
+        .frame_start_i      ( TimingController_0_oDdrFrameStart ),
         .RVALID_I           ( DDR_AXI4_ARBITER_PF_C0_0_RVALID_O_0 ),
         .ARREADY_I          ( DDR_AXI4_ARBITER_PF_C0_0_ARREADY_O_0 ),
         .BUSER_I            ( DDR_AXI4_ARBITER_PF_C0_0_BUSER_O_r0 ),
@@ -492,7 +453,7 @@ DDR_Read_0_0(
         .line_gap_i         ( line_gap_i_const_net_1 ),
         .horz_resl_i        ( horz_resl_i_const_net_1 ),
         .vert_resl_i        ( vert_resl_i_const_net_1 ),
-        .frame_start_i      ( AND2_0_Y_0 ),
+        .frame_start_i      ( TimingController_0_oDdrFrameStart ),
         .frame_start_addr_i ( frame_start_addr_i_const_net_1 ),
         .h_offset_i         ( h_offset_i_const_net_1 ),
         .v_offset_i         ( v_offset_i_const_net_1 ),
@@ -516,24 +477,6 @@ DDR_Read_0_0(
         .TUSER_O            ( DDR_Read_0_0_AXIS_M_TUSER ) 
         );
 
-//--------DFN1
-DFN1 DFN1_0(
-        // Inputs
-        .D   ( Display_Controller_C0_0_V_ACTIVE_O ),
-        .CLK ( pixel_clk ),
-        // Outputs
-        .Q   ( DFN1_0_Q ) 
-        );
-
-//--------DFN1
-DFN1 DFN1_0_0(
-        // Inputs
-        .D   ( DFN1_0_Q ),
-        .CLK ( pixel_clk ),
-        // Outputs
-        .Q   ( DFN1_0_0_Q ) 
-        );
-
 //--------Display_Controller_C0
 Display_Controller_C0 Display_Controller_C0_0(
         // Inputs
@@ -541,13 +484,13 @@ Display_Controller_C0 Display_Controller_C0_0(
         .SYS_CLK_I      ( video_clk ),
         .ENABLE_I       ( rstn_i ),
         // Outputs
-        .FRAME_END_O    (  ),
-        .V_SYNC_O       (  ),
+        .FRAME_END_O    ( Display_Controller_C0_0_FRAME_END_O ),
+        .V_SYNC_O       ( Display_Controller_C0_0_V_SYNC_O ),
         .V_ACTIVE_O     ( Display_Controller_C0_0_V_ACTIVE_O ),
-        .H_SYNC_O       (  ),
-        .DATA_TRIGGER_O (  ),
-        .H_RES_O        (  ),
-        .V_RES_O        (  ) 
+        .H_SYNC_O       ( Display_Controller_C0_0_H_SYNC_O ),
+        .DATA_TRIGGER_O ( Display_Controller_C0_0_DATA_TRIGGER_O ),
+        .H_RES_O        ( H_RES_O_net_0 ),
+        .V_RES_O        ( V_RES_O_net_0 ) 
         );
 
 //--------streamScaler
@@ -585,6 +528,34 @@ streamScaler_0(
         .nextDin         (  ),
         .dOutValid       (  ),
         .dOut            (  ) 
+        );
+
+//--------TimingController
+TimingController #( 
+        .pColorWidth ( 8 ),
+        .pNChannels  ( 3 ),
+        .pPPC        ( 1 ) )
+TimingController_0(
+        // Inputs
+        .iPixelClk      ( pixel_clk ),
+        .iVideoClk      ( video_clk ),
+        .rst_n          ( rstn_i ),
+        .s_axis_tdata   ( VideoMixerV20_0_M_AXIS_TDATA ),
+        .s_axis_tvalid  ( VideoMixerV20_0_M_AXIS_TVALID ),
+        .s_axis_tlast   ( VideoMixerV20_0_M_AXIS_TLAST ),
+        .s_axis_tuser   ( VideoMixerV20_0_M_AXIS_TUSER ),
+        .iHSync         ( Display_Controller_C0_0_H_SYNC_O ),
+        .iVSync         ( Display_Controller_C0_0_V_SYNC_O ),
+        .iDataTrigger   ( Display_Controller_C0_0_DATA_TRIGGER_O ),
+        .iVideoActive   ( Display_Controller_C0_0_V_ACTIVE_O ),
+        .iEOF           ( Display_Controller_C0_0_FRAME_END_O ),
+        // Outputs
+        .s_axis_tready  ( VideoMixerV20_0_M_AXIS_TREADY ),
+        .oVideo         (  ),
+        .oVsync         (  ),
+        .oHSYnc         (  ),
+        .oDV            (  ),
+        .oDdrFrameStart ( TimingController_0_oDdrFrameStart ) 
         );
 
 //--------VideoCropper
@@ -628,8 +599,8 @@ VideoMixerV20_0(
         // Inputs
         .iPixClk       ( pixel_clk ),
         .iPixRstn      ( rstn_i ),
-        .iHRESBack     ( iHRESBack_const_net_0 ),
-        .iVRESBack     ( iVRESBack_const_net_0 ),
+        .iHRESBack     ( Display_Controller_C0_0_H_RES_O10to0 ),
+        .iVRESBack     ( Display_Controller_C0_0_V_RES_O10to0 ),
         .iSWResetN     ( VCC_net ),
         .iStart        ( VCC_net ),
         .iStop         ( GND_net ),
@@ -655,15 +626,15 @@ VideoMixerV20_0(
         .iTVALID2      ( axis_bayer_demosaic_final_0_0_M_AXIS_TVALID ),
         .iTLAST2       ( axis_bayer_demosaic_final_0_0_M_AXIS_TLAST ),
         .iTUSER2       ( axis_bayer_demosaic_final_0_0_M_AXIS_TUSER_0 ),
-        .iTREADY       ( M_AXIS_iTREADY ),
+        .iTREADY       ( VideoMixerV20_0_M_AXIS_TREADY ),
         // Outputs
         .oInt          (  ),
         .oTREADY1      ( VideoCropper_0_M_AXIS_TREADY ),
         .oTREADY2      ( axis_bayer_demosaic_final_0_0_M_AXIS_TREADY ),
-        .oTDATA        ( M_AXIS_TDATA ),
-        .oTVALID       ( M_AXIS_TVALID ),
-        .oTLAST        ( M_AXIS_TLAST ),
-        .oTUSER        ( M_AXIS_TUSER ) 
+        .oTDATA        ( VideoMixerV20_0_M_AXIS_TDATA ),
+        .oTVALID       ( VideoMixerV20_0_M_AXIS_TVALID ),
+        .oTLAST        ( VideoMixerV20_0_M_AXIS_TLAST ),
+        .oTUSER        ( VideoMixerV20_0_M_AXIS_TUSER ) 
         );
 
 

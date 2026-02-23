@@ -1,0 +1,153 @@
+# Reading pref.tcl
+# //  QuestaSim Pro Microchip Edition-64
+# //  Version 2024.3 win64 Sep 10 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# do run.do
+# INFO: Simulation library presynth already exists
+# QuestaSim Pro Microchip Edition-64 vmap 2024.3 Lib Mapping Utility 2024.09 Sep 10 2024
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# QuestaSim Pro Microchip Edition-64 vmap 2024.3 Lib Mapping Utility 2024.09 Sep 10 2024
+# vmap PolarFire C:/Microchip/Libero_SoC_2025.1/Libero_SoC/Designer/lib/questasim/precompiled/vlog/polarfire 
+# Modifying modelsim.ini
+# QuestaSim Pro Microchip Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 00:35:34 on Feb 01,2026
+# vlog -reportprogress 300 -sv -work presynth C:/prj/FrameReader/hdl/Demosaic.v 
+# -- Compiling module dp_ram
+# -- Compiling module line_buffer
+# -- Compiling module bayer_demosaic_axis
+# 
+# Top level modules:
+# 	bayer_demosaic_axis
+# End time: 00:35:34 on Feb 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim Pro Microchip Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 00:35:34 on Feb 01,2026
+# vlog -reportprogress 300 "+incdir+C:/prj/FrameReader/stimulus" -sv -work presynth C:/prj/FrameReader/stimulus/tb_copilot.v 
+# -- Compiling module tb_copilot_bayer
+# 
+# Top level modules:
+# 	tb_copilot_bayer
+# End time: 00:35:34 on Feb 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" -L PolarFire -L presynth -t 1ps -displaymsgmode both presynth.tb_copilot_bayer 
+# Start time: 00:35:34 on Feb 01,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Error (suppressible): C:/prj/FrameReader/stimulus/tb_copilot.v(49): (vopt-2732) Module parameter 'BAYER_PATTERN' not found for override.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 16
+quit -sim
+# End time: 00:36:15 on Feb 01,2026, Elapsed time: 0:00:41
+# Errors: 1, Warnings: 1
+abort
+do run.do
+# INFO: Simulation library presynth already exists
+# QuestaSim Pro Microchip Edition-64 vmap 2024.3 Lib Mapping Utility 2024.09 Sep 10 2024
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# QuestaSim Pro Microchip Edition-64 vmap 2024.3 Lib Mapping Utility 2024.09 Sep 10 2024
+# vmap PolarFire C:/Microchip/Libero_SoC_2025.1/Libero_SoC/Designer/lib/questasim/precompiled/vlog/polarfire 
+# Modifying modelsim.ini
+# QuestaSim Pro Microchip Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 00:36:21 on Feb 01,2026
+# vlog -reportprogress 300 -sv -work presynth C:/prj/FrameReader/hdl/Demosaic.v 
+# -- Compiling module dp_ram
+# -- Compiling module line_buffer
+# -- Compiling module bayer_demosaic_axis
+# 
+# Top level modules:
+# 	bayer_demosaic_axis
+# End time: 00:36:21 on Feb 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim Pro Microchip Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 00:36:21 on Feb 01,2026
+# vlog -reportprogress 300 "+incdir+C:/prj/FrameReader/stimulus" -sv -work presynth C:/prj/FrameReader/stimulus/tb_copilot.v 
+# -- Compiling module tb_copilot_bayer
+# 
+# Top level modules:
+# 	tb_copilot_bayer
+# End time: 00:36:21 on Feb 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" -L PolarFire -L presynth -t 1ps -displaymsgmode both presynth.tb_copilot_bayer 
+# Start time: 00:36:22 on Feb 01,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.tb_copilot_bayer(fast)
+# Loading work.bayer_demosaic_axis(fast)
+# Loading work.line_buffer(fast)
+# Loading work.dp_ram(fast)
+# Simulation Done with Random Backpressure.
+# ** Note: $finish    : C:/prj/FrameReader/stimulus/tb_copilot.v(139)
+#    Time: 4630195 ns  Iteration: 1  Instance: /tb_copilot_bayer
+# 1
+# Break in Module tb_copilot_bayer at C:/prj/FrameReader/stimulus/tb_copilot.v line 139
+# can't find package ScintillaTk
+# can't find package ScintillaTk
+add wave -position insertpoint sim:/tb_copilot_bayer/dut/*
+quit -sim
+# End time: 00:42:55 on Feb 01,2026, Elapsed time: 0:06:33
+# Errors: 0, Warnings: 1
+do run.do
+# INFO: Simulation library presynth already exists
+# QuestaSim Pro Microchip Edition-64 vmap 2024.3 Lib Mapping Utility 2024.09 Sep 10 2024
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# QuestaSim Pro Microchip Edition-64 vmap 2024.3 Lib Mapping Utility 2024.09 Sep 10 2024
+# vmap PolarFire C:/Microchip/Libero_SoC_2025.1/Libero_SoC/Designer/lib/questasim/precompiled/vlog/polarfire 
+# Modifying modelsim.ini
+# QuestaSim Pro Microchip Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 00:44:04 on Feb 01,2026
+# vlog -reportprogress 300 -sv -work presynth C:/prj/FrameReader/hdl/Demosaic.v 
+# -- Compiling module dp_ram
+# -- Compiling module line_buffer
+# -- Compiling module bayer_demosaic_axis
+# 
+# Top level modules:
+# 	bayer_demosaic_axis
+# End time: 00:44:04 on Feb 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim Pro Microchip Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 00:44:04 on Feb 01,2026
+# vlog -reportprogress 300 "+incdir+C:/prj/FrameReader/stimulus" -sv -work presynth C:/prj/FrameReader/stimulus/tb_copilot.v 
+# -- Compiling module tb_copilot_bayer
+# 
+# Top level modules:
+# 	tb_copilot_bayer
+# End time: 00:44:04 on Feb 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" -L PolarFire -L presynth -t 1ps -displaymsgmode both presynth.tb_copilot_bayer 
+# Start time: 00:44:05 on Feb 01,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.tb_copilot_bayer(fast)
+# Loading work.bayer_demosaic_axis(fast)
+# Loading work.line_buffer(fast)
+# Loading work.dp_ram(fast)
+# Simulation Done with Random Backpressure.
+# ** Note: $finish    : C:/prj/FrameReader/stimulus/tb_copilot.v(140)
+#    Time: 3937275 ns  Iteration: 1  Instance: /tb_copilot_bayer
+# 1
+# Break in Module tb_copilot_bayer at C:/prj/FrameReader/stimulus/tb_copilot.v line 140
+# can't find package ScintillaTk
+# End time: 00:45:35 on Feb 01,2026, Elapsed time: 0:01:30
+# Errors: 0, Warnings: 1

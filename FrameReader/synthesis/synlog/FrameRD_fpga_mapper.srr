@@ -1,0 +1,906 @@
+# Tue Jan 27 22:09:49 2026
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-5
+Install: C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: DESKTOP-8FMOK3J
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202309act, Build 395R, Built Apr 29 2025 06:36:49, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 185MB peak: 185MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 200MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 200MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 200MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 200MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 263MB peak: 263MB)
+
+@N: MO111 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_ram_wrapper.v":60:26:60:36|Tristate driver B_DB_DETECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_64s_64s_9_9_1s_1s_2s(verilog)) on net B_DB_DETECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_64s_64s_9_9_1s_1s_2s(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_ram_wrapper.v":59:26:59:36|Tristate driver A_DB_DETECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_64s_64s_9_9_1s_1s_2s(verilog)) on net A_DB_DETECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_64s_64s_9_9_1s_1s_2s(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_ram_wrapper.v":58:26:58:37|Tristate driver B_SB_CORRECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_64s_64s_9_9_1s_1s_2s(verilog)) on net B_SB_CORRECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_64s_64s_9_9_1s_1s_2s(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_ram_wrapper.v":57:26:57:37|Tristate driver A_SB_CORRECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_64s_64s_9_9_1s_1s_2s(verilog)) on net A_SB_CORRECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_64s_64s_9_9_1s_1s_2s(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\video_axi_fifo.v":151:37:151:45|Tristate driver DB_DETECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_video_axi_fifo_Z1_layer0(verilog)) on net DB_DETECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_video_axi_fifo_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\video_axi_fifo.v":150:37:150:46|Tristate driver SB_CORRECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_video_axi_fifo_Z1_layer0(verilog)) on net SB_CORRECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_video_axi_fifo_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_ram_wrapper.v":60:26:60:36|Tristate driver B_DB_DETECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_8s_8s_3_3_1s_1s_2s(verilog)) on net B_DB_DETECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_8s_8s_3_3_1s_1s_2s(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_ram_wrapper.v":59:26:59:36|Tristate driver A_DB_DETECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_8s_8s_3_3_1s_1s_2s(verilog)) on net A_DB_DETECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_8s_8s_3_3_1s_1s_2s(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_ram_wrapper.v":58:26:58:37|Tristate driver B_SB_CORRECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_8s_8s_3_3_1s_1s_2s(verilog)) on net B_SB_CORRECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_8s_8s_3_3_1s_1s_2s(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_ram_wrapper.v":57:26:57:37|Tristate driver A_SB_CORRECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_8s_8s_3_3_1s_1s_2s(verilog)) on net A_SB_CORRECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_8s_8s_3_3_1s_1s_2s(verilog)) has its enable tied to GND.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":459:5:459:10|Removing sequential instance genblk1\.wrap_waddr_plus[13:0] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z13_layer0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":1774:4:1774:9|Removing sequential instance genblk2\.wrap_raddr_next_r[13:0] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z13_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":1791:4:1791:9|Removing sequential instance genblk2\.wrap_raddr_incr[13:0] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z13_layer0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":1647:4:1647:9|Removing sequential instance genblk2\.wrap_raddr_plus[13:0] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z13_layer0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_corefifo_fwft.v":250:3:250:8|Removing sequential instance genblk19\.u_corefifo_fwft.reg_valid_r (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_video_axi_fifo_Z1_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_corefifo_fwft.v":250:3:250:8|Removing sequential instance genblk19\.u_corefifo_fwft.empty_r (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_video_axi_fifo_Z1_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_corefifo_sync_scntr.v":453:9:453:14|Removing sequential instance genblk18\.fifo_corefifo_sync_scntr.genblk7\.afull_r (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_video_axi_fifo_Z1_layer0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_corefifo_fwft.v":250:3:250:8|Removing sequential instance genblk19\.u_corefifo_fwft.reg_valid_r (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_video_axi_fifo_Z4_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_corefifo_fwft.v":250:3:250:8|Removing sequential instance genblk19\.u_corefifo_fwft.empty_r (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_video_axi_fifo_Z4_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@W: MO129 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\write_mux.vhd":176:2:176:3|Sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.write_top_0.write_mux_0.data_valid_o is reduced to a combinational gate by constant propagation.
+@W: MO171 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":144:12:144:13|Sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.write_top_0.request_scheduler_0.s_req1_dly is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":144:12:144:13|Sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.write_top_0.request_scheduler_0.s_req2_dly is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":144:12:144:13|Sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.write_top_0.request_scheduler_0.s_req3_dly is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":144:12:144:13|Sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.write_top_0.request_scheduler_0.s_req4_dly is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":144:12:144:13|Sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.write_top_0.request_scheduler_0.s_req5_dly is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":144:12:144:13|Sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.write_top_0.request_scheduler_0.s_req6_dly is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":144:12:144:13|Sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.write_top_0.request_scheduler_0.s_req7_dly is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":144:12:144:13|Sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.s_req1_dly is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":144:12:144:13|Sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.s_req2_dly is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":144:12:144:13|Sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.s_req3_dly is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":144:12:144:13|Sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.s_req4_dly is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":144:12:144:13|Sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.s_req5_dly is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":144:12:144:13|Sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.s_req6_dly is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":144:12:144:13|Sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.s_req7_dly is reduced to a combinational gate by constant propagation. 
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\ddr_rw_arbiter.v":356:1:356:6|Removing sequential instance wlast_reg (in view: work.ddr_rw_arbiter_Z7_layer0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\video_axi_fifo.v":826:3:826:8|Removing sequential instance v_wr_len_fifo.re_set (in view: work.ddr_rw_arbiter_Z7_layer0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\video_axi_fifo.v":826:3:826:8|Removing sequential instance v_wr_data_fifo.re_set (in view: work.ddr_rw_arbiter_Z7_layer0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\video_axi_fifo.v":893:3:893:8|Removing sequential instance v_wr_len_fifo.RE_d1 (in view: work.ddr_rw_arbiter_Z7_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\video_axi_fifo.v":893:3:893:8|Removing sequential instance v_wr_data_fifo.RE_d1 (in view: work.ddr_rw_arbiter_Z7_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_corefifo_sync_scntr.v":365:4:365:9|Removing sequential instance v_wr_data_fifo.genblk18\.fifo_corefifo_sync_scntr.empty_r_fwft (in view: work.ddr_rw_arbiter_Z7_layer0(verilog)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\video_axi_fifo.v":893:3:893:8|Removing sequential instance v_wr_len_fifo.REN_d1 (in view: work.ddr_rw_arbiter_Z7_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\video_axi_fifo.v":893:3:893:8|Removing sequential instance v_wr_data_fifo.REN_d1 (in view: work.ddr_rw_arbiter_Z7_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_corefifo_sync_scntr.v":284:3:284:8|Removing sequential instance v_wr_data_fifo.genblk18\.fifo_corefifo_sync_scntr.sc_r_fwft[9:0] (in view: work.ddr_rw_arbiter_Z7_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_corefifo_sync_scntr.v":507:3:507:8|Removing sequential instance v_wr_data_fifo.genblk18\.fifo_corefifo_sync_scntr.memraddr_r[8:0] (in view: work.ddr_rw_arbiter_Z7_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_corefifo_sync_scntr.v":491:3:491:8|Removing sequential instance v_wr_data_fifo.genblk18\.fifo_corefifo_sync_scntr.memwaddr_r[8:0] (in view: work.ddr_rw_arbiter_Z7_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_corefifo_sync_scntr.v":349:3:349:8|Removing sequential instance v_wr_data_fifo.genblk18\.fifo_corefifo_sync_scntr.empty_top_fwft_r (in view: work.ddr_rw_arbiter_Z7_layer0(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":171:12:171:13|Removing sequential instance s_write_ctr[2:0] (in view: work.request_scheduler_1(request_scheduler)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":1093:4:1093:9|Removing sequential instance genblk1\.wrap_waddr_calc[13:0] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z13_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":342:5:342:10|Removing sequential instance genblk1\.wr_wrap_boundary_int (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z13_layer0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":1111:4:1111:9|Removing sequential instance genblk1\.wrap_waddr_incr_r[13:0] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z13_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":2264:4:2264:9|Removing sequential instance genblk2\.wrap_raddr_r[13:3] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z13_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 271MB peak: 271MB)
+
+Encoding state machine local_wbus_state[3:0] (in view: work.ddr_rw_arbiter_Z7_layer0(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\ddr_rw_arbiter.v":356:1:356:6|There are no possible illegal states for state machine local_wbus_state[3:0] (in view: work.ddr_rw_arbiter_Z7_layer0(verilog)); safe FSM implementation is not required.
+Encoding state machine video_bus_state[4:0] (in view: work.ddr_rw_arbiter_Z7_layer0(verilog))
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   101 -> 01000
+   110 -> 10000
+@N: MO231 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\ddr_rw_arbiter.v":356:1:356:6|Found counter in view:work.ddr_rw_arbiter_Z7_layer0(verilog) instance wd_trans_Cnt[7:0] 
+@N: MO231 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi_lbus_corefifo_sync_scntr.v":269:4:269:9|Found counter in view:work.ddr_rw_arbiter_Z7_layer0(verilog) instance v_wr_data_fifo.genblk18\.fifo_corefifo_sync_scntr.sc_r[9:0] 
+Encoding state machine s_state[0:5] (in view: work.request_scheduler_0(request_scheduler))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":171:12:171:13|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_0[2] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_0[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":171:12:171:13|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_0[1] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_0[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":171:12:171:13|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_2[1] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_2[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":171:12:171:13|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_2[2] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_2[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":171:12:171:13|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_1[2] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_1[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":171:12:171:13|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_1[1] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_1[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":171:12:171:13|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_3[2] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_3[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":171:12:171:13|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_3[1] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_3[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":171:12:171:13|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_4[2] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_4[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":171:12:171:13|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_4[1] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_4[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":171:12:171:13|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_5[2] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_5[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":171:12:171:13|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_5[1] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_5[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":171:12:171:13|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_6[2] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_6[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":171:12:171:13|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_6[1] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_6[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":171:12:171:13|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_7[2] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_7[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":171:12:171:13|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_7[1] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_7[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":253:12:253:13|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.mux_sel_o[2] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.mux_sel_o[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":253:12:253:13|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.mux_sel_o[1] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.mux_sel_o[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":171:12:171:13|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_2[3] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_2[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":171:12:171:13|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_1[3] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_1[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":171:12:171:13|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_3[3] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_3[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":171:12:171:13|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_4[3] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_4[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":171:12:171:13|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_5[3] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_5[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":171:12:171:13|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_6[3] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_6[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":171:12:171:13|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_7[3] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_7[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":171:12:171:13|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_0[3] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.WRITE_FIFO_PROC.s_fifo_0[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Encoding state machine s_state[0:5] (in view: work.request_scheduler_1(request_scheduler))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+@W: MO129 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":253:12:253:13|Sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.write_top_0.request_scheduler_0.s_state[3] is reduced to a combinational gate by constant propagation.
+@W: MO197 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":253:12:253:13|Removing FSM register s_state[2] (in view view:work.request_scheduler_1(request_scheduler)) because its output is a constant.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":253:12:253:13|Removing sequential instance mux_sel_o[0] (in view: work.request_scheduler_1(request_scheduler)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":253:12:253:13|Removing sequential instance mux_sel_o[1] (in view: work.request_scheduler_1(request_scheduler)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":253:12:253:13|Removing sequential instance mux_sel_o[2] (in view: work.request_scheduler_1(request_scheduler)) because it does not drive other instances.
+Encoding state machine s_state[3:0] (in view: work.DDR_read_controller_64s_8s_0s_0_1_2_3_256s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\prj\framereader\hdl\ddr_read_controller.v":163:0:163:5|There are no possible illegal states for state machine s_state[3:0] (in view: work.DDR_read_controller_64s_8s_0s_0_1_2_3_256s(verilog)); safe FSM implementation is not required.
+@N: MO231 :"c:\prj\framereader\hdl\ddr_read_controller.v":163:0:163:5|Found counter in view:work.DDR_read_controller_64s_8s_0s_0_1_2_3_256s(verilog) instance rLineCounter[15:0] 
+@N: MO231 :"c:\prj\framereader\hdl\ddr_read_controller.v":163:0:163:5|Found counter in view:work.DDR_read_controller_64s_8s_0s_0_1_2_3_256s(verilog) instance rBurstCounter[15:0] 
+@W: BN132 :"c:\prj\framereader\hdl\ddr_read_controller.v":163:0:163:5|Removing instance DDR_Read_0.genblk1.DDR_Read_Native_6.DDR_read_controller_0.s_count_max[5] because it is equivalent to instance DDR_Read_0.genblk1.DDR_Read_Native_6.DDR_read_controller_0.s_count_max[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\hdl\ddr_read_controller.v":163:0:163:5|Removing instance DDR_Read_0.genblk1.DDR_Read_Native_6.DDR_read_controller_0.s_count_max[7] because it is equivalent to instance DDR_Read_0.genblk1.DDR_Read_Native_6.DDR_read_controller_0.s_count_max[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\hdl\ddr_read_controller.v":163:0:163:5|Removing instance DDR_Read_0.genblk1.DDR_Read_Native_6.DDR_read_controller_0.s_count_max[6] because it is equivalent to instance DDR_Read_0.genblk1.DDR_Read_Native_6.DDR_read_controller_0.s_count_max[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO231 :"c:\prj\framereader\hdl\corefifo_async.v":832:12:832:17|Found counter in view:work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0(verilog) instance genblk10\.memraddr_r[14:0] 
+@N: MO231 :"c:\prj\framereader\hdl\corefifo_async.v":815:12:815:17|Found counter in view:work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0(verilog) instance genblk10\.memwaddr_r[11:0] 
+@N: BN362 :"c:\prj\framereader\hdl\corefifo_async.v":776:12:776:17|Removing sequential instance genblk10\.wrcnt_r[0] (in view: work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\hdl\corefifo_async.v":776:12:776:17|Removing sequential instance genblk10\.wrcnt_r[1] (in view: work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\hdl\corefifo_async.v":776:12:776:17|Removing sequential instance genblk10\.wrcnt_r[2] (in view: work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\hdl\corefifo_async.v":776:12:776:17|Removing sequential instance genblk10\.wrcnt_r[3] (in view: work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\hdl\corefifo_async.v":776:12:776:17|Removing sequential instance genblk10\.wrcnt_r[4] (in view: work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\hdl\corefifo_async.v":776:12:776:17|Removing sequential instance genblk10\.wrcnt_r[5] (in view: work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\hdl\corefifo_async.v":776:12:776:17|Removing sequential instance genblk10\.wrcnt_r[6] (in view: work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\hdl\corefifo_async.v":776:12:776:17|Removing sequential instance genblk10\.wrcnt_r[7] (in view: work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\hdl\corefifo_async.v":776:12:776:17|Removing sequential instance genblk10\.wrcnt_r[8] (in view: work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\hdl\corefifo_async.v":776:12:776:17|Removing sequential instance genblk10\.wrcnt_r[9] (in view: work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\hdl\corefifo_async.v":776:12:776:17|Removing sequential instance genblk10\.wrcnt_r[10] (in view: work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\hdl\corefifo_async.v":776:12:776:17|Removing sequential instance genblk10\.wrcnt_r[11] (in view: work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\hdl\corefifo_nstagessync.v":62:0:62:5|Removing sequential instance Rd_corefifo_NstagesSync.shift_mem_reg\[1\][0] (in view: work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\hdl\corefifo_nstagessync.v":62:0:62:5|Removing sequential instance Rd_corefifo_NstagesSync.shift_mem_reg\[1\][1] (in view: work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\hdl\corefifo_nstagessync.v":62:0:62:5|Removing sequential instance Rd_corefifo_NstagesSync.shift_mem_reg\[1\][2] (in view: work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\hdl\corefifo_nstagessync.v":48:0:48:5|Removing sequential instance Rd_corefifo_NstagesSync.shift_reg[0] (in view: work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\hdl\corefifo_nstagessync.v":48:0:48:5|Removing sequential instance Rd_corefifo_NstagesSync.shift_reg[1] (in view: work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\hdl\corefifo_nstagessync.v":48:0:48:5|Removing sequential instance Rd_corefifo_NstagesSync.shift_reg[2] (in view: work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\hdl\corefifo_async.v":678:12:678:17|Removing sequential instance genblk10\.rptr_gray[0] (in view: work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\hdl\corefifo_async.v":678:12:678:17|Removing sequential instance genblk10\.rptr_gray[1] (in view: work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\hdl\corefifo_async.v":678:12:678:17|Removing sequential instance genblk10\.rptr_gray[2] (in view: work.DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async_Z9_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARSIZE_slvif[0] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z12_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[14] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z12_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[15] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z12_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[16] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z12_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[17] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z12_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[18] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z12_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[19] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z12_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[20] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z12_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[21] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z12_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[22] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z12_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[23] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z12_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[24] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z12_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[25] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z12_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[26] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z12_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[27] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z12_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[28] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z12_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[29] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z12_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[30] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z12_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[31] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z12_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@W: BN132 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.AWSIZE_slvif[1] because it is equivalent to instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.AWSIZE_slvif[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO231 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":1331:10:1331:15|Found counter in view:work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z13_layer0(verilog) instance genblk2\.genblk1\.ram_rdreq_cntr[8:0] 
+@N: MO231 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":1666:4:1666:9|Found counter in view:work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z13_layer0(verilog) instance genblk2\.rdbeat_cnt[8:0] 
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":1755:4:1755:9|Removing sequential instance genblk2\.raddr_aligned_load_r[0] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z13_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":1755:4:1755:9|Removing sequential instance genblk2\.raddr_aligned_load_r[1] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z13_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":1755:4:1755:9|Removing sequential instance genblk2\.raddr_aligned_load_r[2] (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z13_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MF179 :|Found 9 by 9 bit equality operator ('==') genblk2\.genblk1\.ren_sc8 (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z13_layer0(verilog))
+
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 272MB peak: 272MB)
+
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi4_s_if.v":49:2:49:7|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk11.AXI4_S_IF_0.arsize_dly1[5] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk11.AXI4_S_IF_0.arsize_dly1[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi4_s_if.v":49:2:49:7|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk11.AXI4_S_IF_0.arsize_dly1[3] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk11.AXI4_S_IF_0.arsize_dly1[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi4_s_if.v":49:2:49:7|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk11.AXI4_S_IF_0.arsize_dly1[2] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk11.AXI4_S_IF_0.arsize_dly1[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi4_s_if.v":49:2:49:7|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk11.AXI4_S_IF_0.arsize_dly1[1] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk11.AXI4_S_IF_0.arsize_dly1[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi4_s_if.v":49:2:49:7|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk11.AXI4_S_IF_0.arsize_dly1[7] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk11.AXI4_S_IF_0.arsize_dly1[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi4_s_if.v":49:2:49:7|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk11.AXI4_S_IF_0.arsize_dly1[6] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk11.AXI4_S_IF_0.arsize_dly1[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\ddr_rw_arbiter.v":449:1:449:6|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.ddr_rw_arbiter_0.rready because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk11.AXI4_S_IF_0.arsize_dly1[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\hdl\corefifo_async.v":709:12:709:17|Removing instance DDR_Read_0.genblk1.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16.U_corefifo_async.genblk10.dvld_r because it is equivalent to instance DDR_Read_0.genblk1.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.REN_d1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":253:12:253:13|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.write_top_0.request_scheduler_0.s_state[5] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.s_state[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\request_scheduler.vhd":253:12:253:13|Removing instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.read_top_0.request_scheduler_0.s_state[5] because it is equivalent to instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2.DDR_AXI4_ARBITER_PF_axi_0.ddr_rw_arbiter_0.video_bus_state[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARLEN_slvif[7] because it is equivalent to instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARLEN_slvif[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARLEN_slvif[6] because it is equivalent to instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARLEN_slvif[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARLEN_slvif[5] because it is equivalent to instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARLEN_slvif[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARLEN_slvif[3] because it is equivalent to instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARLEN_slvif[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARLEN_slvif[2] because it is equivalent to instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARLEN_slvif[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARLEN_slvif[1] because it is equivalent to instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARLEN_slvif[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\ddr_rw_arbiter.v":449:1:449:6|Removing sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk2\.DDR_AXI4_ARBITER_PF_axi_0.ddr_rw_arbiter_0.wack_o (in view: work.FrameRD(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.AWSIZE_slvif[0] (in view: work.FrameRD(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARSIZE_slvif[1] (in view: work.FrameRD(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[0] (in view: work.FrameRD(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[1] (in view: work.FrameRD(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[2] (in view: work.FrameRD(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[3] (in view: work.FrameRD(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[4] (in view: work.FrameRD(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[5] (in view: work.FrameRD(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[6] (in view: work.FrameRD(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[7] (in view: work.FrameRD(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[8] (in view: work.FrameRD(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[9] (in view: work.FrameRD(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[10] (in view: work.FrameRD(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[11] (in view: work.FrameRD(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[12] (in view: work.FrameRD(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF.ARADDR_slvif[13] (in view: work.FrameRD(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi4_s_if.v":49:2:49:7|Removing sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk11\.AXI4_S_IF_0.araddr_dly1[14] (in view: work.FrameRD(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi4_s_if.v":49:2:49:7|Removing sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk11\.AXI4_S_IF_0.araddr_dly1[15] (in view: work.FrameRD(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi4_s_if.v":49:2:49:7|Removing sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk11\.AXI4_S_IF_0.araddr_dly1[16] (in view: work.FrameRD(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi4_s_if.v":49:2:49:7|Removing sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk11\.AXI4_S_IF_0.araddr_dly1[17] (in view: work.FrameRD(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi4_s_if.v":49:2:49:7|Removing sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk11\.AXI4_S_IF_0.araddr_dly1[18] (in view: work.FrameRD(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi4_s_if.v":49:2:49:7|Removing sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk11\.AXI4_S_IF_0.araddr_dly1[19] (in view: work.FrameRD(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi4_s_if.v":49:2:49:7|Removing sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk11\.AXI4_S_IF_0.araddr_dly1[20] (in view: work.FrameRD(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi4_s_if.v":49:2:49:7|Removing sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk11\.AXI4_S_IF_0.araddr_dly1[21] (in view: work.FrameRD(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi4_s_if.v":49:2:49:7|Removing sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk11\.AXI4_S_IF_0.araddr_dly1[22] (in view: work.FrameRD(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi4_s_if.v":49:2:49:7|Removing sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk11\.AXI4_S_IF_0.araddr_dly1[23] (in view: work.FrameRD(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\prj\framereader\component\microchip\solutioncore\ddr_axi4_arbiter_pf\2.2.0\rtl\axi4_s_if.v":49:2:49:7|Removing sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk11\.AXI4_S_IF_0.araddr_dly1[24] (in view: work.FrameRD(verilog)) because it does not drive other instances.
+
+Only the first 100 messages of id 'BN362' are reported. To see all messages use 'report_messages -log C:\prj\FrameReader\synthesis\synlog\FrameRD_fpga_mapper.srr -id BN362' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN362} -count unlimited' in the Tcl shell.
+@W: BN132 :"c:\prj\framereader\hdl\corefifo.v":1100:3:1100:8|Removing instance DDR_Read_0.genblk1.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.RE_d1 because it is equivalent to instance DDR_Read_0.genblk1.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.REN_d1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 277MB peak: 277MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+@W: BN132 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":371:5:371:10|Removing instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1.waddr_sc[2] because it is equivalent to instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1.waddr_aligned[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":371:5:371:10|Removing instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1.waddr_sc[3] because it is equivalent to instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1.waddr_aligned[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":371:5:371:10|Removing instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1.waddr_sc[4] because it is equivalent to instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1.waddr_aligned[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":371:5:371:10|Removing instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1.waddr_sc[5] because it is equivalent to instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1.waddr_aligned[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":371:5:371:10|Removing instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1.waddr_sc[6] because it is equivalent to instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1.waddr_aligned[9]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":371:5:371:10|Removing instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1.waddr_sc[7] because it is equivalent to instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1.waddr_aligned[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":371:5:371:10|Removing instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1.waddr_sc[8] because it is equivalent to instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1.waddr_aligned[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":371:5:371:10|Removing instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1.waddr_sc[9] because it is equivalent to instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1.waddr_aligned[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":371:5:371:10|Removing instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1.waddr_sc[10] because it is equivalent to instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1.waddr_aligned[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":371:5:371:10|Removing instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1.waddr_sc[0] because it is equivalent to instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1.waddr_aligned[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\prj\framereader\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":371:5:371:10|Removing instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1.waddr_sc[1] because it is equivalent to instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1.waddr_aligned[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 277MB peak: 278MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 278MB peak: 278MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 278MB peak: 278MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 278MB peak: 278MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 278MB peak: 278MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 282MB peak: 282MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:03s		    -3.13ns		 718 /       579
+   2		0h:00m:03s		    -3.13ns		 715 /       579
+
+   3		0h:00m:03s		    -3.13ns		 715 /       579
+
+
+   4		0h:00m:03s		    -3.13ns		 715 /       579
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 283MB peak: 283MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 283MB peak: 284MB)
+
+@W: FX203 :|Removing CLKINT I_2 from net rstn_i_c. Reason: Fanout is less than the threshold.
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 284MB peak: 284MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 284MB peak: 284MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 226MB peak: 284MB)
+
+Writing Analyst data base C:\prj\FrameReader\synthesis\synwork\FrameRD_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 275MB peak: 284MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 277MB peak: 284MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 277MB peak: 284MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 274MB peak: 284MB)
+
+@N: MT615 |Found clock pixclk with period 6.73ns 
+@N: MT615 |Found clock ddrclk with period 5.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Tue Jan 27 22:09:55 2026
+#
+
+
+Top view:               FrameRD
+Requested Frequency:    148.5 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\prj\FrameReader\designer\FrameRD\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -2.858
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock           
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group           
+-------------------------------------------------------------------------------------------------------------------
+ddrclk             200.0 MHz     0.1 MHz       5.000         7150.500      -0.334     declared     default_clkgroup
+pixclk             148.5 MHz     0.1 MHz       6.734         9630.293      -2.858     declared     default_clkgroup
+===================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------
+pixclk    pixclk  |  6.734       2.262   |  No paths    -      |  No paths    -      |  No paths    -    
+pixclk    ddrclk  |  0.002       -2.858  |  No paths    -      |  No paths    -      |  No paths    -    
+ddrclk    pixclk  |  0.002       -0.334  |  No paths    -      |  No paths    -      |  No paths    -    
+ddrclk    ddrclk  |  5.000       0.810   |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: ddrclk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                                  Starting                                        Arrival           
+Instance                                                                                                          Reference     Type     Pin     Net              Time        Slack 
+                                                                                                                  Clock                                                             
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.genblk10\.wptr_gray[0]     ddrclk        SLE      Q       wptr_gray[0]     0.218       -0.334
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.genblk10\.wptr_gray[1]     ddrclk        SLE      Q       wptr_gray[1]     0.218       -0.334
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.genblk10\.wptr_gray[2]     ddrclk        SLE      Q       wptr_gray[2]     0.218       -0.334
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.genblk10\.wptr_gray[3]     ddrclk        SLE      Q       wptr_gray[3]     0.218       -0.334
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.genblk10\.wptr_gray[4]     ddrclk        SLE      Q       wptr_gray[4]     0.218       -0.334
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.genblk10\.wptr_gray[5]     ddrclk        SLE      Q       wptr_gray[5]     0.218       -0.334
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.genblk10\.wptr_gray[6]     ddrclk        SLE      Q       wptr_gray[6]     0.218       -0.334
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.genblk10\.wptr_gray[7]     ddrclk        SLE      Q       wptr_gray[7]     0.218       -0.334
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.genblk10\.wptr_gray[8]     ddrclk        SLE      Q       wptr_gray[8]     0.218       -0.334
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.genblk10\.wptr_gray[9]     ddrclk        SLE      Q       wptr_gray[9]     0.218       -0.334
+====================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                                                Starting                                        Required           
+Instance                                                                                                                        Reference     Type     Pin     Net              Time         Slack 
+                                                                                                                                Clock                                                              
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.Wr_corefifo_NstagesSync.shift_reg[0]     ddrclk        SLE      D       wptr_gray[0]     0.002        -0.334
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.Wr_corefifo_NstagesSync.shift_reg[1]     ddrclk        SLE      D       wptr_gray[1]     0.002        -0.334
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.Wr_corefifo_NstagesSync.shift_reg[2]     ddrclk        SLE      D       wptr_gray[2]     0.002        -0.334
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.Wr_corefifo_NstagesSync.shift_reg[3]     ddrclk        SLE      D       wptr_gray[3]     0.002        -0.334
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.Wr_corefifo_NstagesSync.shift_reg[4]     ddrclk        SLE      D       wptr_gray[4]     0.002        -0.334
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.Wr_corefifo_NstagesSync.shift_reg[5]     ddrclk        SLE      D       wptr_gray[5]     0.002        -0.334
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.Wr_corefifo_NstagesSync.shift_reg[6]     ddrclk        SLE      D       wptr_gray[6]     0.002        -0.334
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.Wr_corefifo_NstagesSync.shift_reg[7]     ddrclk        SLE      D       wptr_gray[7]     0.002        -0.334
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.Wr_corefifo_NstagesSync.shift_reg[8]     ddrclk        SLE      D       wptr_gray[8]     0.002        -0.334
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.Wr_corefifo_NstagesSync.shift_reg[9]     ddrclk        SLE      D       wptr_gray[9]     0.002        -0.334
+===================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      0.002
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         0.002
+
+    - Propagation time:                      0.336
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.334
+
+    Number of logic level(s):                0
+    Starting point:                          DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.genblk10\.wptr_gray[0] / Q
+    Ending point:                            DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.Wr_corefifo_NstagesSync.shift_reg[0] / D
+    The start point is clocked by            ddrclk [rising] (rise=0.000 fall=2.500 period=5.000) on pin CLK
+    The end   point is clocked by            pixclk [rising] (rise=0.000 fall=3.367 period=6.734) on pin CLK
+
+Instance / Net                                                                                                                           Pin      Pin               Arrival     No. of    
+Name                                                                                                                            Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.genblk10\.wptr_gray[0]                   SLE      Q        Out     0.218     0.218 r     -         
+wptr_gray[0]                                                                                                                    Net      -        -       0.118     -           1         
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.Wr_corefifo_NstagesSync.shift_reg[0]     SLE      D        In      -         0.336 r     -         
+==========================================================================================================================================================================================
+Total path delay (propagation time + setup) of 0.336 is 0.218(64.9%) logic and 0.118(35.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      0.002
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         0.002
+
+    - Propagation time:                      0.336
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.334
+
+    Number of logic level(s):                0
+    Starting point:                          DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.genblk10\.wptr_gray[1] / Q
+    Ending point:                            DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.Wr_corefifo_NstagesSync.shift_reg[1] / D
+    The start point is clocked by            ddrclk [rising] (rise=0.000 fall=2.500 period=5.000) on pin CLK
+    The end   point is clocked by            pixclk [rising] (rise=0.000 fall=3.367 period=6.734) on pin CLK
+
+Instance / Net                                                                                                                           Pin      Pin               Arrival     No. of    
+Name                                                                                                                            Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.genblk10\.wptr_gray[1]                   SLE      Q        Out     0.218     0.218 r     -         
+wptr_gray[1]                                                                                                                    Net      -        -       0.118     -           1         
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.Wr_corefifo_NstagesSync.shift_reg[1]     SLE      D        In      -         0.336 r     -         
+==========================================================================================================================================================================================
+Total path delay (propagation time + setup) of 0.336 is 0.218(64.9%) logic and 0.118(35.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      0.002
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         0.002
+
+    - Propagation time:                      0.336
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.334
+
+    Number of logic level(s):                0
+    Starting point:                          DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.genblk10\.wptr_gray[2] / Q
+    Ending point:                            DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.Wr_corefifo_NstagesSync.shift_reg[2] / D
+    The start point is clocked by            ddrclk [rising] (rise=0.000 fall=2.500 period=5.000) on pin CLK
+    The end   point is clocked by            pixclk [rising] (rise=0.000 fall=3.367 period=6.734) on pin CLK
+
+Instance / Net                                                                                                                           Pin      Pin               Arrival     No. of    
+Name                                                                                                                            Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.genblk10\.wptr_gray[2]                   SLE      Q        Out     0.218     0.218 r     -         
+wptr_gray[2]                                                                                                                    Net      -        -       0.118     -           1         
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.Wr_corefifo_NstagesSync.shift_reg[2]     SLE      D        In      -         0.336 r     -         
+==========================================================================================================================================================================================
+Total path delay (propagation time + setup) of 0.336 is 0.218(64.9%) logic and 0.118(35.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      0.002
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         0.002
+
+    - Propagation time:                      0.336
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.334
+
+    Number of logic level(s):                0
+    Starting point:                          DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.genblk10\.wptr_gray[3] / Q
+    Ending point:                            DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.Wr_corefifo_NstagesSync.shift_reg[3] / D
+    The start point is clocked by            ddrclk [rising] (rise=0.000 fall=2.500 period=5.000) on pin CLK
+    The end   point is clocked by            pixclk [rising] (rise=0.000 fall=3.367 period=6.734) on pin CLK
+
+Instance / Net                                                                                                                           Pin      Pin               Arrival     No. of    
+Name                                                                                                                            Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.genblk10\.wptr_gray[3]                   SLE      Q        Out     0.218     0.218 r     -         
+wptr_gray[3]                                                                                                                    Net      -        -       0.118     -           1         
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.Wr_corefifo_NstagesSync.shift_reg[3]     SLE      D        In      -         0.336 r     -         
+==========================================================================================================================================================================================
+Total path delay (propagation time + setup) of 0.336 is 0.218(64.9%) logic and 0.118(35.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      0.002
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         0.002
+
+    - Propagation time:                      0.336
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.334
+
+    Number of logic level(s):                0
+    Starting point:                          DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.genblk10\.wptr_gray[4] / Q
+    Ending point:                            DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.Wr_corefifo_NstagesSync.shift_reg[4] / D
+    The start point is clocked by            ddrclk [rising] (rise=0.000 fall=2.500 period=5.000) on pin CLK
+    The end   point is clocked by            pixclk [rising] (rise=0.000 fall=3.367 period=6.734) on pin CLK
+
+Instance / Net                                                                                                                           Pin      Pin               Arrival     No. of    
+Name                                                                                                                            Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.genblk10\.wptr_gray[4]                   SLE      Q        Out     0.218     0.218 r     -         
+wptr_gray[4]                                                                                                                    Net      -        -       0.118     -           1         
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.Wr_corefifo_NstagesSync.shift_reg[4]     SLE      D        In      -         0.336 r     -         
+==========================================================================================================================================================================================
+Total path delay (propagation time + setup) of 0.336 is 0.218(64.9%) logic and 0.118(35.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: pixclk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                                  Starting                                            Arrival           
+Instance                                                                                                          Reference     Type     Pin     Net                  Time        Slack 
+                                                                                                                  Clock                                                                 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DFN1_0                                                                                                            pixclk        DFN1     Q       DFN1_0_Q             0.094       -2.858
+encrypted                                                                                                         pixclk        SLE      Q       biC7FI5pLAD1xb5      0.218       -2.777
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.genblk10\.aempty_r         pixclk        SLE      Q       wFifoAlmostEmpty     0.218       -0.763
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.genblk10\.rptr_gray[3]     pixclk        SLE      Q       rptr_gray[3]         0.218       -0.334
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.genblk10\.rptr_gray[4]     pixclk        SLE      Q       rptr_gray[4]         0.218       -0.334
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.genblk10\.rptr_gray[5]     pixclk        SLE      Q       rptr_gray[5]         0.218       -0.334
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.genblk10\.rptr_gray[6]     pixclk        SLE      Q       rptr_gray[6]         0.218       -0.334
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.genblk10\.rptr_gray[7]     pixclk        SLE      Q       rptr_gray[7]         0.218       -0.334
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.genblk10\.rptr_gray[8]     pixclk        SLE      Q       rptr_gray[8]         0.218       -0.334
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_READ_ASYMM_FIFO_0.genblk16\.U_corefifo_async.genblk10\.rptr_gray[9]     pixclk        SLE      Q       rptr_gray[9]         0.218       -0.334
+========================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                      Starting                                                               Required           
+Instance                                                                              Reference     Type     Pin     Net                                     Time         Slack 
+                                                                                      Clock                                                                                     
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_read_controller_0.s_read_start_addr[12]     pixclk        SLE      EN      un1_s_count_max_0_sqmuxa_2_0_i_o2_0     -0.125       -2.858
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_read_controller_0.s_read_start_addr[13]     pixclk        SLE      EN      un1_s_count_max_0_sqmuxa_2_0_i_o2_0     -0.125       -2.858
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_read_controller_0.s_read_start_addr[14]     pixclk        SLE      EN      un1_s_count_max_0_sqmuxa_2_0_i_o2_0     -0.125       -2.858
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_read_controller_0.s_read_start_addr[15]     pixclk        SLE      EN      un1_s_count_max_0_sqmuxa_2_0_i_o2_0     -0.125       -2.858
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_read_controller_0.s_read_start_addr[16]     pixclk        SLE      EN      un1_s_count_max_0_sqmuxa_2_0_i_o2_0     -0.125       -2.858
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_read_controller_0.s_read_start_addr[17]     pixclk        SLE      EN      un1_s_count_max_0_sqmuxa_2_0_i_o2_0     -0.125       -2.858
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_read_controller_0.s_read_start_addr[18]     pixclk        SLE      EN      un1_s_count_max_0_sqmuxa_2_0_i_o2_0     -0.125       -2.858
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_read_controller_0.s_read_start_addr[19]     pixclk        SLE      EN      un1_s_count_max_0_sqmuxa_2_0_i_o2_0     -0.125       -2.858
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_read_controller_0.s_read_start_addr[20]     pixclk        SLE      EN      un1_s_count_max_0_sqmuxa_2_0_i_o2_0     -0.125       -2.858
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_read_controller_0.s_read_start_addr[21]     pixclk        SLE      EN      un1_s_count_max_0_sqmuxa_2_0_i_o2_0     -0.125       -2.858
+================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      0.002
+    - Setup time:                            0.127
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         -0.125
+
+    - Propagation time:                      2.733
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.858
+
+    Number of logic level(s):                3
+    Starting point:                          DFN1_0 / Q
+    Ending point:                            DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_read_controller_0.s_read_start_addr[12] / EN
+    The start point is clocked by            pixclk [rising] (rise=0.000 fall=3.367 period=6.734) on pin CLK
+    The end   point is clocked by            ddrclk [rising] (rise=0.000 fall=2.500 period=5.000) on pin CLK
+
+Instance / Net                                                                                               Pin      Pin               Arrival     No. of    
+Name                                                                                                Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+DFN1_0                                                                                              DFN1     Q        Out     0.094     0.094 f     -         
+DFN1_0_Q                                                                                            Net      -        -       0.118     -           1         
+AND2_0_RNO                                                                                          CFG1     A        In      -         0.212 f     -         
+AND2_0_RNO                                                                                          CFG1     Y        Out     0.047     0.259 r     -         
+DFN1_0_Q_i                                                                                          Net      -        -       0.948     -           1         
+AND2_0                                                                                              AND2     B        In      -         1.207 r     -         
+AND2_0                                                                                              AND2     Y        Out     0.169     1.377 r     -         
+AND2_0_Y                                                                                            Net      -        -       0.547     -           4         
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_read_controller_0.un1_s_count_max_0_sqmuxa_2_0_i_o2_0     CFG4     C        In      -         1.923 r     -         
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_read_controller_0.un1_s_count_max_0_sqmuxa_2_0_i_o2_0     CFG4     Y        Out     0.148     2.071 r     -         
+un1_s_count_max_0_sqmuxa_2_0_i_o2_0                                                                 Net      -        -       0.662     -           20        
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_read_controller_0.s_read_start_addr[12]                   SLE      EN       In      -         2.733 r     -         
+==============================================================================================================================================================
+Total path delay (propagation time + setup) of 2.860 is 0.585(20.5%) logic and 2.275(79.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      0.002
+    - Setup time:                            0.127
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         -0.125
+
+    - Propagation time:                      2.733
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.858
+
+    Number of logic level(s):                3
+    Starting point:                          DFN1_0 / Q
+    Ending point:                            DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_read_controller_0.s_read_start_addr[19] / EN
+    The start point is clocked by            pixclk [rising] (rise=0.000 fall=3.367 period=6.734) on pin CLK
+    The end   point is clocked by            ddrclk [rising] (rise=0.000 fall=2.500 period=5.000) on pin CLK
+
+Instance / Net                                                                                               Pin      Pin               Arrival     No. of    
+Name                                                                                                Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+DFN1_0                                                                                              DFN1     Q        Out     0.094     0.094 f     -         
+DFN1_0_Q                                                                                            Net      -        -       0.118     -           1         
+AND2_0_RNO                                                                                          CFG1     A        In      -         0.212 f     -         
+AND2_0_RNO                                                                                          CFG1     Y        Out     0.047     0.259 r     -         
+DFN1_0_Q_i                                                                                          Net      -        -       0.948     -           1         
+AND2_0                                                                                              AND2     B        In      -         1.207 r     -         
+AND2_0                                                                                              AND2     Y        Out     0.169     1.377 r     -         
+AND2_0_Y                                                                                            Net      -        -       0.547     -           4         
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_read_controller_0.un1_s_count_max_0_sqmuxa_2_0_i_o2_0     CFG4     C        In      -         1.923 r     -         
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_read_controller_0.un1_s_count_max_0_sqmuxa_2_0_i_o2_0     CFG4     Y        Out     0.148     2.071 r     -         
+un1_s_count_max_0_sqmuxa_2_0_i_o2_0                                                                 Net      -        -       0.662     -           20        
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_read_controller_0.s_read_start_addr[19]                   SLE      EN       In      -         2.733 r     -         
+==============================================================================================================================================================
+Total path delay (propagation time + setup) of 2.860 is 0.585(20.5%) logic and 2.275(79.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      0.002
+    - Setup time:                            0.127
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         -0.125
+
+    - Propagation time:                      2.733
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.858
+
+    Number of logic level(s):                3
+    Starting point:                          DFN1_0 / Q
+    Ending point:                            DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_read_controller_0.s_read_start_addr[20] / EN
+    The start point is clocked by            pixclk [rising] (rise=0.000 fall=3.367 period=6.734) on pin CLK
+    The end   point is clocked by            ddrclk [rising] (rise=0.000 fall=2.500 period=5.000) on pin CLK
+
+Instance / Net                                                                                               Pin      Pin               Arrival     No. of    
+Name                                                                                                Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+DFN1_0                                                                                              DFN1     Q        Out     0.094     0.094 f     -         
+DFN1_0_Q                                                                                            Net      -        -       0.118     -           1         
+AND2_0_RNO                                                                                          CFG1     A        In      -         0.212 f     -         
+AND2_0_RNO                                                                                          CFG1     Y        Out     0.047     0.259 r     -         
+DFN1_0_Q_i                                                                                          Net      -        -       0.948     -           1         
+AND2_0                                                                                              AND2     B        In      -         1.207 r     -         
+AND2_0                                                                                              AND2     Y        Out     0.169     1.377 r     -         
+AND2_0_Y                                                                                            Net      -        -       0.547     -           4         
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_read_controller_0.un1_s_count_max_0_sqmuxa_2_0_i_o2_0     CFG4     C        In      -         1.923 r     -         
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_read_controller_0.un1_s_count_max_0_sqmuxa_2_0_i_o2_0     CFG4     Y        Out     0.148     2.071 r     -         
+un1_s_count_max_0_sqmuxa_2_0_i_o2_0                                                                 Net      -        -       0.662     -           20        
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_read_controller_0.s_read_start_addr[20]                   SLE      EN       In      -         2.733 r     -         
+==============================================================================================================================================================
+Total path delay (propagation time + setup) of 2.860 is 0.585(20.5%) logic and 2.275(79.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      0.002
+    - Setup time:                            0.127
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         -0.125
+
+    - Propagation time:                      2.733
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.858
+
+    Number of logic level(s):                3
+    Starting point:                          DFN1_0 / Q
+    Ending point:                            DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_read_controller_0.s_read_start_addr[21] / EN
+    The start point is clocked by            pixclk [rising] (rise=0.000 fall=3.367 period=6.734) on pin CLK
+    The end   point is clocked by            ddrclk [rising] (rise=0.000 fall=2.500 period=5.000) on pin CLK
+
+Instance / Net                                                                                               Pin      Pin               Arrival     No. of    
+Name                                                                                                Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+DFN1_0                                                                                              DFN1     Q        Out     0.094     0.094 f     -         
+DFN1_0_Q                                                                                            Net      -        -       0.118     -           1         
+AND2_0_RNO                                                                                          CFG1     A        In      -         0.212 f     -         
+AND2_0_RNO                                                                                          CFG1     Y        Out     0.047     0.259 r     -         
+DFN1_0_Q_i                                                                                          Net      -        -       0.948     -           1         
+AND2_0                                                                                              AND2     B        In      -         1.207 r     -         
+AND2_0                                                                                              AND2     Y        Out     0.169     1.377 r     -         
+AND2_0_Y                                                                                            Net      -        -       0.547     -           4         
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_read_controller_0.un1_s_count_max_0_sqmuxa_2_0_i_o2_0     CFG4     C        In      -         1.923 r     -         
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_read_controller_0.un1_s_count_max_0_sqmuxa_2_0_i_o2_0     CFG4     Y        Out     0.148     2.071 r     -         
+un1_s_count_max_0_sqmuxa_2_0_i_o2_0                                                                 Net      -        -       0.662     -           20        
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_read_controller_0.s_read_start_addr[21]                   SLE      EN       In      -         2.733 r     -         
+==============================================================================================================================================================
+Total path delay (propagation time + setup) of 2.860 is 0.585(20.5%) logic and 2.275(79.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      0.002
+    - Setup time:                            0.127
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         -0.125
+
+    - Propagation time:                      2.733
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.858
+
+    Number of logic level(s):                3
+    Starting point:                          DFN1_0 / Q
+    Ending point:                            DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_read_controller_0.s_read_start_addr[22] / EN
+    The start point is clocked by            pixclk [rising] (rise=0.000 fall=3.367 period=6.734) on pin CLK
+    The end   point is clocked by            ddrclk [rising] (rise=0.000 fall=2.500 period=5.000) on pin CLK
+
+Instance / Net                                                                                               Pin      Pin               Arrival     No. of    
+Name                                                                                                Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+DFN1_0                                                                                              DFN1     Q        Out     0.094     0.094 f     -         
+DFN1_0_Q                                                                                            Net      -        -       0.118     -           1         
+AND2_0_RNO                                                                                          CFG1     A        In      -         0.212 f     -         
+AND2_0_RNO                                                                                          CFG1     Y        Out     0.047     0.259 r     -         
+DFN1_0_Q_i                                                                                          Net      -        -       0.948     -           1         
+AND2_0                                                                                              AND2     B        In      -         1.207 r     -         
+AND2_0                                                                                              AND2     Y        Out     0.169     1.377 r     -         
+AND2_0_Y                                                                                            Net      -        -       0.547     -           4         
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_read_controller_0.un1_s_count_max_0_sqmuxa_2_0_i_o2_0     CFG4     C        In      -         1.923 r     -         
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_read_controller_0.un1_s_count_max_0_sqmuxa_2_0_i_o2_0     CFG4     Y        Out     0.148     2.071 r     -         
+un1_s_count_max_0_sqmuxa_2_0_i_o2_0                                                                 Net      -        -       0.662     -           20        
+DDR_Read_0.genblk1\.DDR_Read_Native_6.DDR_read_controller_0.s_read_start_addr[22]                   SLE      EN       In      -         2.733 r     -         
+==============================================================================================================================================================
+Total path delay (propagation time + setup) of 2.860 is 0.585(20.5%) logic and 2.275(79.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 275MB peak: 284MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 275MB peak: 284MB)
+
+---------------------------------------
+Resource Usage Report for FrameRD 
+
+Mapping to part: mpf100tfcg484-1
+Cell usage:
+AND2            1 use
+CLKINT          2 uses
+DFN1            1 use
+OR2             9 uses
+OR4             64 uses
+CFG1           7 uses
+CFG2           105 uses
+CFG3           151 uses
+CFG4           230 uses
+
+Carry cells:
+ARI1            212 uses - used for arithmetic functions
+ARI1            5 uses - used for Wide-Mux implementation
+Total ARI1      217 uses
+
+
+Sequential Cells: 
+SLE            579 uses
+
+DSP Blocks:    0 of 336 (0%)
+
+I/O ports: 20
+I/O primitives: 20
+INBUF          4 uses
+OUTBUF         13 uses
+TRIBUFF        3 uses
+
+
+Global Clock Buffers: 2
+
+RAM/ROM usage summary
+Total Block RAMs (RAM1K20) : 26 of 352 (7%)
+
+Total LUTs:    710
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K20  Interface Logic : SLEs = 936; LUTs = 936;
+MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  579 + 0 + 936 + 0 = 1515;
+Total number of LUTs after P&R:  710 + 0 + 936 + 0 = 1646;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 137MB peak: 284MB)
+
+Process took 0h:00m:05s realtime, 0h:00m:05s cputime
+# Tue Jan 27 22:09:55 2026
+
+###########################################################]

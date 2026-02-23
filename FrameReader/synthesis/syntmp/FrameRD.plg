@@ -1,0 +1,17 @@
+@P:  Worst Slack : -2.858
+@P:  ddrclk - Estimated Frequency : 0.1 MHz
+@P:  ddrclk - Requested Frequency : 200.0 MHz
+@P:  ddrclk - Estimated Period : 7150.500
+@P:  ddrclk - Requested Period : 5.000
+@P:  ddrclk - Slack : -0.334
+@P:  pixclk - Estimated Frequency : 0.1 MHz
+@P:  pixclk - Requested Frequency : 148.5 MHz
+@P:  pixclk - Estimated Period : 9630.293
+@P:  pixclk - Requested Period : 6.734
+@P:  pixclk - Slack : -2.858
+@P: FrameRD Part : mpf100tfcg484-1
+@P: FrameRD Register bits  : 579 
+@P: FrameRD DSP Blocks  : 0
+@P: FrameRD I/O primitives : 20
+@P: FrameRD RAM1K20 :  26
+@P:  CPU Time : 0h:00m:05s

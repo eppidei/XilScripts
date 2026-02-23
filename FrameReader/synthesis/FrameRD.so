@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>FrameRD</design>
+	<target_verilog>C:\prj\FrameReader\synthesis\FrameRD.vm</target_verilog>
+</SynplifyOutput>

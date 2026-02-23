@@ -1,0 +1,338 @@
+#OPTIONS:"|-mixedhdl|-modhint|C:\\prj\\FrameReader\\synthesis\\synwork\\_verilog_hintfile|-top|FrameRD|-layerid|0|-orig_srs|C:\\prj\\FrameReader\\synthesis\\synwork\\FrameRD_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|C:\\prj\\FrameReader\\synthesis\\|-I|C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib|-sysv|-devicelib|C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\generic\\acg5.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\bin64\\c_ver.exe":1745943498
+#CUR:"C:\\prj\\FrameReader\\synthesis\\synwork\\_verilog_hintfile":1769537045
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\generic\\acg5.v":1745932376
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vlog\\hypermods.v":1745942006
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vlog\\scemi_objects.v":1745942006
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vlog\\scemi_pipes.svh":1745942006
+#CUR:"C:\\prj\\FrameReader\\component\\syn_comps.v":1769537367
+#CUR:"C:\\prj\\FrameReader\\component\\Microchip\\SolutionCore\\DDR_AXI4_ARBITER_PF\\2.2.0\\RTL\\AXI4_M_M_IF.v":1769186352
+#CUR:"C:\\prj\\FrameReader\\component\\Microchip\\SolutionCore\\DDR_AXI4_ARBITER_PF\\2.2.0\\RTL\\AXI4_S_IF.v":1769186352
+#CUR:"C:\\prj\\FrameReader\\component\\Microchip\\SolutionCore\\DDR_AXI4_ARBITER_PF\\2.2.0\\RTL\\axi_lbus_corefifo_NstagesSync.v":1769186352
+#CUR:"C:\\prj\\FrameReader\\component\\Microchip\\SolutionCore\\DDR_AXI4_ARBITER_PF\\2.2.0\\RTL\\axi_lbus_corefifo_grayToBinConv.v":1769186352
+#CUR:"C:\\prj\\FrameReader\\component\\Microchip\\SolutionCore\\DDR_AXI4_ARBITER_PF\\2.2.0\\RTL\\axi_lbus_corefifo_async.v":1769186352
+#CUR:"C:\\prj\\FrameReader\\component\\Microchip\\SolutionCore\\DDR_AXI4_ARBITER_PF\\2.2.0\\RTL\\axi_lbus_corefifo_resetSync.v":1769186352
+#CUR:"C:\\prj\\FrameReader\\component\\Microchip\\SolutionCore\\DDR_AXI4_ARBITER_PF\\2.2.0\\RTL\\axi_lbus_corefifo_sync.v":1769186352
+#CUR:"C:\\prj\\FrameReader\\component\\Microchip\\SolutionCore\\DDR_AXI4_ARBITER_PF\\2.2.0\\RTL\\axi_lbus_corefifo_fwft.v":1769186352
+#CUR:"C:\\prj\\FrameReader\\component\\Microchip\\SolutionCore\\DDR_AXI4_ARBITER_PF\\2.2.0\\RTL\\axi_lbus_corefifo_sync_scntr.v":1769186352
+#CUR:"C:\\prj\\FrameReader\\component\\Microchip\\SolutionCore\\DDR_AXI4_ARBITER_PF\\2.2.0\\RTL\\axi_lbus_LSRAM_top.v":1769186352
+#CUR:"C:\\prj\\FrameReader\\component\\Microchip\\SolutionCore\\DDR_AXI4_ARBITER_PF\\2.2.0\\RTL\\axi_lbus_ram_wrapper.v":1769186352
+#CUR:"C:\\prj\\FrameReader\\component\\Microchip\\SolutionCore\\DDR_AXI4_ARBITER_PF\\2.2.0\\RTL\\video_axi_fifo.v":1769186352
+#CUR:"C:\\prj\\FrameReader\\component\\Microchip\\SolutionCore\\DDR_AXI4_ARBITER_PF\\2.2.0\\RTL\\ddr_rw_arbiter.v":1769186352
+#CUR:"C:\\prj\\FrameReader\\component\\Microchip\\SolutionCore\\DDR_AXI4_ARBITER_PF\\2.2.0\\RTL\\write_top.v":1769186352
+#CUR:"C:\\prj\\FrameReader\\component\\Microchip\\SolutionCore\\DDR_AXI4_ARBITER_PF\\2.2.0\\RTL\\read_top.v":1769186352
+#CUR:"C:\\prj\\FrameReader\\component\\Microchip\\SolutionCore\\DDR_AXI4_ARBITER_PF\\2.2.0\\RTL\\DDR_AXI4_ARBITER_PF_Native.v":1769186352
+#CUR:"C:\\prj\\FrameReader\\component\\Microchip\\SolutionCore\\DDR_AXI4_ARBITER_PF\\2.2.0\\RTL\\DDR_AXI4_ARBITER_PF.v":1769186352
+#CUR:"C:\\prj\\FrameReader\\component\\work\\DDR_AXI4_ARBITER_PF_C0\\DDR_AXI4_ARBITER_PF_C0.v":1769186352
+#CUR:"C:\\prj\\FrameReader\\component\\Microchip\\SolutionCore\\Display_Controller\\5.0.0\\Encrypted\\display_controller.v":1768701569
+#CUR:"C:\\prj\\FrameReader\\component\\work\\Display_Controller_C0\\Display_Controller_C0.v":1769187650
+#CUR:"C:\\prj\\FrameReader\\component\\work\\PF_SRAM_AHBL_AXI_C0\\PF_TPSRAM_AHB_AXI_0\\PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v":1769360621
+#CUR:"C:\\prj\\FrameReader\\component\\work\\PF_SRAM_AHBL_AXI_C0\\COREAXI4SRAM_0\\rtl\\vlog\\core\\CoreAXI4SRAM_MAINCTRL_ECC.v":1769360617
+#CUR:"C:\\prj\\FrameReader\\component\\work\\PF_SRAM_AHBL_AXI_C0\\COREAXI4SRAM_0\\rtl\\vlog\\core\\CoreAXI4SRAM_MAINCTRL.v":1769360617
+#CUR:"C:\\prj\\FrameReader\\component\\work\\PF_SRAM_AHBL_AXI_C0\\COREAXI4SRAM_0\\rtl\\vlog\\core\\CoreAXI4SRAM_SLVIF.v":1769360617
+#CUR:"C:\\prj\\FrameReader\\component\\work\\PF_SRAM_AHBL_AXI_C0\\COREAXI4SRAM_0\\rtl\\vlog\\core\\CoreAXI4SRAM.v":1769360617
+#CUR:"C:\\prj\\FrameReader\\component\\work\\PF_SRAM_AHBL_AXI_C0\\PF_SRAM_AHBL_AXI_C0.v":1769360621
+#CUR:"C:\\prj\\FrameReader\\hdl\\Arbiter_Initiator_Rd_IF.v":1769184272
+#CUR:"C:\\prj\\FrameReader\\hdl\\corefifo_fwft.v":1769358697
+#CUR:"C:\\prj\\FrameReader\\hdl\\corefifo_sync_scntr.v":1769358697
+#CUR:"C:\\prj\\FrameReader\\hdl\\corefifo_sync.v":1769358697
+#CUR:"C:\\prj\\FrameReader\\hdl\\corefifo_graytobinconv.v":1769358697
+#CUR:"C:\\prj\\FrameReader\\hdl\\corefifo_nstagessync.v":1769358697
+#CUR:"C:\\prj\\FrameReader\\hdl\\corefifo_async.v":1769358697
+#CUR:"C:\\prj\\FrameReader\\hdl\\DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_LSRAM_top.v":1769358697
+#CUR:"C:\\prj\\FrameReader\\hdl\\DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_ram_wrapper.v":1769358697
+#CUR:"C:\\prj\\FrameReader\\hdl\\COREFIFO.v":1769358697
+#CUR:"C:\\prj\\FrameReader\\hdl\\DDR_read_controller.v":1769459696
+#CUR:"C:\\prj\\FrameReader\\hdl\\DDR_Read_Native.v":1769536019
+#CUR:"C:\\prj\\FrameReader\\hdl\\DDR_Read.v":1769536106
+#CUR:"C:\\prj\\FrameReader\\component\\work\\FrameRD\\FrameRD.v":1769537206
+#OPTIONS:"|-mixedhdl|-top|work.write_mux|-top|work.write_demux|-top|work.request_scheduler|-top|work.read_mux|-top|work.read_demux|-mpparams|C:\\prj\\FrameReader\\synthesis\\synwork\\_mh_params|-layerid|1|-orig_srs|C:\\prj\\FrameReader\\synthesis\\synwork\\FrameRD_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\bin64\\c_vhdl.exe":1745943738
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\location.map":1745942010
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\std.vhd":1745942010
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vhd\\snps_haps_pkg.vhd":1745942008
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\std1164.vhd":1745942010
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\std_textio.vhd":1745942010
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\numeric.vhd":1745943982
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vhd\\umr_capim.vhd":1745942008
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\arith.vhd":1745942008
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\unsigned.vhd":1745942010
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vhd\\hyperents.vhd":1745942008
+#CUR:"C:\\prj\\FrameReader\\component\\Microchip\\SolutionCore\\DDR_AXI4_ARBITER_PF\\2.2.0\\RTL\\write_mux.vhd":1769186352
+#CUR:"C:\\prj\\FrameReader\\component\\Microchip\\SolutionCore\\DDR_AXI4_ARBITER_PF\\2.2.0\\RTL\\request_scheduler.vhd":1769186352
+#CUR:"C:\\prj\\FrameReader\\component\\Microchip\\SolutionCore\\DDR_AXI4_ARBITER_PF\\2.2.0\\RTL\\write_demux.vhd":1769186352
+#CUR:"C:\\prj\\FrameReader\\component\\Microchip\\SolutionCore\\DDR_AXI4_ARBITER_PF\\2.2.0\\RTL\\read_demux.vhd":1769186352
+#CUR:"C:\\prj\\FrameReader\\component\\Microchip\\SolutionCore\\DDR_AXI4_ARBITER_PF\\2.2.0\\RTL\\read_mux.vhd":1769186352
+0			"C:\prj\FrameReader\component\syn_comps.v" verilog
+1			"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\AXI4_M_M_IF.v" verilog
+2			"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\AXI4_S_IF.v" verilog
+3			"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_NstagesSync.v" verilog
+4			"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_grayToBinConv.v" verilog
+5			"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_async.v" verilog
+6			"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_resetSync.v" verilog
+7			"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync.v" verilog
+8			"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_fwft.v" verilog
+9			"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_corefifo_sync_scntr.v" verilog
+10			"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_LSRAM_top.v" verilog
+11			"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\axi_lbus_ram_wrapper.v" verilog
+12			"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\video_axi_fifo.v" verilog
+13			"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\ddr_rw_arbiter.v" verilog
+14			"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\write_top.v" verilog
+15			"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\read_top.v" verilog
+16			"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF_Native.v" verilog
+17			"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\DDR_AXI4_ARBITER_PF.v" verilog
+18			"C:\prj\FrameReader\component\work\DDR_AXI4_ARBITER_PF_C0\DDR_AXI4_ARBITER_PF_C0.v" verilog
+19			"C:\prj\FrameReader\component\Microchip\SolutionCore\Display_Controller\5.0.0\Encrypted\display_controller.v" verilog
+20			"C:\prj\FrameReader\component\work\Display_Controller_C0\Display_Controller_C0.v" verilog
+21			"C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\PF_TPSRAM_AHB_AXI_0\PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v" verilog
+22			"C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\COREAXI4SRAM_0\rtl\vlog\core\CoreAXI4SRAM_MAINCTRL_ECC.v" verilog
+23			"C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\COREAXI4SRAM_0\rtl\vlog\core\CoreAXI4SRAM_MAINCTRL.v" verilog
+24			"C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\COREAXI4SRAM_0\rtl\vlog\core\CoreAXI4SRAM_SLVIF.v" verilog
+25			"C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\COREAXI4SRAM_0\rtl\vlog\core\CoreAXI4SRAM.v" verilog
+26			"C:\prj\FrameReader\component\work\PF_SRAM_AHBL_AXI_C0\PF_SRAM_AHBL_AXI_C0.v" verilog
+27			"C:\prj\FrameReader\hdl\Arbiter_Initiator_Rd_IF.v" verilog
+28			"C:\prj\FrameReader\hdl\corefifo_fwft.v" verilog
+29			"C:\prj\FrameReader\hdl\corefifo_sync_scntr.v" verilog
+30			"C:\prj\FrameReader\hdl\corefifo_sync.v" verilog
+31			"C:\prj\FrameReader\hdl\corefifo_graytobinconv.v" verilog
+32			"C:\prj\FrameReader\hdl\corefifo_nstagessync.v" verilog
+33			"C:\prj\FrameReader\hdl\corefifo_async.v" verilog
+34			"C:\prj\FrameReader\hdl\DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_LSRAM_top.v" verilog
+35			"C:\prj\FrameReader\hdl\DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_ram_wrapper.v" verilog
+36			"C:\prj\FrameReader\hdl\COREFIFO.v" verilog
+37			"C:\prj\FrameReader\hdl\DDR_read_controller.v" verilog
+38			"C:\prj\FrameReader\hdl\DDR_Read_Native.v" verilog
+39			"C:\prj\FrameReader\hdl\DDR_Read.v" verilog
+40			"C:\prj\FrameReader\component\work\FrameRD\FrameRD.v" verilog
+41			"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\write_mux.vhd" vhdl
+42			"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\request_scheduler.vhd" vhdl
+43			"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\write_demux.vhd" vhdl
+44			"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\read_demux.vhd" vhdl
+45			"C:\prj\FrameReader\component\Microchip\SolutionCore\DDR_AXI4_ARBITER_PF\2.2.0\RTL\read_mux.vhd" vhdl
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 4 3
+6 -1
+7 -1
+8 -1
+9 -1
+10 -1
+11 10
+12 5 7 6 11 8 9
+13 12
+14 41 43 42
+15 42 45 44
+16 14 15 13
+17 2 1 16
+18 17
+19 -1
+20 19
+21 -1
+22 -1
+23 -1
+24 -1
+25 22 23 24
+26 21 25
+27 -1
+28 -1
+29 -1
+30 -1
+31 -1
+32 -1
+33 31 32
+34 -1
+35 34
+36 28 30 29 35 33
+37 -1
+38 36 37
+39 27 38
+40 26 20 39 18
+41 -1
+42 -1
+43 -1
+44 -1
+45 -1
+#Dependency Lists(Users Of)
+0 -1
+1 17
+2 17
+3 5
+4 5
+5 12
+6 12
+7 12
+8 12
+9 12
+10 11
+11 12
+12 13
+13 16
+14 16
+15 16
+16 17
+17 18
+18 40
+19 20
+20 40
+21 26
+22 25
+23 25
+24 25
+25 26
+26 40
+27 39
+28 36
+29 36
+30 36
+31 33
+32 33
+33 36
+34 35
+35 36
+36 38
+37 38
+38 39
+39 40
+40 -1
+41 14
+42 15 14
+43 14
+44 15
+45 15
+#Design Unit to File Association
+module work read_mux 45
+arch work read_mux read_mux 45
+module work read_demux 44
+arch work read_demux read_demux 44
+module work write_demux 43
+arch work write_demux write_demux 43
+module work request_scheduler 42
+arch work request_scheduler request_scheduler 42
+module work write_mux 41
+arch work write_mux write_mux 41
+module work FrameRD 40
+module work DDR_Read 39
+module work DDR_Read_Native 38
+module work DDR_read_controller 37
+module work DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_COREFIFO 36
+module work DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_ram_wrapper 35
+module work DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_LSRAM_top 34
+module work DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_async 33
+module work DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_nstagessync 32
+module work DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_graytobinconv 31
+module work DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_sync 30
+module work DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_sync_scntr 29
+module work DDR_READ_ASYMM_FIFO_DDR_READ_ASYMM_FIFO_0_corefifo_fwft 28
+module work Arbiter_Initiator_Rd_IF 27
+module work PF_SRAM_AHBL_AXI_C0 26
+module work PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM 25
+module work PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF 24
+module work PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL 23
+module work PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_ECC 22
+module work PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM 21
+module work Display_Controller_C0 20
+module work ram2port_display_fifo 19
+module work read_register_display_controller 19
+module work write_register_display_controller 19
+module work axi4lite_adapter_display_controller 19
+module work display_fifo 19
+module work axi4lite_top_display_controller 19
+module work axi4stream_initiator_display_controller 19
+module work axi4stream_target_display_controller 19
+module work display_controller_native 19
+module work synchronizer_2stage_display_controller 19
+module work Display_Controller 19
+module work DDR_AXI4_ARBITER_PF_C0 18
+module work DDR_AXI4_ARBITER_PF 17
+module work DDR_AXI4_ARBITER_PF_Native 16
+module work read_top 15
+module work write_top 14
+module work ddr_rw_arbiter 13
+module work ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_video_axi_fifo 12
+module work ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper 11
+module work ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_LSRAM_top 10
+module work ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_sync_scntr 9
+module work ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_fwft 8
+module work ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_sync 7
+module work ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_resetSync 6
+module work ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_async 5
+module work ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_grayToBinConv 4
+module work ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_NstagesSync 3
+module work AXI4_S_IF 2
+module work AXI4_M_M_IF 1
+module work CLKBUF_DIFF_ODT 0
+module work CLKBUF_DIFF 0
+module work MCHP_BLIC 0
+module work PFSOC_SCSM 0
+module work CORELNKTMR_V 0
+module work XCVR 0
+module work XCVR_VV 0
+module work XCVR_TEST 0
+module work XCVR_REF_CLK 0
+module work XCVR_REF_CLK_P 0
+module work XCVR_REF_CLK_N 0
+module work XCVR_PMA 0
+module work XCVR_PIPE 0
+module work XCVR_PIPE_AXI1 0
+module work XCVR_PIPE_AXI0 0
+module work XCVR_DUAL_PCS 0
+module work XCVR_APB_LINK_V2 0
+module work XCVR_APB_LINK_V 0
+module work XCVR_APB_LINK 0
+module work XCVR_8B10B 0
+module work XCVR_64B6XB 0
+module work VREFCTRL 0
+module work VREFBANKDYN 0
+module work VOLTAGEDETECT 0
+module work USPI 0
+module work UPROM 0
+module work TX_PLL 0
+module work TVS 0
+module work TAMPER 0
+module work SYS_SERVICES 0
+module work SYSRESET 0
+module work SYSCTRL_RESET_STATUS 0
+module work SCB 0
+module work QUADRST 0
+module work QUADRST_PCIE 0
+module work PLL 0
+module work PF_SPI 0
+module work PCIE 0
+module work PCIE_COMMON 0
+module work OSC_RC2MHZ 0
+module work OSC_RC200MHZ 0
+module work OSC_RC160MHZ 0
+module work LANERST 0
+module work LANECTRL 0
+module work IOD 0
+module work INIT 0
+module work ICB_NGMUX 0
+module work ICB_MUXING 0
+module work ICB_INT 0
+module work ICB_CLKSTOP 0
+module work ICB_CLKSTOP_EN 0
+module work ICB_CLKINT 0
+module work ICB_CLKDIV 0
+module work ICB_CLKDIVDELAY 0
+module work ICB_BANKCLK 0
+module work HS_IO_CLK 0
+module work GPSS_COMMON 0
+module work GLITCHDETECT 0
+module work ENFORCE 0
+module work DRI 0
+module work DLL 0
+module work DEBUG 0
+module work CRYPTO_SOC 0
+module work CRYPTO 0
+module work CRN_INT 0
+module work CRN_COMMON 0
+module work BANKEN 0
+module work BANKCTRL_HSIO 0
+module work BANKCTRL_GPIO 0
+module work BANKCTRLM 0
+module work APBS 0
+module work APBM 0
